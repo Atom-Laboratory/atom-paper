@@ -15,4 +15,3 @@
 - **Licenciamento e uso comercial:** Tipos de licença (open source, restrições para uso comercial), implicações para projetos acadêmicos e comerciais.
 - **Customização e extensibilidade:** Facilidade para adicionar novos módulos, integração com outras bibliotecas ou frameworks de IA.
 - **Casos de uso reais:** Relatos de projetos ou pesquisas que utilizaram cada biblioteca, com resultados e desafios encontrados.
-
