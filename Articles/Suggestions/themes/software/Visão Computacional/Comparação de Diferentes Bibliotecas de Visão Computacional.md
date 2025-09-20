@@ -5,7 +5,7 @@
 
 ## 📌 Tópicos sugeridos:
 
-- **Visão geral das bibliotecas:** Propósito, linguagem principal (Python, C++ etc.), maturidade e comunidade.
+- **Visão geral das bibliotecas:** Propósito, linguagem principal (Python, C++, Java), maturidade e comunidade.
 - **Facilidade de uso e curva de aprendizado:** Exemplo: cvzone como wrapper amigável do OpenCV; OpenCV puro oferece mais flexibilidade, porém é mais complexo.
 - **Performance e compatibilidade com hardware limitado:** Resultados de benchmarks em plataformas como Raspberry Pi, Jetson Nano e PCs modestos.
 - **Capacidades específicas:** Detecção de rosto, mãos, objetos, segmentação, etc. (incluir tabela comparativa destacando pontos fortes de cada biblioteca).
@@ -15,3 +15,4 @@
 - **Licenciamento e uso comercial:** Tipos de licença (open source, restrições para uso comercial), implicações para projetos acadêmicos e comerciais.
 - **Customização e extensibilidade:** Facilidade para adicionar novos módulos, integração com outras bibliotecas ou frameworks de IA.
 - **Casos de uso reais:** Relatos de projetos ou pesquisas que utilizaram cada biblioteca, com resultados e desafios encontrados.
+- **Suporte a diferentes linguagens:** Avaliação do suporte das bibliotecas para múltiplas linguagens de programação, facilitando integração em projetos diversos.
