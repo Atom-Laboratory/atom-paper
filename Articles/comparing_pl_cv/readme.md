@@ -1,18 +1,35 @@
 # 📷 1. Comparação de Bibliotecas e Linguagens de Visão Computacional para Robótica (InMoov)
 
-**Objetivo Geral:**
+## **Objetivo Geral:**
 
 Avaliar o desempenho, a aplicabilidade e a facilidade de integração de diferentes bibliotecas (OpenCV, cvzone, Mediapipe) e linguagens de programação (Python, Java e C) em tarefas de visão computacional aplicadas à robótica, utilizando como caso de estudo o braço robótico InMoov.
 
-**🎯 Objetivos Específicos**
+## **🎯 Objetivos Específicos**
 
 - Analisar a curva de aprendizado, documentação e suporte das bibliotecas escolhidas.
 
-- Comparar o desempenho em termos de tempo de execução, consumo de recursos e precisão em hardware embarcado (Raspberry Pi) e em PC convencional.
-
-- Avaliar as facilidades e dificuldades de implementação de tarefas comuns de visão (detecção de rosto, rastreamento de mãos, reconhecimento de objetos).
+- Implementar e avaliar em cada linguagem as facilidades e dificuldades de tarefas como:
+  - Detecção e rastreamento de mãos para controle do InMoov.
+  - Reconhecimento de objetos (ex.: cubos e esferas).
+  - Detecção de rostos para interação humano-robô.
+  - Reconhecimento de gestos manuais para comandos ao robô.
+  - Reconhecimento de cores para manipulação de objetos coloridos.
+  - Implementação de segmentação de objetos para separar elementos do fundo.
+  - Extração de características visuais para classificação automática de objetos.
+  - Detecção de movimento para ativação de respostas do robô.
+  - Estimativa de pose corporal para interação avançada humano-robô.
+  - Análise de expressões faciais para adaptação do comportamento do robô.
+  - Integração de visão computacional com comandos de voz para controle multimodal.
 
 - Verificar a integração das bibliotecas e linguagens com um sistema robótico real (InMoov) para controle de movimentos baseado em visão.
+
+- Elaborar um guia prático com recomendações para a escolha de bibliotecas e linguagens em projetos de robótica com visão computacional.
+
+- Documentar todo o processo, resultados e conclusões em um relatório técnico e em posts para blogs ou redes sociais especializadas.
+
+- Desenvolver protótipos simples em cada linguagem e biblioteca para os mesmos cenários de teste.
+
+- Comparar o desempenho em termos de tempo de execução, consumo de recursos e precisão em hardware embarcado (Raspberry Pi) e em PC convencional.
 
 ---
 
