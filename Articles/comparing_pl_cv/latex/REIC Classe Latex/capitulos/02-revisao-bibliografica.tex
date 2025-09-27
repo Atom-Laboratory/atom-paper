@@ -1,0 +1,58 @@
+
+\section{Diferenças entre \texttt{fontenc} e \texttt{fontspec}}
+
+
+\begin{table}[!ht]
+\caption{Exemplo de legenda de tabela.}
+\centering
+\begin{tabular}{@{}cc@{}}
+\hline\hline
+Dimensão & Classificação\\
+\hline%
+ 1  & 0.6232 \\
+ 2  & 0.9635 \\ 
+ 3  & 0.9724 \\ 
+ 4  & 0.9690 \\ 
+ 5  & 0.9840 \\ 
+ 6  & 0.9842 \\ 
+ 7  & 0.9873 \\ 
+ 8  & 0.9884 \\
+ 9  & 0.9873 \\ 
+ 10 & 0.9898 \\ 
+ 11 & 0.9914 \\
+\hline\hline
+\end{tabular}
+\label{tab1}
+\end{table}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see \textbf{ Table~\ref{tab1}}). \textcolor{red!50!black}{Tabelas! Essa é outra questão que me irrita quando vejo que a mesma foi produzida por ferramenta online!} Tabelas são elementos importantes na comunicação de dados e é um dos aspectos mais difíceis de se lidar em tipografia. Por outro lado, tabelas deveriam ser entidades simples de se projetar. Assim, recomendo fortemente o uso do pacote \texttt{tabularray}. 
+
+\begin{table}[!ht]
+\caption{Exemplo de legenda de tabela.}
+\centering
+\begin{tblr}{%
+columns={c},
+row{even}={gray9},
+row{1}={bg=red!10, font=\bfseries}
+}
+\hline
+Dimensão & Classificação\\
+\hline%
+ 1  & 0.6 \\
+ 2  & 0.963 \\ 
+ 3  & 0.97 \\ 
+ 4  & 0.9690 \\ 
+ 5  & 0.9840 \\ 
+ 6  & 0.98423 \\ 
+ 7  & 0.9873 \\ 
+ 8  & 0.9884 \\
+ 9  & 0.9873 \\ 
+ 10 & 0.9898 \\ 
+ 11 & 0.991 \\
+\end{tblr}
+\label{tab1-1}
+\end{table}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \citep{ref3}, dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat~\citep{ref4}.

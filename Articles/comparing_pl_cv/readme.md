@@ -40,32 +40,55 @@ Avaliar o desempenho, a aplicabilidade e a facilidade de integração de diferen
 **Método:** Estudo comparativo com experimentos práticos.
 
 ### Etapas
+### 1. Levantamento Bibliográfico
 
-1. **Levantamento bibliográfico**
-    - Pesquisa de trabalhos que utilizam OpenCV, cvzone e Mediapipe em robótica.
-    - Revisão de estudos comparativos entre Python, Java e C em visão computacional.
+- Revisão de literatura sobre o uso das bibliotecas OpenCV, cvzone e Mediapipe em projetos de visão computacional.
+- Análise de estudos comparativos envolvendo Python, Java e C, considerando desempenho, aplicabilidade e curva de aprendizado.
+- Levantamento de melhores práticas para implementação de algoritmos de visão computacional em diferentes cenários.
 
-2. **Definição dos cenários de teste**
-    - Cenário 1: Detecção e rastreamento de mãos para controle do InMoov.
-    - Cenário 2: Reconhecimento de objetos (ex.: cubos e esferas).
-    - Cenário 3: Detecção de rostos para interação humano-robô.
+### 2. Definição dos Cenários de Teste
 
-3. **Implementação dos protótipos**
-    - Desenvolvimento de cada cenário em Python, Java e C, utilizando ao menos duas bibliotecas diferentes.
-    - Garantia de equivalência dos algoritmos para comparação justa.
+- Seleção de cenários representativos para avaliar funcionalidades essenciais:
+  - Detecção e rastreamento de mãos
+  - Reconhecimento de objetos (ex.: cubos e esferas)
+  - Detecção de rostos e gestos manuais
+  - Reconhecimento de cores e segmentação de objetos
+  - Extração de características visuais e análise de movimento
+- Padronização dos cenários para garantir comparabilidade entre linguagens e bibliotecas.
 
-4. **Execução dos experimentos**
-    - Medição de métricas de desempenho: FPS, tempo de resposta, uso de CPU/RAM.
-    - Avaliação da precisão das detecções.
-    - Testes em diferentes hardwares (PC e Raspberry Pi).
+### 3. Implementação dos Protótipos
 
-5. **Análise comparativa**
-    - Elaboração de tabelas comparativas entre linguagens e bibliotecas.
-    - Discussão dos pontos fortes e fracos em cada contexto.
+- Desenvolvimento de protótipos em Python, Java e C, utilizando pelo menos duas bibliotecas diferentes por cenário.
+- Implementação equivalente dos algoritmos para assegurar que diferenças de desempenho sejam atribuíveis à linguagem ou biblioteca.
+- Documentação detalhada das implementações, com comentários e instruções de execução para replicação dos testes.
 
-6. **Conclusão e recomendações**
-    - Indicação das linguagens e bibliotecas mais adequadas para cada aplicação em robótica.
-    - Apontamento de limitações e sugestões para pesquisas futuras.
+### 4. Execução dos Experimentos
+
+- Execução dos protótipos utilizando apenas webcam.
+- Medição de métricas de desempenho:
+  - Tempo de processamento
+  - Uso de CPU e memória
+  - Precisão e taxa de acerto dos algoritmos.
+  - Frames por segundo (FPS) alcançados.
+
+### 5. Análise Comparativa
+
+- Organização dos dados em tabelas e gráficos comparativos.
+- Avaliação de eficiência, desempenho, compatibilidade, integração e manutenção do código.
+- Discussão dos pontos fortes e limitações de cada combinação linguagem-biblioteca.
+
+### 5.1. Relato de Implementação
+
+- Documentar as principais dificuldades encontradas durante o desenvolvimento dos protótipos em cada linguagem e biblioteca, como problemas de compatibilidade, instalação de dependências, diferenças de sintaxe e integração com hardware.
+- Registrar o tempo gasto em cada etapa da implementação, desde a configuração do ambiente até a execução dos testes.
+- Salvar capturas de tela ou vídeos curtos das execuções dos protótipos para ilustrar o funcionamento (opcional).
+- Adicionar notas sobre a curva de aprendizado percebida em cada linguagem/biblioteca e avaliar a clareza e utilidade da documentação oficial e dos exemplos disponíveis.
+
+### 6. Conclusão e Recomendações
+
+- Indicação das linguagens e bibliotecas mais adequadas para cada tipo de aplicação.
+- Sugestão de estratégias para prototipagem rápida, aplicações educacionais e implementações embarcadas de alto desempenho.
+- Apontamentos sobre trabalhos futuros e melhorias nos testes realizados.
 
 ---
 
