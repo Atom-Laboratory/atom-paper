@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1759012194.0176 "main-pt.aux" "main-pt.bbl" "main-pt" 1759012201.80773 0
+["bibtex main-pt"] 1759012194.0176 "main-pt.aux" "main-pt.bbl" "main-pt" 1759078062.52847 0
   "./apalike-sol.bst" 1759010700 24928 269dedab788b7f84af88c155ecb45872 ""
   "./refs.bib" 1759010700 1329 acbfc2bfcd5c69990746aaa8f0dc509d ""
-  "main-pt.aux" 1759012199 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
+  "main-pt.aux" 1759078061 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1759012194.61316 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1759012201.80996 0
+["pdflatex"] 1759078058.62314 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1759078062.52951 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecit1000.tfm" 993062048 1356 26b6ae61ed8e8f2b58dad9f0a3f033b4 ""
@@ -262,10 +262,10 @@
   "capitulos/04-resultados.tex" 1759011982 15291 554cec92233f9d94a79bcebd342d8d51 ""
   "capitulos/05-discussao.tex" 1759011994 1279 270428eea5285123d03f89b9f10ddf9c ""
   "capitulos/06-conclusao.tex" 1759011996 1279 270428eea5285123d03f89b9f10ddf9c ""
-  "capitulos/header.tex" 1759007698 1877 afefb9ad4610ff2aad11b50a9550a0a2 ""
-  "main-pt.aux" 1759012199 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
+  "capitulos/header.tex" 1759078055 1883 45a9ea3132f2d7e2867a320de8267a6d ""
+  "main-pt.aux" 1759078061 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
   "main-pt.bbl" 1759012194 889 d75e0231e13df5b55d664a13f289d73d "bibtex main-pt"
-  "main-pt.out" 1759012199 1706 bfaeff4f5488b5cf636e727e6a8b1795 "pdflatex"
+  "main-pt.out" 1759078061 1706 bfaeff4f5488b5cf636e727e6a8b1795 "pdflatex"
   "main-pt.tex" 1759012178 6823 9511676a01fe39b0a89ac30acf08af30 ""
   "sbc2025.cls" 1759010700 14759 38c3464541d394eb4cd01fcacbcc285b ""
   "sol.jpg" 1759010700 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
