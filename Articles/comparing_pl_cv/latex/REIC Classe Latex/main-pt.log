@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  28 SEP 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  4 OCT 2025 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,11 +1017,9 @@ Package fancyhdr Warning: \headheight is too small (36.90002pt):
 [1{C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_2mfh3o.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
 
 
-{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]) (capitulos/03-metodologia.tex
-Underfull \vbox (badness 1490) has occurred while \output is active []
+{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
 
-
-
+(capitulos/03-metodologia.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <12> not available
 (Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
@@ -1052,18 +1050,15 @@ File: sol.jpg Graphic file (type jpg)
 Package pdftex.def Info: sol.jpg  used on input line 55.
 (pdftex.def)             Requested size: 240.0pt x 134.99644pt.
 
-Underfull \vbox (badness 2875) has occurred while \output is active []
-
-
 
 [4 <./sol.jpg>]
 File: sol.jpg Graphic file (type jpg)
 <use sol.jpg>
 Package pdftex.def Info: sol.jpg  used on input line 66.
 (pdftex.def)             Requested size: 360.0pt x 202.49466pt.
-)
 
-(capitulos/05-discussao.tex) (capitulos/06-conclusao.tex)
+
+) (capitulos/05-discussao.tex) (capitulos/06-conclusao.tex)
 
 [5]
 
@@ -1092,15 +1087,15 @@ Package rerunfilecheck Info: File `main-pt.out' has not changed.
 (rerunfilecheck)             Checksum: BFAEFF4F5488B5CF636E727E6A8B1795;1706.
  ) 
 Here is how much of TeX's memory you used:
- 33808 strings out of 468129
- 640252 string characters out of 5440679
- 1069614 words of memory out of 5000000
+ 33805 strings out of 468129
+ 640177 string characters out of 5440679
+ 1068607 words of memory out of 5000000
  61525 multiletter control sequences out of 15000+600000
- 933427 words of font info for 264 fonts, out of 8000000 for 9000
+ 933072 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,14n,135p,1170b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (6 pages, 584342 bytes).
+Output written on main-pt.pdf (6 pages, 584348 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
