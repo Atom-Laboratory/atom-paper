@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  4 OCT 2025 11:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  13 OCT 2025 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -889,88 +889,88 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (capitulos/header.tex)
-LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 106.
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 107.
  (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/fira\t1firasans-osf.fd
 File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 106.
+(Font)              scaled to size 8.0pt on input line 107.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSans-OsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
-(Font)              scaled to size 8.0pt on input line 106.
+(Font)              scaled to size 8.0pt on input line 107.
  (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <18> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 18.0pt on input line 106.
+(Font)              scaled to size 18.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.0pt on input line 106.
+(Font)              scaled to size 14.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <14> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
-(Font)              scaled to size 14.0pt on input line 106.
+(Font)              scaled to size 14.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
-(Font)              scaled to size 10.0pt on input line 106.
+(Font)              scaled to size 10.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
-(Font)              scaled to size 8.0pt on input line 106.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 106.
+(Font)              scaled to size 8.0pt on input line 107.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 107.
  (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/sl/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 106.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 107.
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/book/it' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/book/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/it' will be
-(Font)              scaled to size 8.0pt on input line 106.
+(Font)              scaled to size 8.0pt on input line 107.
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 106.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 107.
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 106.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 107.
 
-Overfull \hbox (66.0pt too wide) in paragraph at lines 106--106
+Overfull \hbox (66.0pt too wide) in paragraph at lines 107--107
 [][]  
  []
 
 
-Overfull \hbox (66.0pt too wide) in paragraph at lines 106--106
+Overfull \hbox (66.0pt too wide) in paragraph at lines 107--107
 [][]  
  []
 
@@ -988,10 +988,10 @@ LaTeX Font Warning: Font shape `T1/qtm/m/sl' in size <10> not available
 (Font)              Font shape `T1/qtm/m/it' tried instead on input line 12.
 
 
+
+
 LaTeX Font Warning: Font shape `T1/qtm/m/sl' in size <8> not available
 (Font)              Font shape `T1/qtm/m/it' tried instead on input line 14.
-
-
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
@@ -1001,9 +1001,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (capitulos/02-revisao-bibliografica.tex
+)
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 29.
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 110.
 (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/fontawesome\ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
@@ -1017,17 +1017,18 @@ Package fancyhdr Warning: \headheight is too small (36.90002pt):
 [1{C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_2mfh3o.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
 
 
-{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
-
-(capitulos/03-metodologia.tex
+{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (capitulos/02-revisao-bibliografica.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 5.
+(Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
+(Font)              scaled to size 12.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 5.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
+(Font)              scaled to size 12.0pt on input line 6.
+
+
+) (capitulos/03-metodologia.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
@@ -1044,7 +1045,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
 
 [3]
 
-<sol.jpg, id=107, 1156.32pt x 650.43pt>
+<sol.jpg, id=118, 1156.32pt x 650.43pt>
 File: sol.jpg Graphic file (type jpg)
 <use sol.jpg>
 Package pdftex.def Info: sol.jpg  used on input line 55.
@@ -1062,17 +1063,7 @@ Package pdftex.def Info: sol.jpg  used on input line 66.
 
 [5]
 
-(main-pt.bbl
-Underfull \hbox (badness 1275) in paragraph at lines 4--7
-[]\T1/qtm/m/n/10 (+20) Beall, J. (2017).  What I le-ar-ned from pre-da-tory pu-
- []
-
-
-Underfull \hbox (badness 2922) in paragraph at lines 4--7
-\T1/qtm/m/n/10 (+20) blishers.  \T1/qtm/m/it/10 (+20) Bi-o-che-mia me-dica\T1/qtm/m/n/10 (+20) , 27(2):273--278. DOI:
- []
-
-)
+(main-pt.bbl)
 
 [6] (main-pt.aux)
  ***********
@@ -1084,20 +1075,20 @@ L3 programming layer <2025-09-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main-pt.out' has not changed.
-(rerunfilecheck)             Checksum: BFAEFF4F5488B5CF636E727E6A8B1795;1706.
+(rerunfilecheck)             Checksum: 745C37D2017982E0CABEB70E7706DDC5;2224.
  ) 
 Here is how much of TeX's memory you used:
- 33805 strings out of 468129
- 640177 string characters out of 5440679
- 1068607 words of memory out of 5000000
- 61525 multiletter control sequences out of 15000+600000
- 933072 words of font info for 262 fonts, out of 8000000 for 9000
+ 33447 strings out of 468129
+ 632230 string characters out of 5440679
+ 1063044 words of memory out of 5000000
+ 61146 multiletter control sequences out of 15000+600000
+ 933684 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 132i,14n,135p,1170b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (6 pages, 584348 bytes).
+ 132i,13n,135p,1170b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on main-pt.pdf (6 pages, 584754 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 90714 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 90226 words of extra memory for PDF output out of 106986 (max. 10000000)
 

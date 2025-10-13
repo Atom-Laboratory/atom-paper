@@ -1,19 +1,18 @@
 # Fdb version 4
-["bibtex main-pt"] 1759012194.0176 "main-pt.aux" "main-pt.bbl" "main-pt" 1759587405.09399 0
+["bibtex main-pt"] 1760358873.94805 "main-pt.aux" "main-pt.bbl" "main-pt" 1760358887.70533 0
   "./apalike-sol.bst" 1759010700 24928 269dedab788b7f84af88c155ecb45872 ""
-  "./refs.bib" 1759010700 1329 acbfc2bfcd5c69990746aaa8f0dc509d ""
-  "main-pt.aux" 1759587403 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
+  "./refs.bib" 1760358750 1210 4aabe282bdd2733236c9481b05e89d3d ""
+  "main-pt.aux" 1760358886 3775 826dcd9679ff96d68064e9319156bbfe "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1759587400.28018 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1759587405.0949 0
+["pdflatex"] 1760358884.09423 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1760358887.70657 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecit1000.tfm" 993062048 1356 26b6ae61ed8e8f2b58dad9f0a3f033b4 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ectt1000.tfm" 993062340 1348 d70ddf2d5d512b838e50a335e385e919 ""
-  "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ectt1440.tfm" 993062346 1348 0f3a8155672f2cec2bf4b7ab1e5935ef ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1234365220 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -160,7 +159,6 @@
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758999740 262588 aaa24dba132756ec92b63f160cb80288 ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecit1000.pk" 1758997607 26728 bf9dcf8a743cfa86d91917083dc8fd62 ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1758997609 20028 352f3d290b77fe22985ca395194a3786 ""
-  "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1440.pk" 1755532794 29404 da15ce5e777a678e1f565ff905c9d8f6 ""
   "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758998818 13276940 92f4cb9fc6eb137e1be957bfa68fdf55 ""
   "C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1570723679 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc" 1570723678 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
@@ -255,18 +253,18 @@
   "C:/Users/maria/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/maria/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "aas_macros.sty" 1759010700 4967 cf45ff75f433e372cec5993ac08f4363 ""
-  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1759012178 6823 9511676a01fe39b0a89ac30acf08af30 ""
+  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Projetos/Robótica/Braço Robótico/Repos/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1760352693 7100 19d3489295cee9e761097b54619b2245 ""
   "capitulos/01-introducao.tex" 1759011920 2631 8676b20dc96005f85fbd9b446a2bc504 ""
-  "capitulos/02-revisao-bibliografica.tex" 1759012142 2723 5b8a355f3d22360159e65b3cc20398c3 ""
+  "capitulos/02-revisao-bibliografica.tex" 1760358883 3270 daa8f47edb08cf944ef797b9a3ba71b5 ""
   "capitulos/03-metodologia.tex" 1759011955 5210 a48d16ea513cde7488b8078a69014dc8 ""
   "capitulos/04-resultados.tex" 1759011982 15291 554cec92233f9d94a79bcebd342d8d51 ""
   "capitulos/05-discussao.tex" 1759011994 1279 270428eea5285123d03f89b9f10ddf9c ""
   "capitulos/06-conclusao.tex" 1759011996 1279 270428eea5285123d03f89b9f10ddf9c ""
-  "capitulos/header.tex" 1759587399 1887 f129e881b0ae7da32f07655dc1b94a22 ""
-  "main-pt.aux" 1759587403 3755 93ea3c9fff8f455ec16f91730c1c2472 "pdflatex"
-  "main-pt.bbl" 1759012194 889 d75e0231e13df5b55d664a13f289d73d "bibtex main-pt"
-  "main-pt.out" 1759587403 1706 bfaeff4f5488b5cf636e727e6a8b1795 "pdflatex"
-  "main-pt.tex" 1759012178 6823 9511676a01fe39b0a89ac30acf08af30 ""
+  "capitulos/header.tex" 1760354263 1879 0dd5d446cd2ee90f7ec1cc82f14cd406 ""
+  "main-pt.aux" 1760358886 3775 826dcd9679ff96d68064e9319156bbfe "pdflatex"
+  "main-pt.bbl" 1760358874 810 9d2af5ce39b5be6beccf050c5b73c7a5 "bibtex main-pt"
+  "main-pt.out" 1760358886 2224 745c37d2017982e0cabeb70e7706ddc5 "pdflatex"
+  "main-pt.tex" 1760352693 7100 19d3489295cee9e761097b54619b2245 ""
   "sbc2025.cls" 1759010700 14759 38c3464541d394eb4cd01fcacbcc285b ""
   "sol.jpg" 1759010700 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
   (generated)

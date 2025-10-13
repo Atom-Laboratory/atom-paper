@@ -1,9 +1,9 @@
 \begin{thebibliography}{}
 
-\bibitem[Beall, 2017]{ref3}
-Beall, J. (2017).
-\newblock What {I} learned from predatory publishers.
-\newblock {\em Biochemia medica}, 27(2):273--278. DOI: 10.11613/BM.2017.029.
+\bibitem[Lutz and Ascher, 1999]{Lutz1999}
+Lutz, M. and Ascher, D. (1999).
+\newblock {\em Learning Python}.
+\newblock O'Reilly Media.
 
 \bibitem[Mendez {\em et~al}., 2020]{ref5}
 Mendez, D., Graziotin, D., Wagner, S., and Seibold, H. (2020).
@@ -11,11 +11,14 @@ Mendez, D., Graziotin, D., Wagner, S., and Seibold, H. (2020).
 \newblock In {\em Contemporary empirical methods in software engineering},
   pages 477--501. Springer. DOI: 10.1007/978-3-030-32489-6\_17.
 
-\bibitem[Piwowar {\em et~al}., 2018]{ref4}
-Piwowar, H., Priem, J., Larivi{\`e}re, V., Alperin, J.~P., Matthias, L.,
-  Norlander, B., Farley, A., West, J., and Haustein, S. (2018).
-\newblock The state of {OA}: {A} large-scale analysis of the prevalence and
-  impact of open access articles.
-\newblock {\em PeerJ}, 6:e4375. DOI: 10.7717/peerj.4375.
+\bibitem[Schildt, 2019]{Schildt2019}
+Schildt, H. (2019).
+\newblock {\em Java: The Complete Reference, Eleventh Edition}.
+\newblock McGraw-Hill Education.
+
+\bibitem[Szeliski, 2022]{Szeliski2022}
+Szeliski, R. (2022).
+\newblock {\em Computer Vision: Algorithms and Applications 2nd Edition}.
+\newblock Springer.
 
 \end{thebibliography}
