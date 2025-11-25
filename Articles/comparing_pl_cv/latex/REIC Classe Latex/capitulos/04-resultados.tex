@@ -52,6 +52,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \subsection{Resultados Obtidos}
 
+\begin{figure}[ht]
+\raggedleft
+% Requer \usepackage{pgfplots} e \pgfplotsset{compat=1.17} no preâmbulo
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=10pt,
+    width=\columnwidth, % usa apenas a largura da coluna (direita em documento twocolumn)
+    height=6cm,
+    symbolic x coords={Java,Python,C,C++},
+    xtick=data,
+    ymin=0, ymax=3.5,
+    ylabel={Avaliação (1=Baixa, 2=Média/Moderada, 3=Alta)},
+    legend style={at={(0.5,-0.20)}, anchor=north, legend columns=2},
+    enlarge x limits=0.15,
+    nodes near coords,
+    every node near coord/.style={font=\footnotesize}
+]
+% Valores: Alta=3, Moderada/Média=2, Baixa=1
+\addplot coordinates {(Java,3)   (Python,3) (C,2) (C++,2)}; % Documentação
+\addplot coordinates {(Java,3)   (Python,3) (C,2) (C++,2)}; % Tutoriais / Informação
+\addplot coordinates {(Java,2)   (Python,1) (C,3) (C++,3)}; % Complexidade da sintaxe
+\addplot coordinates {(Java,3)   (Python,1) (C,3) (C++,3)}; % Configuração adicional
+\legend{Documentação,Tutoriais / Informação,Complexidade da sintaxe,Configuração adicional}
+\end{axis}
+\end{tikzpicture}
+\caption{Gráfico comparativo da facilidade de uso e curva de aprendizado (escala numérica acima).}
+\label{fig:quadro1}
+\end{figure}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \textbf{Figure \ref{Fig1}}.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
