@@ -10,8 +10,11 @@ Foram selecionadas as principais linguagens de programação (Java, Python, C, C
 
 Foram estabelecidos critérios para a avaliação das linguagens e bibliotecas, incluindo facilidade de uso, curva de aprendizado, comunidade de suporte, desempenho, compatibilidade com diferentes plataformas e recursos disponíveis para visão computacional.
 
-\subsubsection{Facilidade de Uso e Curva de Aprendizado}
-A facilidade de uso e a curva de aprendizado tem o objetivo de avaliar o quão intuitiva é a sintaxe de cada linguagem e biblioteca, bem como a quantidade de tempo e esforço necessários para que um desenvolvedor iniciante ou avançado possa começar a utilizá-las efetivamente. Foram considerados aspectos como a clareza da documentação, disponibilidade de tutoriais e exemplos práticos.
+Este critério avalia a complexidade sintática e o esforço cognitivo necessários para a implementação das soluções. A análise baseou‑se em duas métricas principais:
+
+Métrica Quantitativa (LOC): Utilizou‑se a contagem de Linhas de Código (Lines of Code - LOC) necessárias para implementar os experimentos em cada linguagem.
+
+Métrica Qualitativa (Escala Likert): Foi estabelecida uma escala de 1 a 5 (onde 1 = Insuficiente e 5 = Excelente) para classificar três aspectos: (i) clareza da documentação oficial; (ii) disponibilidade de tutoriais/comunidade; e (iii) facilidade de configuração do ambiente (setup).
 
 \subsubsection{Desempenho}
 O desempenho tem o objetivo de medir a eficiência das linguagens e bibliotecas na execução de tarefas comuns em visão computacional, sob cenários controlados. Foram realizados testes práticos para avaliar o tempo de execução, uso de memória e capacidade de lidar com grandes volumes de dados.
@@ -24,11 +27,61 @@ O critério de recursos disponíveis para visão computacional tem o objetivo de
 
 \subsection{Coleta de dados}
 
-Foram adotadas múltiplas fontes para a coleta de dados, incluindo revisão bibliográfica, documentação oficial, repositórios de código, artigos técnicos, tutoriais e discussões em fóruns especializados. Para os testes experimentais, definiu-se um conjunto de tarefas-padrão (processamento e pré‑processamento de imagens, detecção e reconhecimento de objetos, inferência de modelos).
+Para garantir a reprodutibilidade dos testes, foram adotadas múltiplas fontes de consulta, incluindo a documentação oficial das bibliotecas, repositórios de código aberto e artigos técnicos especializados. Nos experimentos práticos, definiram-se dois conjuntos de tarefas-padrão para isolar o desempenho da linguagem:
 
-Os experimentos foram executados em um ambiente controlado, cujo perfil (CPU, GPU, memória, sistema operativo e versões de compilador/interpretador e bibliotecas) foi documentado em detalhes. Para cada combinação linguagem/biblioteca/tarefa coletaram‑se métricas quantitativas — tempo de execução (latência e throughput), uso de memória, utilização de CPU/GPU — e métricas qualitativas, como facilidade de instalação, clareza da documentação e disponibilidade de exemplos.
+\begin{enumerate}
+    \item \textbf{Detecção de Mãos utilizando Classificadores Haar Cascade:} Esta tarefa serve como \textit{baseline} de desempenho, utilizando o classificador em cascata disponível na biblioteca OpenCV. Para garantir a paridade entre as linguagens (Java, Python e C++), foram fixados rigidamente os mesmos hiperparâmetros de detecção:
+\begin{itemize}
+    \item \textbf{Modelo:} Arquivo XML pré-treinado para detecção de mãos (\textit{hand.xml});
+    \item \textbf{Parâmetros de Escala:} \textit{scaleFactor} de 1.1 (redução de 10\% a cada etapa da pirâmide de imagem) e \textit{minNeighbors} igual a 1 (para maximizar a sensibilidade, ainda que com risco de falsos positivos);
+    \item \textbf{Tamanho Mínimo:} Janela de detecção mínima fixada em $150 \times 150$ pixels para ignorar ruídos menores;
+    \item \textbf{Saída:} Desenho do retângulo delimitador (\textit{Bounding Box}) sobre a imagem original e persistência do resultado em disco.
+\end{itemize}
 
-Cada experimento foi repetido várias vezes, e os resultados foram agregados por média e desvio‑padrão para reduzir a variabilidade. Todo o código de teste, scripts de medição e procedimentos de pré‑processamento foram versionados e disponibilizados no repositório do projeto para garantir reprodutibilidade. Finalmente, registraram‑se limitações e potenciais fontes de viés (diferenças de implementação, otimizações específicas de hardware, dependências) e considerações éticas relativas ao uso dos conjuntos de dados.
+    \item \textbf{Detecção de Mãos baseada em Processamento de Imagem (Baixo Nível):} Esta tarefa avalia a eficiência da linguagem na manipulação direta de matrizes e cálculos geométricos, sem o uso de classificadores de "caixa preta". O algoritmo foi implementado manualmente seguindo a lógica de segmentação e geometria:
+    \begin{itemize}
+        \item \textbf{Segmentação da Pele:} Conversão do espaço de cor RGB para \textbf{YCrCb}, seguida de limiarização (\textit{Thresholding}) com valores pré-definidos para isolar os pixels de pele;
+        \item \textbf{Refinamento da Máscara:} Aplicação de Filtro Gaussiano, seguido de operações morfológicas de Abertura e Fechamento (\textit{Morphological Open/Close}) e \textit{Median Blur} para eliminação de ruído;
+        \item \textbf{Análise Geométrica:} Extração do maior contorno da cena e cálculo do Fecho Convexo (\textit{Convex Hull});
+        \item \textbf{Classificação de Gestos:} Identificação dos Defeitos de Convexidade (\textit{Convexity Defects}) e aplicação da Lei dos Cossenos para filtrar ângulos entre os dedos. A contagem de dedos determina a classe do gesto (ex: "Palm", "Fist", "Peace").
+    \end{itemize}
+\end{enumerate}
+
+O ambiente de teste utilizado foi o seguinte:
+
+
+\begin{table}[h]
+\centering
+\caption{Ambiente de Teste e Versões}
+\begin{tabular}{l l}
+\hline
+\textbf{Linguagem/Biblioteca} & \textbf{Versão} \\
+\hline
+Python & 3.13.5 \\
+Java & 20 \\
+C++ (GCC) & 12.2.0 \\
+\hline
+\multicolumn{2}{l}{\textbf{Hardware - Windows}} \\
+\hline
+Processador & AMD Ryzen 5 3600X \\
+Memória RAM & 32 GB \\
+GPU & NVIDIA GeForce RTX 2060 \\
+Sistema Operacional & Windows 10 Pro 64 bits \\
+\hline
+\end{tabular}
+\end{table}
+
+
+Linux: 
+
+MacOS: 
+
+Cada experimento foi repetido várias vezes, e os resultados foram agregados por média e desvio‑padrão para reduzir a variabilidade. Todo o código de teste, scripts de medição e procedimentos de pré‑processamento foram versionados e disponibilizados no repositório do projeto para garantir reprodutibilidade. Finalmente, registraram‑se limitações e potenciais fontes de viés (diferenças de implementação, otimizações específicas de hardware, dependências) e considerações éticas relativas ao uso dos conjuntos de dados .
+
+Conjuntos de Dados Utilizados:
+\begin{itemize}
+    \item Credits for \href{https://www.kaggle.com/datasets/ritikagiridhar/2000-hand-gestures?resource=download}{Hand gestures dataset} from Ritika Giridhar at Kaggle.com
+\end{itemize}
 
 \subsection{Análise comparativa}
 Os dados coletados foram analisados comparativamente, utilizando técnicas estatísticas e gráficos para identificar as vantagens e desvantagens de cada linguagem e biblioteca em relação aos critérios estabelecidos. A análise incluiu a criação de tabelas comparativas, gráficos de desempenho e discussões qualitativas sobre as características observadas.

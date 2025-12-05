@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  24 NOV 2025 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  5 DEC 2025 10:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,6 +995,18 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 LaTeX Font Warning: Font shape `U/fontawesometwo/sl/n' undefined
 (Font)              using `U/fontawesometwo/m/n' instead on input line 109.
 
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 9.0pt on input line 109.
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 109.
+(C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/fontawesome\ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
+(Font)              using `U/fontawesomeone/m/n' instead on input line 109.
+
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
 (Font)              using `U/fontawesometwo/m/n' instead on input line 109.
@@ -1002,10 +1014,6 @@ LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <9> not available
 (Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
-(Font)              scaled to size 9.0pt on input line 109.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 109.
 
 Overfull \hbox (66.0pt too wide) in paragraph at lines 109--109
@@ -1031,10 +1039,10 @@ LaTeX Font Warning: Font shape `T1/qtm/m/sl' in size <10> not available
 (Font)              Font shape `T1/qtm/m/it' tried instead on input line 12.
 
 
+
+
 LaTeX Font Warning: Font shape `T1/qtm/m/sl' in size <8> not available
 (Font)              Font shape `T1/qtm/m/it' tried instead on input line 14.
-
-
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
@@ -1044,12 +1052,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 112.
-(C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/fontawesome\ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
-)
+
 
 Package fancyhdr Warning: \headheight is too small (36.90002pt): 
 (fancyhdr)                Make it at least 49.40002pt, for example:
@@ -1060,7 +1064,7 @@ Package fancyhdr Warning: \headheight is too small (36.90002pt):
 [1{C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_2mfh3o.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
 
 
-{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (capitulos/02-revisao-bibliografica.tex
+{C:/Users/maria/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]) (capitulos/02-revisao-bibliografica.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <12> not available
 (Font)              Font shape `T1/FiraSans-OsF/book/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
@@ -1073,47 +1077,59 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 
 ) (capitulos/03-metodologia.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 13.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 13.
+(Font)              scaled to size 10.0pt on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 13.
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
-(Font)              scaled to size 10.0pt on input line 13.
+(Font)              scaled to size 10.0pt on input line 19.
 
 
-[2]) (capitulos/04-resultados.tex
+[2]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+
+) (capitulos/04-resultados.tex
 
 [3]
+
 Package pgfplots info on input line 72: Using 'lua backend=false' for axis: x coord trafo unsupported.
 
 
-<sol.jpg, id=131, 1156.32pt x 650.43pt>
+[4]
+<sol.jpg, id=143, 1156.32pt x 650.43pt>
 File: sol.jpg Graphic file (type jpg)
 <use sol.jpg>
 Package pdftex.def Info: sol.jpg  used on input line 93.
 (pdftex.def)             Requested size: 240.0pt x 134.99644pt.
 
-Underfull \vbox (badness 2875) has occurred while \output is active []
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
 
 
-[4 <./sol.jpg>]
 File: sol.jpg Graphic file (type jpg)
 <use sol.jpg>
 Package pdftex.def Info: sol.jpg  used on input line 104.
 (pdftex.def)             Requested size: 360.0pt x 202.49466pt.
 
 
-) (capitulos/05-discussao.tex) (capitulos/06-conclusao.tex
+[5 <./sol.jpg>]) (capitulos/05-discussao.tex)
 
-[5])
+(capitulos/06-conclusao.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(main-pt.bbl)
 
-[6] (main-pt.aux)
+
+[6] (main-pt.bbl)
+
+
+
+[7
+
+] (main-pt.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1123,20 +1139,20 @@ L3 programming layer <2025-09-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main-pt.out' has not changed.
-(rerunfilecheck)             Checksum: 9800A7AA18BD143A7D38D8B1D8987A14;3386.
+(rerunfilecheck)             Checksum: 25B48173665123632A66FAD645F97095;3100.
  ) 
 Here is how much of TeX's memory you used:
- 43912 strings out of 468129
- 982508 string characters out of 5440679
- 1512672 words of memory out of 5000000
- 71483 multiletter control sequences out of 15000+600000
- 918126 words of font info for 264 fonts, out of 8000000 for 9000
+ 43941 strings out of 468129
+ 982973 string characters out of 5440679
+ 1518933 words of memory out of 5000000
+ 71497 multiletter control sequences out of 15000+600000
+ 919184 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,19n,135p,1106b,2462s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (6 pages, 537719 bytes).
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on main-pt.pdf (7 pages, 552634 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 88234 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 88226 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -440,11 +440,15 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometw
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesometwo.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesomeone.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesometwo.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Book-osf-t1.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -473,10 +477,6 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecit1000.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesomeone.tfm
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
@@ -499,6 +499,7 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecit1000.tfm
 INPUT .\capitulos\02-revisao-bibliografica.tex
 INPUT .\capitulos\02-revisao-bibliografica.tex
 INPUT capitulos\02-revisao-bibliografica.tex
@@ -513,10 +514,10 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-o
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-BoldItalic-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1--base.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT .\capitulos\04-resultados.tex
 INPUT .\capitulos\04-resultados.tex
 INPUT capitulos\04-resultados.tex
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT .\sol.jpg
 INPUT .\sol.jpg
 INPUT .\sol.jpg
@@ -570,6 +571,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmb.pfb
