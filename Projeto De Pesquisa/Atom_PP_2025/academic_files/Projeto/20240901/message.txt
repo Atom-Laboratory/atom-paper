@@ -1,0 +1,106 @@
+Robot Arm - Braço Robótico Controlado por Visão Computacional
+Sumário
+Introdução
+Objetivos
+Fundamentação Teórica
+Metodologia
+Estratégia
+Projeto 3D
+Lista de Componentes
+Imagens Ilustrativas das Impressões 3D
+Desafios e Soluções
+Resultados e Discussão
+Conclusão
+Referências Bibliográficas
+Apêndices
+Cronograma
+Introdução
+Nosso grupo de estudantes do curso de Ciência da Computação concebeu o projeto de desenvolver um braço robótico utilizando conhecimentos adquiridos nas disciplinas de Robótica, Algoritmos e Estruturas de Dados. O objetivo deste projeto é aplicar conceitos teóricos em um projeto prático, integrando a automação com visão computacional. A ideia central é criar um braço robótico que possa replicar os movimentos de uma mão humana, controlado por meio de algoritmos de visão computacional implementados em Python utilizando a biblioteca cvzone.
+
+Objetivos
+Objetivo Geral: Desenvolver um braço robótico que replique os movimentos de uma mão humana utilizando visão computacional.
+Objetivos Específicos:
+Integrar a impressão 3D para criação das peças do robô.
+Implementar um sistema de visão computacional para rastreamento dos movimentos da mão.
+Programar o controle do braço robótico utilizando a biblioteca cvzone em Python.
+Testar e ajustar o sistema para garantir precisão e funcionalidade.
+Fundamentação Teórica
+Esta seção aborda os conceitos fundamentais que sustentam o projeto:
+
+Robótica: Princípios básicos da robótica, tipos de atuadores e sensores, e técnicas de controle de movimento.
+Visão Computacional: Introdução à visão computacional, algoritmos de rastreamento de objetos, e a aplicação da biblioteca cvzone.
+Impressão 3D: Tecnologias e técnicas utilizadas para a impressão das peças do robô, e como a impressão 3D contribui para o design e funcionalidade do projeto.
+Metodologia
+Descreva os métodos e processos adotados no desenvolvimento do projeto:
+
+Desenvolvimento do Projeto 3D: Criação dos modelos das peças necessárias.
+Impressão 3D: Processo de impressão das peças e ajustes necessários.
+Montagem do Braço Robótico: Montagem das peças impressas para formar o braço robótico.
+Implementação da Visão Computacional: Programação do sistema de visão para rastreamento de movimentos e controle do robô.
+Integração e Testes: Integração dos componentes eletrônicos e testes para verificar a precisão e funcionalidade do sistema.
+Estratégia
+O desenvolvimento do projeto está dividido em várias etapas:
+
+Impressão 3D das Peças
+Montagem do Braço Robótico
+Implementação da Visão Computacional
+Integração com o Hardware
+Projeto 3D
+O projeto 3D do braço robótico inclui a criação das seguintes peças:
+
+Mão Direita e Antebraço:
+1x Thumb (Polegar)
+1x Index (Indicador)
+1x Majeure (Dedo médio)
+1x RingFinger (Anelar)
+1x Auriculaire (Mindinho)
+1x Bolt_entretoise (Parafuso espaçador)
+1x Wristlarge (Pulso grande)
+1x Wristsmall (Pulso pequeno)
+1x topsurface (Superfície superior)
+1x coverfinger (Cobertura dos dedos)
+1x robcap3 (Tampa robótica 3)
+1x robpart2 (Parte robótica 2)
+1x robpart3 (Parte robótica 3)
+1x robpart4 (Parte robótica 4)
+1x robpart5 (Parte robótica 5)
+Pulso Direito:
+1x rotawrist2 (Roda do pulso 2)
+1x rotawrist1 (Roda do pulso 1)
+1x rotawrist3 (Roda do pulso 3)
+1x WristGears (Engrenagens do pulso)
+1x CableHolderWrist (Suporte de cabo para o pulso)
+Lista de Componentes
+Além das peças impressas, utilizamos os seguintes componentes eletrônicos e materiais:
+
+5x Motores
+1x ARDUINO
+1x SENSOR SHIELD
+Filamento para impressão 3D
+Imagens Ilustrativas das Impressões 3D
+Aqui serão incluídas imagens das peças impressas em 3D, como a mão direita, o pulso e o antebraço, mostrando a qualidade das impressões e a montagem preliminar do projeto.
+
+Desafios e Soluções
+Descreva os principais desafios enfrentados e as soluções encontradas:
+
+Desafios na Impressão 3D: Problemas com a precisão ou qualidade das impressões.
+Desafios na Programação: Dificuldades na implementação da visão computacional e no controle dos motores.
+Soluções: Ajustes na modelagem, otimização do código, e melhorias no design.
+Resultados e Discussão
+Apresente e analise os resultados obtidos com o projeto:
+
+Funcionamento do Braço Robótico: Avaliação da precisão dos movimentos e da resposta do sistema.
+Desempenho da Visão Computacional: Análise da eficácia do rastreamento dos movimentos da mão.
+Discussão: Comparação com os objetivos estabelecidos e análise dos resultados.
+Conclusão
+Resuma os principais pontos do projeto, avaliando se os objetivos foram alcançados e discutindo o impacto em termos de aprendizado e aplicação prática. Sugira melhorias futuras e próximos passos para o projeto.
+
+Referências Bibliográficas
+Liste todas as fontes utilizadas no projeto, como artigos, livros, tutoriais, e documentações.
+
+Apêndices
+Inclua materiais adicionais que suportam o projeto, como códigos-fonte, esquemas elétricos, e diagramas detalhados.
+
+Cronograma
+Apresente um cronograma com as etapas do projeto e os prazos para cada uma delas.
+

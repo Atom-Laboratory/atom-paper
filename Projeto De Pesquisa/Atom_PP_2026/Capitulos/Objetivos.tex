@@ -1,0 +1,14 @@
+\chapter{Objetivos}
+
+\subsection{Objetivo Geral} Investigar a implementação e otimização de algoritmos de visão computacional e modelos de \textit{Deep Learning} para identificação e localização de objetos em tempo real, operando estritamente dentro das restrições de processamento de sistemas embarcados (SBCs e Microcontroladores), de modo a garantir autonomia ao braço robótico Atom sem depender de computadores externos.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize} 
+  \item \textbf{Avaliar a viabilidade técnica} de arquiteturas de \textit{hardware} embarcado (SBCs como Raspberry Pi/Banana Pi e módulos ESP32) para a execução de inferência de redes neurais na borda (\textit{Edge AI}).
+  \item \textbf{Adaptar e treinar modelos} de redes neurais convolucionais leves (ex: MobileNet ou YOLO Nano) através de técnicas de \textit{Transfer Learning}, visando o equilíbrio entre precisão de detecção e baixo custo computacional.
+
+  \item \textbf{Desenvolver o \textit{middleware} de integração} capaz de converter as coordenadas espaciais obtidas pelo sistema de visão em instruções cinemáticas para o controle dos atuadores do manipulador robótico.
+
+  \item \textbf{Validar experimentalmente} a autonomia do sistema em tarefas de manipulação (\textit{Pick and Place}), mensurando a latência, a taxa de acerto e o comportamento térmico do processador embarcado durante a operação contínua.
+\end{itemize}
