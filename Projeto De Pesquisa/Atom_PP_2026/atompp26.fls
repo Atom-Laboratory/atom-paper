@@ -475,6 +475,16 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\todonotes\todonotes.sty
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\todonotes\todonotes.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT .\Preambulo\Configurações.tex
 INPUT .\Preambulo\Configurações.tex
 INPUT .\Preambulo\Configurações.tex
@@ -504,9 +514,18 @@ INPUT Capitulos\QuestaoDePesquisa.aux
 INPUT .\Capitulos\Objetivos.aux
 INPUT .\Capitulos\Objetivos.aux
 INPUT Capitulos\Objetivos.aux
+INPUT .\Capitulos\RevisaoBibliografica.aux
+INPUT .\Capitulos\RevisaoBibliografica.aux
+INPUT Capitulos\RevisaoBibliografica.aux
 INPUT .\Capitulos\Metodologia.aux
 INPUT .\Capitulos\Metodologia.aux
 INPUT Capitulos\Metodologia.aux
+INPUT .\Capitulos\Cronograma.aux
+INPUT .\Capitulos\Cronograma.aux
+INPUT Capitulos\Cronograma.aux
+INPUT .\Capitulos\Apendice.aux
+INPUT .\Capitulos\Apendice.aux
+INPUT Capitulos\Apendice.aux
 OUTPUT atompp26.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -554,12 +573,6 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\jknappen\ursfs.fd
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT .\libs\cefetmg.png
 INPUT .\libs\cefetmg.png
 INPUT .\libs\cefetmg.png
@@ -577,11 +590,19 @@ INPUT .\libs\cefetmg.png
 INPUT .\libs\cefetmg.png
 INPUT .\libs\cefetmg.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\atompp26.toc
 INPUT .\atompp26.toc
 INPUT atompp26.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 OUTPUT atompp26.toc
 INPUT .\Capitulos\ProblemaDePesquisa.tex
 INPUT .\Capitulos\ProblemaDePesquisa.tex
@@ -602,15 +623,39 @@ OUTPUT Capitulos\Objetivos.aux
 INPUT .\Capitulos\Objetivos.tex
 INPUT .\Capitulos\Objetivos.tex
 INPUT Capitulos\Objetivos.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT .\Capitulos\RevisaoBibliografica.tex
+INPUT .\Capitulos\RevisaoBibliografica.tex
+OUTPUT Capitulos\RevisaoBibliografica.aux
+INPUT .\Capitulos\RevisaoBibliografica.tex
+INPUT .\Capitulos\RevisaoBibliografica.tex
+INPUT Capitulos\RevisaoBibliografica.tex
 INPUT .\Capitulos\Metodologia.tex
 INPUT .\Capitulos\Metodologia.tex
 OUTPUT Capitulos\Metodologia.aux
 INPUT .\Capitulos\Metodologia.tex
 INPUT .\Capitulos\Metodologia.tex
 INPUT Capitulos\Metodologia.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\Capitulos\Cronograma.tex
+INPUT .\Capitulos\Cronograma.tex
+OUTPUT Capitulos\Cronograma.aux
+INPUT .\Capitulos\Cronograma.tex
+INPUT .\Capitulos\Cronograma.tex
+INPUT Capitulos\Cronograma.tex
+INPUT .\Capitulos\Apendice.tex
+INPUT .\Capitulos\Apendice.tex
+OUTPUT Capitulos\Apendice.aux
+INPUT .\Capitulos\Apendice.tex
+INPUT .\Capitulos\Apendice.tex
+INPUT Capitulos\Apendice.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT .\atompp26.bbl
 INPUT .\atompp26.bbl
 INPUT atompp26.bbl
@@ -624,24 +669,41 @@ INPUT Capitulos\QuestaoDePesquisa.aux
 INPUT .\Capitulos\Objetivos.aux
 INPUT .\Capitulos\Objetivos.aux
 INPUT Capitulos\Objetivos.aux
+INPUT .\Capitulos\RevisaoBibliografica.aux
+INPUT .\Capitulos\RevisaoBibliografica.aux
+INPUT Capitulos\RevisaoBibliografica.aux
 INPUT .\Capitulos\Metodologia.aux
 INPUT .\Capitulos\Metodologia.aux
 INPUT Capitulos\Metodologia.aux
+INPUT .\Capitulos\Cronograma.aux
+INPUT .\Capitulos\Cronograma.aux
+INPUT Capitulos\Cronograma.aux
+INPUT .\Capitulos\Apendice.aux
+INPUT .\Capitulos\Apendice.aux
+INPUT Capitulos\Apendice.aux
 INPUT .\atompp26.out
 INPUT .\atompp26.out
+INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

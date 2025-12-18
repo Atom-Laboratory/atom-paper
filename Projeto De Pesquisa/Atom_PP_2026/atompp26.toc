@@ -1,18 +1,23 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\numberline {1}Problema de Pesquisa}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Questão de Pesquisa}{4}{chapter.2}%
-\contentsline {subsection}{\numberline {2.0.1}Justificativa}{4}{subsection.2.0.1}%
-\contentsline {chapter}{\numberline {3}Objetivos}{5}{chapter.3}%
-\contentsline {subsection}{\numberline {3.0.1}Objetivo Geral}{5}{subsection.3.0.1}%
-\contentsline {subsection}{\numberline {3.0.2}Objetivos Específicos}{5}{subsection.3.0.2}%
-\contentsline {chapter}{\numberline {4}Metodologia}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Classificação da Pesquisa}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Materiais e Instrumentos}{6}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Procedimentos Metodológicos}{7}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Fase 1: Arquitetura de Visão e Aquisição de Dados (O Olho)}{7}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Fase 2: Inteligência Artificial e Processamento na Borda (O Cérebro)}{7}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Fase 3: Integração e Controle Cinemático (O Braço)}{8}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Fase 4: Validação e Análise de Dados}{8}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Aspectos Éticos}{9}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Cronograma}{10}{chapter.5}%
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{12}{chapter*.5}%
+\contentsline {chapter}{\numberline {2}Questão de Pesquisa}{2}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Justificativa}{2}{subsection.2.0.1}%
+\contentsline {chapter}{\numberline {3}Objetivos}{3}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Objetivo Geral}{3}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Objetivos Específicos}{3}{subsection.3.0.2}%
+\contentsline {chapter}{\numberline {4}Revisão Bibliográfica}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Metodologia}{6}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Classificação da Pesquisa}{6}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Materiais e Instrumentos}{6}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Procedimentos Metodológicos}{7}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Fase 1: Arquitetura de Visão e Aquisição de Dados (O Olho)}{7}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Fase 2: Inteligência Artificial e Processamento na Borda (O Cérebro)}{7}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Fase 3: Integração e Controle Cinemático (O Braço)}{8}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Fase 4: Validação e Análise de Dados}{8}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Aspectos Éticos}{8}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Cronograma}{10}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Apêndice}{11}{chapter.7}%
+\contentsline {subsubsection}{Visão Computacional}{11}{section*.8}%
+\contentsline {subsubsection}{Internet das Coisas (IOT) e Aprendizado Profundo (DL)}{12}{section*.10}%
+\contentsline {subsubsection}{}{12}{section*.12}%
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{13}{chapter*.14}%

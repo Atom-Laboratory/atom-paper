@@ -7,53 +7,78 @@ Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: Capitulos/QuestaoDePesquisa.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: Capitulos/Objetivos.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: Capitulos/RevisaoBibliografica.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Capitulos/Metodologia.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: Capitulos/Cronograma.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Capitulos/Apendice.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-num.bst
 Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: Capitulos/ref.bib
 Warning--I didn't find a database entry for "gil2002"
 Warning--I didn't find a database entry for "gic2025"
-You've used 1 entry,
-            2118 wiz_defined-function locations,
-            509 strings with 4308 characters,
-and the built_in function-call counts, 275 in all, are:
-= -- 23
-> -- 13
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--faltando school em Pereira2022
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 10 entries,
+            6714 wiz_defined-function locations,
+            1268 strings with 11441 characters,
+and the built_in function-call counts, 5655 in all, are:
+= -- 550
+> -- 120
 < -- 0
-+ -- 5
-- -- 4
-* -- 15
-:= -- 54
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 4
-if$ -- 55
++ -- 87
+- -- 40
+* -- 359
+:= -- 873
+add.period$ -- 39
+call.type$ -- 10
+change.case$ -- 69
+chr.to.int$ -- 10
+cite$ -- 11
+duplicate$ -- 307
+empty$ -- 393
+format.name$ -- 200
+if$ -- 1263
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 8
+int.to.str$ -- 0
+missing$ -- 172
+newline$ -- 66
+num.names$ -- 40
+pop$ -- 196
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 30
 quote$ -- 0
-skip$ -- 7
-stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+skip$ -- 337
+stack$ -- 1
+substring$ -- 125
+swap$ -- 141
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
-(There were 2 warnings)
+type$ -- 27
+warning$ -- 1
+while$ -- 43
+width$ -- 0
+write$ -- 144
+(There were 3 warnings)

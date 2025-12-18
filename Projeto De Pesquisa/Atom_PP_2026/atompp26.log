@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  8 DEC 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  18 DEC 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1104,24 +1104,60 @@ Package: todonotes 2024/01/05
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 \c@@todonotes@numberoftodonotes=\count449
+) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip100
+\RaggedLeftLeftskip=\skip101
+\RaggedRightLeftskip=\skip102
+\CenteringRightskip=\skip103
+\RaggedLeftRightskip=\skip104
+\RaggedRightRightskip=\skip105
+\CenteringParfillskip=\skip106
+\RaggedLeftParfillskip=\skip107
+\RaggedRightParfillskip=\skip108
+\JustifyingParfillskip=\skip109
+\CenteringParindent=\skip110
+\RaggedLeftParindent=\skip111
+\RaggedRightParindent=\skip112
+\JustifyingParindent=\skip113
+) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip114
+\enit@outerparindent=\dimen423
+\enit@toks=\toks85
+\enit@inbox=\box135
+\enit@count@id=\count450
+\enitdp@description=\count451
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 ) (Preambulo/Configurações.tex Excluding 'comment' comment.) (Preambulo/Teoremas.tex
-\c@teo=\count450
-\c@lema=\count451
-\c@prop=\count452
-\c@coro=\count453
-\c@afirm=\count454
-\c@df=\count455
-\c@ex=\count456
-\c@prova=\count457
+\c@teo=\count452
+\c@lema=\count453
+\c@prop=\count454
+\c@coro=\count455
+\c@afirm=\count456
+\c@df=\count457
+\c@ex=\count458
+\c@prova=\count459
 ) (Preambulo/Comandos.tex) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count458
+\l__color_backend_stack_int=\count460
 ) (atompp26.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 12.
- (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/Metodologia.aux))
+ (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux
+
+LaTeX Warning: Label `tab:lev_prel_iot_dl' multiply defined.
+
+))
 \openout1 = `atompp26.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1144,17 +1180,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count459
-\scratchdimen=\dimen423
-\scratchbox=\box135
-\nofMPsegments=\count460
-\nofMParguments=\count461
-\everyMPshowfont=\toks85
-\MPscratchCnt=\count462
-\MPscratchDim=\dimen424
-\MPnumerator=\count463
-\makeMPintoPDFobject=\count464
-\everyMPtoPDFconversion=\toks86
+\scratchcounter=\count461
+\scratchdimen=\dimen424
+\scratchbox=\box136
+\nofMPsegments=\count462
+\nofMParguments=\count463
+\everyMPshowfont=\toks86
+\MPscratchCnt=\count464
+\MPscratchDim=\dimen425
+\MPnumerator=\count465
+\makeMPintoPDFobject=\count466
+\everyMPtoPDFconversion=\toks87
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1218,19 +1254,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
+
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 25.
 
-<libs/cefetmg.png, id=74, 1192.455pt x 1192.455pt>
+<libs/cefetmg.png, id=82, 1192.455pt x 1192.455pt>
 File: libs/cefetmg.png Graphic file (type png)
 <use libs/cefetmg.png>
 Package pdftex.def Info: libs/cefetmg.png  used on input line 46.
@@ -1285,7 +1313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58   \mainmatter
+l.57   \mainmatter
                    [1
 
 ]
@@ -1294,31 +1322,17 @@ l.58   \mainmatter
  (Capitulos/ProblemaDePesquisa.tex
 Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 1320) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 esse pro-cesso, do-cu-men-tado no pro-jeto de Grupo de Ini-cia^^Xc~ao Ci-ent^^S^^Pfica (GIC),
+Underfull \hbox (badness 1708) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/10.95 O ma-ni-pu-la-dor rob^^Sotico "Atom", de-sen-vol-vido an-te-ri-or-mente, pos-sui es-tru-tura
  []
 
-
-Underfull \hbox (badness 1728) in paragraph at lines 6--7
-\OT1/cmr/m/n/12 da au-toma^^Xc~ao in-te-li-gente tem am-pli-ado a de-manda por solu^^Xc~oes aut^onomas de
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 6--7
-\OT1/cmr/m/n/12 His-to-ri-ca-mente, o campo de vis~ao com-pu-ta-ci-o-nal evo-luiu de abor-da-gens cl^^Sassicas
- []
-
-
+)
 
 [1
 
 
 
 ]
-
-[2])
-
-[3]
 \openout2 = `Capitulos/QuestaoDePesquisa.aux'.
 
  (Capitulos/QuestaoDePesquisa.tex
@@ -1329,7 +1343,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 )
 
-[4
+[2
 
 
 
@@ -1345,21 +1359,45 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 )
 
-[5
+[3
 
 
 
 
 ]
+\openout2 = `Capitulos/RevisaoBibliografica.aux'.
+
+ (Capitulos/RevisaoBibliografica.tex
+Cap\'{\i }tulo 4.
+)
+
+[4
+
+
+
+
+]
+
+[5]
 \openout2 = `Capitulos/Metodologia.aux'.
 
  (Capitulos/Metodologia.tex
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 5.
 
 Package natbib Warning: Citation `gil2002' on page 6 undefined on input line 4.
 
 
 Package natbib Warning: Citation `gic2025' on page 6 undefined on input line 7.
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 9--10
+[]\OT1/cmr/bx/n/10.95 Hardware Mec^anico: \OT1/cmr/m/n/10.95 Ma-ni-pu-la-dor rob^^Sotico an-tro-pom^^Sorfico "Atom"(baseado na
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 13--14
+[]\OT1/cmr/m/it/10.95 Single Bo-ard Com-pu-ter (SBC): \OT1/cmr/m/n/10.95 Rasp-berry Pi 4 ou Ba-nana Pi M2 Zero
+ []
 
 
 
@@ -1370,53 +1408,103 @@ Package natbib Warning: Citation `gic2025' on page 6 undefined on input line 7.
 
 ]
 
-[7]
+[7])
 
 [8]
 
 [9]
-Cap\'{\i }tulo 5.
+\openout2 = `Capitulos/Cronograma.aux'.
+
+ (Capitulos/Cronograma.tex
+Cap\'{\i }tulo 6.
 )
 
 [10
 
+
+
+
 ]
+\openout2 = `Capitulos/Apendice.aux'.
+
+ (Capitulos/Apendice.tex
+Cap\'{\i }tulo 7.
+
+Overfull \hbox (2.145pt too wide) in paragraph at lines 63--63
+ []|\OT1/cmr/bx/n/8 T/D| 
+ []
+
+
+Overfull \hbox (1.80037pt too wide) in paragraph at lines 63--63
+\OT1/cmr/m/n/8 com-pu-ta-ci-o-nais 
+ []
+
+
+Overfull \hbox (2.145pt too wide) in paragraph at lines 126--126
+ []|\OT1/cmr/bx/n/8 T/D| 
+ []
+
+
 
 [11
 
 
 
-] (atompp26.bbl)
+
+]
+Overfull \hbox (2.145pt too wide) in paragraph at lines 189--189
+ []|\OT1/cmr/bx/n/8 T/D| 
+ []
+
+
+Overfull \hbox (5.11292pt too wide) in paragraph at lines 189--189
+\OT1/cmr/m/n/8 ele-tro-mec^anicas.|  
+ []
+
+)
+
+[12] (atompp26.bbl
+Underfull \hbox (badness 2932) in paragraph at lines 54--61
+\OT1/cmr/m/it/10.95 e Vis~ao Com-pu-ta-ci-o-nal no De-sen-vol-vi-mento de um Ma-ni-pu-la-dor Aut^onomo\OT1/cmr/m/n/10.95 .
+ []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
 
 
-[12
+[13
+
+
 
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(atompp26.aux (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/Metodologia.aux))
+(atompp26.aux (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `atompp26.out' has not changed.
-(rerunfilecheck)             Checksum: E58B4D6A2DD6D31D2F85961275629BD0;3354.
+(rerunfilecheck)             Checksum: 6127234B901BDE7CEA9FBF18A09D425C;3600.
  ) 
 Here is how much of TeX's memory you used:
- 42483 strings out of 468129
- 828547 string characters out of 5440679
- 1426990 words of memory out of 5000000
- 70290 multiletter control sequences out of 15000+600000
- 637062 words of font info for 82 fonts, out of 8000000 for 9000
+ 43043 strings out of 468129
+ 840693 string characters out of 5440679
+ 1448451 words of memory out of 5000000
+ 70795 multiletter control sequences out of 15000+600000
+ 640540 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,10n,120p,3362b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on atompp26.pdf (15 pages, 271788 bytes).
+ 100i,11n,120p,3362b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on atompp26.pdf (16 pages, 367651 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
