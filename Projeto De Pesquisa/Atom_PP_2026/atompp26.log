@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  18 DEC 2025 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  18 DEC 2025 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1136,23 +1136,42 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box135
 \enit@count@id=\count450
 \enitdp@description=\count451
+) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+ (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+\minimumbiblabelwidth=\skip115
+\ABCIauxlen=\skip116
+\c@ABCIaux=\count452
+\c@ABCImax=\count453
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\maria\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip117
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+LaTeX Info: Redefining \citeyear on input line 927.
+LaTeX Info: Redefining \citeauthor on input line 975.
+LaTeX Info: Redefining \citetext on input line 1064.
+\ABCItoken=\toks86
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 ) (Preambulo/Configurações.tex Excluding 'comment' comment.) (Preambulo/Teoremas.tex
-\c@teo=\count452
-\c@lema=\count453
-\c@prop=\count454
-\c@coro=\count455
-\c@afirm=\count456
-\c@df=\count457
-\c@ex=\count458
-\c@prova=\count459
+\c@teo=\count454
+\c@lema=\count455
+\c@prop=\count456
+\c@coro=\count457
+\c@afirm=\count458
+\c@df=\count459
+\c@ex=\count460
+\c@prova=\count461
 ) (Preambulo/Comandos.tex) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count460
+\l__color_backend_stack_int=\count462
 ) (atompp26.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 12.
+(babel)             Reported on input line 13.
  (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux
 
 LaTeX Warning: Label `tab:lev_prel_iot_dl' multiply defined.
@@ -1180,17 +1199,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count461
+\scratchcounter=\count463
 \scratchdimen=\dimen424
 \scratchbox=\box136
-\nofMPsegments=\count462
-\nofMParguments=\count463
-\everyMPshowfont=\toks86
-\MPscratchCnt=\count464
+\nofMPsegments=\count464
+\nofMParguments=\count465
+\everyMPshowfont=\toks87
+\MPscratchCnt=\count466
 \MPscratchDim=\dimen425
-\MPnumerator=\count465
-\makeMPintoPDFobject=\count466
-\everyMPtoPDFconversion=\toks87
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
+\everyMPtoPDFconversion=\toks88
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1258,7 +1277,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 25.
 
-<libs/cefetmg.png, id=82, 1192.455pt x 1192.455pt>
+<libs/cefetmg.png, id=78, 1192.455pt x 1192.455pt>
 File: libs/cefetmg.png Graphic file (type png)
 <use libs/cefetmg.png>
 Package pdftex.def Info: libs/cefetmg.png  used on input line 46.
@@ -1319,14 +1338,7 @@ l.57   \mainmatter
 ]
 \openout2 = `Capitulos/ProblemaDePesquisa.aux'.
 
- (Capitulos/ProblemaDePesquisa.tex
-Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 1708) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/10.95 O ma-ni-pu-la-dor rob^^Sotico "Atom", de-sen-vol-vido an-te-ri-or-mente, pos-sui es-tru-tura
- []
-
-)
+ (Capitulos/ProblemaDePesquisa.tex)
 
 [1
 
@@ -1336,10 +1348,14 @@ Underfull \hbox (badness 1708) in paragraph at lines 4--5
 \openout2 = `Capitulos/QuestaoDePesquisa.aux'.
 
  (Capitulos/QuestaoDePesquisa.tex
-Cap\'{\i }tulo 2.
+Underfull \hbox (badness 2261) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/10.95 Considerando as li-mita^^Xc~oes de hard-ware de baixo custo e a ne-ces-si-dade de
+ []
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
+
+Underfull \hbox (badness 1852) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/10.95 A pre-sente pes-quisa justifica-se pela ne-ces-si-dade de trans-por as bar-rei-ras do
+ []
 
 )
 
@@ -1347,32 +1363,21 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-
 ]
 \openout2 = `Capitulos/Objetivos.aux'.
 
- (Capitulos/Objetivos.tex
-Cap\'{\i }tulo 3.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-)
+ (Capitulos/Objetivos.tex)
 
 [3
-
 
 
 
 ]
 \openout2 = `Capitulos/RevisaoBibliografica.aux'.
 
- (Capitulos/RevisaoBibliografica.tex
-Cap\'{\i }tulo 4.
-)
+ (Capitulos/RevisaoBibliografica.tex)
 
 [4
-
 
 
 
@@ -1382,27 +1387,13 @@ Cap\'{\i }tulo 4.
 \openout2 = `Capitulos/Metodologia.aux'.
 
  (Capitulos/Metodologia.tex
-Cap\'{\i }tulo 5.
-
-Package natbib Warning: Citation `gil2002' on page 6 undefined on input line 4.
-
-
-Package natbib Warning: Citation `gic2025' on page 6 undefined on input line 7.
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 9--10
+Underfull \hbox (badness 1097) in paragraph at lines 14--15
 []\OT1/cmr/bx/n/10.95 Hardware Mec^anico: \OT1/cmr/m/n/10.95 Ma-ni-pu-la-dor rob^^Sotico an-tro-pom^^Sorfico "Atom"(baseado na
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 13--14
-[]\OT1/cmr/m/it/10.95 Single Bo-ard Com-pu-ter (SBC): \OT1/cmr/m/n/10.95 Rasp-berry Pi 4 ou Ba-nana Pi M2 Zero
  []
 
 
 
 [6
-
 
 
 
@@ -1415,12 +1406,9 @@ Underfull \hbox (badness 2846) in paragraph at lines 13--14
 [9]
 \openout2 = `Capitulos/Cronograma.aux'.
 
- (Capitulos/Cronograma.tex
-Cap\'{\i }tulo 6.
-)
+ (Capitulos/Cronograma.tex)
 
 [10
-
 
 
 
@@ -1428,8 +1416,6 @@ Cap\'{\i }tulo 6.
 \openout2 = `Capitulos/Apendice.aux'.
 
  (Capitulos/Apendice.tex
-Cap\'{\i }tulo 7.
-
 Overfull \hbox (2.145pt too wide) in paragraph at lines 63--63
  []|\OT1/cmr/bx/n/8 T/D| 
  []
@@ -1440,7 +1426,7 @@ Overfull \hbox (1.80037pt too wide) in paragraph at lines 63--63
  []
 
 
-Overfull \hbox (2.145pt too wide) in paragraph at lines 126--126
+Overfull \hbox (2.145pt too wide) in paragraph at lines 125--125
  []|\OT1/cmr/bx/n/8 T/D| 
  []
 
@@ -1450,29 +1436,19 @@ Overfull \hbox (2.145pt too wide) in paragraph at lines 126--126
 
 
 
-
 ]
-Overfull \hbox (2.145pt too wide) in paragraph at lines 189--189
+Overfull \hbox (2.145pt too wide) in paragraph at lines 187--187
  []|\OT1/cmr/bx/n/8 T/D| 
  []
 
 
-Overfull \hbox (5.11292pt too wide) in paragraph at lines 189--189
+Overfull \hbox (5.11292pt too wide) in paragraph at lines 187--187
 \OT1/cmr/m/n/8 ele-tro-mec^anicas.|  
  []
 
 )
 
-[12] (atompp26.bbl
-Underfull \hbox (badness 2932) in paragraph at lines 54--61
-\OT1/cmr/m/it/10.95 e Vis~ao Com-pu-ta-ci-o-nal no De-sen-vol-vi-mento de um Ma-ni-pu-la-dor Aut^onomo\OT1/cmr/m/n/10.95 .
- []
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-
+[12] (atompp26.bbl)
 
 [13
 
@@ -1491,20 +1467,20 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `atompp26.out' has not changed.
-(rerunfilecheck)             Checksum: 6127234B901BDE7CEA9FBF18A09D425C;3600.
+(rerunfilecheck)             Checksum: 08B857D88FD6F452303E8BB58C7515A6;3105.
  ) 
 Here is how much of TeX's memory you used:
- 43043 strings out of 468129
- 840693 string characters out of 5440679
- 1448451 words of memory out of 5000000
- 70795 multiletter control sequences out of 15000+600000
+ 43433 strings out of 468129
+ 847013 string characters out of 5440679
+ 1455080 words of memory out of 5000000
+ 71170 multiletter control sequences out of 15000+600000
  640540 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,120p,3362b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on atompp26.pdf (16 pages, 367651 bytes).
+ 100i,11n,120p,3362b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on atompp26.pdf (16 pages, 393008 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

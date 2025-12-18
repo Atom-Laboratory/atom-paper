@@ -1,55 +1,72 @@
-\chapter{Metodologia}
+\section*{Metodologia}
+\addcontentsline{toc}{section}{Metodologia}
 
-\section{Classificação da Pesquisa}
-A presente pesquisa classifica-se quanto à sua natureza como \textbf{aplicada}, pois objetiva gerar conhecimento para aplicação prática dirigida à solução de problemas específicos na robótica autônoma. Quanto aos objetivos, enquadra-se como \textbf{exploratória e experimental}, visto que envolve a manipulação de variáveis (arquiteturas de hardware e modelos de redes neurais) para analisar o comportamento do objeto de estudo (o braço robótico) em condições controladas. A abordagem é mista (qualitativa e quantitativa), combinando o desenvolvimento de software com a análise estatística de desempenho e latência \cite{gil2002}.
+\subsection*{Classificação da Pesquisa}
+\addcontentsline{toc}{subsection}{Classificação da Pesquisa}
 
-\section{Materiais e Instrumentos}
-Para a realização dos experimentos, serão utilizados os seguintes recursos, baseados na infraestrutura desenvolvida no projeto de iniciação científica anterior \cite{gic2025}:
+A presente pesquisa classifica-se quanto à sua natureza como \textbf{aplicada}, pois objetiva gerar conhecimento para aplicação prática dirigida à solução de problemas específicos na robótica autônoma. Quanto aos objetivos, enquadra-se como \textbf{exploratória e experimental}, visto que envolve a manipulação de variáveis (arquiteturas de hardware e modelos de redes neurais) para analisar o comportamento do objeto de estudo (o braço robótico) em condições controladas. A abordagem é mista (qualitativa e quantitativa), combinando o desenvolvimento de software com a análise estatística de desempenho e latência.
+
+\subsection*{Materiais e Instrumentos}
+\addcontentsline{toc}{subsection}{Materiais e Instrumentos}
+
+Para a realização dos experimentos, serão utilizados os seguintes recursos, baseados na infraestrutura desenvolvida no projeto de iniciação científica anterior \citeonline{Ribas2025}:
 \begin{itemize}
-    \item \textbf{Hardware Mecânico:} Manipulador robótico antropomórfico "Atom" (baseado na plataforma \textit{InMoov}), manufaturado em PLA via impressão 3D.
+    \item \textbf{Hardware Mecânico:} Manipulador robótico antropomórfico "Atom" (baseado na plataforma \textit{InMoov}), manufaturado em PLA via impressão 3D. Para viabilizar a manipulação em espaço tridimensional, será projetada e fabricada via impressão 3D uma \textbf{base cinemática de dois graus de liberdade (DoF)}. Esta base consistirá em um sistema de rotação (Yaw) e inclinação (Pitch), permitindo que o antebraço atinja as coordenadas $(X, Y, Z)$ calculadas pelo sistema de visão.
     \item \textbf{Hardware de Processamento:}
     \begin{itemize}
-        \item \textit{Microcontroladores:} Arduino Mega 2560 (controle de atuadores) e ESP32-CAM (aquisição de imagem sem fio).
-        \item \textit{Single Board Computer (SBC):} Raspberry Pi 4 ou Banana Pi M2 Zero (processamento de IA na borda).
+        \item \textit{Microcontroladores:} Arduino UNO.
+        \item \textbf{SBCs:} Microcomputadores Raspberry Pi e Banana Pi para processamento na borda.
+    \item \textbf{Módulos IoT:} ESP32 e ESP32-CAM para captura e transmissão de vídeo.
+    \item \textbf{Energia:} Baterias e fontes de alimentação (5V/12V) com reguladores DC-DC.
     \end{itemize}
-    \item \textbf{Software e Ferramentas:} Linguagens Python e C++, bibliotecas OpenCV 4.x, TensorFlow Lite (para inferência embarcada), ambiente de desenvolvimento VS Code e ferramentas de CAD para eventuais ajustes mecânicos.
+    \item \textbf{Software e Ferramentas:} Algoritmos de visão computacional e aprendizado de máquina desenvolvidos em Python, C++, utilizando bibliotecas como OpenCV, TensorFlow Lite e PyTorch.
 \end{itemize}
 
-\section{Procedimentos Metodológicos}
-O desenvolvimento do projeto seguirá um ciclo incremental dividido em quatro fases distintas:
+\section*{Procedimentos Metodológicos}
+\addcontentsline{toc}{section}{Procedimentos Metodológicos}
 
-\subsection{Fase 1: Arquitetura de Visão e Aquisição de Dados (O Olho)}
-Nesta etapa, será configurado o sistema de percepção visual. O módulo ESP32-CAM será programado para atuar como um nó de captura de vídeo IP (\textit{stream}), transmitindo quadros em resolução QVGA/VGA via protocolo UDP/TCP para a unidade de processamento central (SBC).
-Serão aplicadas técnicas de pré-processamento digital de imagens utilizando a biblioteca OpenCV, incluindo:
+O desenvolvimento do projeto seguirá um ciclo incremental dividido em cinco fases distintas:
+
+\subsection*{Fase 1: Arquitetura de Visão e Aquisição de Dados}
+Nesta etapa, será configurado o sistema de percepção visual. O sistema com o módulo ESP32-CAM em conjunto com webcams será programado para atuar como um nó de captura de vídeo IP (\textit{stream}), transmitindo quadros para a unidade de processamento central (SBC). Serão aplicadas técnicas de pré-processamento digital de imagens utilizando a biblioteca OpenCV, incluindo:
 \begin{itemize}
     \item Conversão de espaço de cores (BGR para RGB/Grayscale);
-    \item Filtros de redução de ruído (Gaussian Blur) para estabilizar a detecção em ambientes com iluminação variável;
+    \item Filtros de redução de ruído (\textit{Gaussian Blur}) para estabilizar a detecção em ambientes com iluminação variável;
     \item Redimensionamento de quadros (\textit{resizing}) para adequação à entrada da rede neural.
 \end{itemize}
 
-\subsection{Fase 2: Inteligência Artificial e Processamento na Borda (O Cérebro)}
+\subsection*{Fase 2: Desenvolvimento da Base Cinemática (Upgrade de Hardware)}
+Considerando que o protótipo anterior \citeonline{Ribas2025} consistia apenas no antebraço e efetuador, esta fase visa expandir a cadeia cinemática:
+\begin{itemize}
+    \item \textbf{Modelagem CAD:} Projeto de uma base robótica de dois graus de liberdade (DoF) composta por um eixo de rotação (Yaw) e um de inclinação (Pitch).
+    \item \textbf{Manufatura e Montagem:} Impressão 3D das peças em PLA e integração de servomotores de alto torque para suportar a carga estrutural do antebraço InMoov existente.
+    \item \textbf{Ampliação do Espaço de Trabalho:} Esta modificação permitirá que o robô atinja coordenadas $(X, Y, Z)$ no espaço tridimensional, tornando viável a integração com o sistema de visão.
+\end{itemize}
+
+\subsection*{Fase 3: Inteligência Artificial e Processamento na Borda}
 Esta fase concentra o núcleo da inovação do projeto, focando na implementação de \textit{Edge AI}:
 \begin{enumerate}
-    \item \textbf{Coleta e Curadoria de Dataset:} Criação de um banco de imagens proprietário contendo os objetos de manipulação (ex: cubos, ferramentas), com anotação de \textit{bounding boxes} para treinamento supervisionado.
-    \item \textbf{Treinamento e Otimização:} Utilização de \textit{Transfer Learning} em arquiteturas leves como \textbf{MobileNetV2-SSD} ou \textbf{YOLOv8 Nano}. O treinamento será realizado em ambiente de alto desempenho (PC com GPU) e, posteriormente, o modelo será convertido para o formato \texttt{.tflite} (TensorFlow Lite), aplicando quantização (INT8) para reduzir o uso de memória na SBC.
-    \item \textbf{Inferência Embarcada:} Implementação do algoritmo de detecção rodando localmente na Raspberry Pi/Banana Pi, visando uma taxa de atualização mínima de 10 FPS para garantir fluidez.
+    \item \textbf{Coleta e Curadoria de Dataset:} Criação de um banco de imagens proprietário contendo os objetos de manipulação, com anotação de \textit{bounding boxes}.
+    \item \textbf{Treinamento e Otimização:} Utilização de \textit{Transfer Learning} em arquiteturas como \textbf{MobileNetV2-SSD} ou \textbf{YOLOv8 Nano}. O modelo será convertido para o formato \texttt{.tflite} (TensorFlow Lite), aplicando quantização (INT8) para reduzir o uso de memória na SBC.
+    \item \textbf{Inferência Embarcada:} Implementação do algoritmo de detecção rodando localmente na Raspberry Pi/Banana Pi, visando uma taxa de atualização mínima de 10 FPS.
 \end{enumerate}
 
-\subsection{Fase 3: Integração e Controle Cinemático (O Braço)}
-A integração entre a "visão" e a "ação" ocorrerá através de protocolos de comunicação serial (UART/I2C):
+\subsection*{Fase 4: Integração e Controle Cinemático}
+A integração entre a "visão" e a "ação" ocorrerá através de protocolos de comunicação serial:
 \begin{itemize}
-    \item O algoritmo de IA extrairá as coordenadas do centroide ($X, Y$) e a profundidade estimada ($Z$) do objeto detectado.
-    \item Um módulo de cinemática inversa calculará os ângulos necessários para as juntas ($\theta_1, \theta_2, \theta_3, \dots$) para posicionar o efetuador final nas coordenadas alvo.
-    \item O Arduino receberá o vetor de ângulos e acionará os servomotores de forma sincronizada.
+    \item O algoritmo de IA extrairá as coordenadas do centroide ($X, Y$) e a profundidade estimada ($Z$) do objeto.
+    \item Um módulo de \textbf{cinemática inversa}, baseado na nova configuração da base de movimento, calculará os ângulos necessários para as juntas ($\theta_{base}, \theta_{ombro}, \theta_{pulso}$).
+    \item O Arduino Mega receberá o vetor de ângulos e acionará os servomotores de forma sincronizada para o posicionamento do efetuador.
 \end{itemize}
 
-\subsection{Fase 4: Validação e Análise de Dados}
-A validação será realizada através de testes de "Pick and Place" (pegar e soltar), coletando métricas quantitativas:
+\subsection*{Fase 5: Validação e Análise de Dados}
+A validação será realizada através de testes de "Pick and Place", coletando métricas quantitativas:
 \begin{itemize}
-    \item \textbf{Acurácia de Detecção (\%):} Taxa de identificação correta dos objetos em diferentes condições de luz.
-    \item \textbf{Taxa de Sucesso na Manipulação (\%):} Percentual de tentativas em que o robô consegue efetivamente segurar e mover o objeto.
-    \item \textbf{Latência do Sistema (ms):} Tempo decorrido entre a captura da imagem e o início do movimento do motor.
+    \item \textbf{Acurácia de Detecção (\%):} Taxa de identificação correta dos objetos.
+    \item \textbf{Taxa de Sucesso na Manipulação (\%):} Percentual de tentativas em que o robô consegue efetivamente segurar e mover o objeto para o destino.
+    \item \textbf{Latência do Sistema (ms):} Tempo decorrido entre a captura da imagem e o início do movimento físico dos motores.
 \end{itemize}
 
-\section{Aspectos Éticos}
+\subsection*{Aspectos Éticos}
+\addcontentsline{toc}{subsection}{Aspectos Éticos}
 Por tratar-se de pesquisa experimental em robótica e engenharia de software, o projeto não envolve testes com seres humanos ou animais, dispensando submissão ao Comitê de Ética em Pesquisa (CEP/CONEP), conforme Resolução CNS nº 510/2016. A coleta de dados visuais restringir-se-á a objetos inanimados no ambiente laboratorial, garantindo que nenhuma imagem de terceiros seja armazenada ou processada sem consentimento.
