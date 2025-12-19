@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  18 DEC 2025 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  19 DEC 2025 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,7 +1277,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 25.
 
-<libs/cefetmg.png, id=78, 1192.455pt x 1192.455pt>
+<libs/cefetmg.png, id=82, 1192.455pt x 1192.455pt>
 File: libs/cefetmg.png Graphic file (type png)
 <use libs/cefetmg.png>
 Package pdftex.def Info: libs/cefetmg.png  used on input line 46.
@@ -1338,7 +1338,12 @@ l.57   \mainmatter
 ]
 \openout2 = `Capitulos/ProblemaDePesquisa.aux'.
 
- (Capitulos/ProblemaDePesquisa.tex)
+ (Capitulos/ProblemaDePesquisa.tex
+Underfull \hbox (badness 3758) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/10.95 Essa li-mita^^Xc~ao mo-ti-vou o apro-fun-da-mento te^^Sorico e ex-pe-ri-men-tal em vis~ao
+ []
+
+)
 
 [1
 
@@ -1375,13 +1380,13 @@ Underfull \hbox (badness 1852) in paragraph at lines 9--10
 ]
 \openout2 = `Capitulos/RevisaoBibliografica.aux'.
 
- (Capitulos/RevisaoBibliografica.tex)
+ (Capitulos/RevisaoBibliografica.tex
 
 [4
 
 
 
-]
+])
 
 [5]
 \openout2 = `Capitulos/Metodologia.aux'.
@@ -1431,12 +1436,6 @@ Overfull \hbox (2.145pt too wide) in paragraph at lines 125--125
  []
 
 
-
-[11
-
-
-
-]
 Overfull \hbox (2.145pt too wide) in paragraph at lines 187--187
  []|\OT1/cmr/bx/n/8 T/D| 
  []
@@ -1448,14 +1447,22 @@ Overfull \hbox (5.11292pt too wide) in paragraph at lines 187--187
 
 )
 
-[12] (atompp26.bbl)
+[11
+
+
+
+]
+
+[12] (atompp26.bbl
 
 [13
 
 
 
 
-] 
+])
+
+[14] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (atompp26.aux (Capitulos/ProblemaDePesquisa.aux) (Capitulos/QuestaoDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux))
  ***********
@@ -1467,20 +1474,20 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `atompp26.out' has not changed.
-(rerunfilecheck)             Checksum: 08B857D88FD6F452303E8BB58C7515A6;3105.
+(rerunfilecheck)             Checksum: EC38B14455CE5422542744435E6A4A7B;3339.
  ) 
 Here is how much of TeX's memory you used:
- 43433 strings out of 468129
- 847013 string characters out of 5440679
- 1455080 words of memory out of 5000000
- 71170 multiletter control sequences out of 15000+600000
+ 43442 strings out of 468129
+ 847192 string characters out of 5440679
+ 1462386 words of memory out of 5000000
+ 71175 multiletter control sequences out of 15000+600000
  640540 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,120p,3362b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,11n,120p,3362b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on atompp26.pdf (16 pages, 393008 bytes).
+Output written on atompp26.pdf (17 pages, 399763 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

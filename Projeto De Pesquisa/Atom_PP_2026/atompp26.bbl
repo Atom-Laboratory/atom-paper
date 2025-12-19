@@ -14,6 +14,12 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Tecnol{\'o}gica
   Federal do Paran{\'a}, fev. 2022. Programa: Inform{\'a}tica (40006018025P8);
   Defesa: 15/02/2022.}
 
+\bibitem[Bradski e Kaehler 2008]{BradskiKaehler2008}
+\abntrefinfo{Bradski e Kaehler}{BRADSKI; KAEHLER}{2008}
+{BRADSKI, G.; KAEHLER, A. \emph{Learning OpenCV: Computer Vision with the
+  OpenCV Library}. Sebastopol, CA: O'Reilly Media, Inc., 2008. 580~p.
+ISBN 978-0-596-51613-0.}
+
 \bibitem[Cardoso 2020]{Cardoso2020}
 \abntrefinfo{Cardoso}{CARDOSO}{2020}
 {CARDOSO, A.~M.
@@ -87,5 +93,11 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Tecnol{\'o}gica
   com Aprendizagem Profunda Para um Sistema IOT}.
 Disserta\c{c}\~{a}o (Tese) --- Universidade Federal do Oeste do Pará, abr.
   2023. Defesa: 04/04/2023.}
+
+\bibitem[Szeliski 2021]{Szeliski2021}
+\abntrefinfo{Szeliski}{SZELISKI}{2021}
+{SZELISKI, R. \emph{Computer Vision: Algorithms and Applications}. 2. ed. Cham,
+  Switzerland: Springer, 2021.
+ISBN 978-3-030-58452-8.}
 
 \end{thebibliography}
