@@ -5,44 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: apalike-sol.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
-You've used 4 entries,
+You've used 5 entries,
             1961 wiz_defined-function locations,
-            502 strings with 4234 characters,
-and the built_in function-call counts, 1481 in all, are:
-= -- 141
-> -- 50
-< -- 4
-+ -- 16
-- -- 16
-* -- 102
-:= -- 257
-add.period$ -- 13
-call.type$ -- 4
-change.case$ -- 25
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 69
-empty$ -- 115
-format.name$ -- 22
-if$ -- 302
+            507 strings with 4264 characters,
+and the built_in function-call counts, 1756 in all, are:
+= -- 166
+> -- 57
+< -- 5
++ -- 18
+- -- 18
+* -- 119
+:= -- 308
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 30
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 83
+empty$ -- 138
+format.name$ -- 25
+if$ -- 356
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 23
-num.names$ -- 12
-pop$ -- 37
+missing$ -- 9
+newline$ -- 28
+num.names$ -- 15
+pop$ -- 45
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 34
 quote$ -- 0
-skip$ -- 52
+skip$ -- 62
 stack$ -- 0
-substring$ -- 80
-swap$ -- 13
+substring$ -- 92
+swap$ -- 14
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 22
 warning$ -- 0
-while$ -- 11
+while$ -- 13
 width$ -- 0
-write$ -- 53
+write$ -- 65
