@@ -510,11 +510,11 @@ INPUT .\capitulos\03-metodologia.tex
 INPUT capitulos\03-metodologia.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-BoldItalic-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1--base.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT .\images\LicensePlateHaarCascade-FlowDiagram.png
 INPUT .\images\LicensePlateHaarCascade-FlowDiagram.png
 INPUT .\images\LicensePlateHaarCascade-FlowDiagram.png
