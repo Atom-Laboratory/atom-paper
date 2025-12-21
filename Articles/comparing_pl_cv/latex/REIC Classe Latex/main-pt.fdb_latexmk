@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1764035882.18681 "main-pt.aux" "main-pt.bbl" "main-pt" 1764035886.41469 0
+["bibtex main-pt"] 1765127984.48055 "main-pt.aux" "main-pt.bbl" "main-pt" 1765127989.24394 0
   "./apalike-sol.bst" 1761662265 26049 269dedab788b7f84af88c155ecb45872 ""
   "./refs.bib" 1761662265 1252 4aabe282bdd2733236c9481b05e89d3d ""
-  "main-pt.aux" 1764035885 4756 5e289fce349b46e868b56e69237d9238 "pdflatex"
+  "main-pt.aux" 1765127988 5957 cd8ecd2017c8fb97c0ab18bc4c5e8365 "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1764035882.57573 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1764035886.41557 0
+["pdflatex"] 1765127984.92881 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1765127989.24493 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecit1000.tfm" 993062048 1356 26b6ae61ed8e8f2b58dad9f0a3f033b4 ""
@@ -36,6 +36,7 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Program Files/MiKTeX/tex/generic/babel/babel.sty" 1754220793 146665 9149bce97203d4030d7cbe4f4e85dfc4 ""
@@ -293,19 +294,20 @@
   "C:/Users/maria/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "aas_macros.sty" 1761662265 5057 cf45ff75f433e372cec5993ac08f4363 ""
   "capitulos/01-introducao.tex" 1761662265 2631 8676b20dc96005f85fbd9b446a2bc504 ""
-  "capitulos/02-revisao-bibliografica.tex" 1761662265 3270 daa8f47edb08cf944ef797b9a3ba71b5 ""
-  "capitulos/03-metodologia.tex" 1764035876 4450 9ecc5acee866ee825fa4b721ee1154c1 ""
-  "capitulos/04-resultados.tex" 1764033022 16678 05edd70cde00ebc06f2328ab8e0799eb ""
+  "capitulos/02-revisao-bibliografica.tex" 1765126432 2471 8da59a3678c178e8b60a3173f1bc2925 ""
+  "capitulos/03-metodologia.tex" 1765127978 10064 246df09802c39d0336007265b39d98ee ""
+  "capitulos/04-resultados.tex" 1765125098 16692 9b36b21259f4cd3e0601b422c4daad6a ""
   "capitulos/05-discussao.tex" 1763986815 1279 448ecaa049b38cdfa5737b51d11000f7 ""
   "capitulos/06-conclusao.tex" 1763987035 1285 079bd563772b840cb7e9bb884dfd84a0 ""
-  "capitulos/header.tex" 1763987853 1881 42a7884eb31ab017d340617e45d8e58e ""
-  "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1764032874 6645 8c9079cfc47b94dfd349f3ede2f91b3e ""
-  "main-pt.aux" 1764035885 4756 5e289fce349b46e868b56e69237d9238 "pdflatex"
-  "main-pt.bbl" 1764035882 810 9d2af5ce39b5be6beccf050c5b73c7a5 "bibtex main-pt"
-  "main-pt.out" 1764035885 3386 9800a7aa18bd143a7d38d8b1d8987a14 "pdflatex"
-  "main-pt.tex" 1764032874 6645 8c9079cfc47b94dfd349f3ede2f91b3e ""
+  "capitulos/header.tex" 1765126353 1866 528d891163a0cae187f6989082bac89e ""
+  "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1764936378 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
+  "images/LicensePlateHaarCascade-FlowDiagram.png" 1765125492 478200 0f0f01edfc6a7ae84ff44c7f55373ebf ""
+  "images/sol.jpg" 1761662265 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
+  "main-pt.aux" 1765127988 5957 cd8ecd2017c8fb97c0ab18bc4c5e8365 "pdflatex"
+  "main-pt.bbl" 1765127984 810 9d2af5ce39b5be6beccf050c5b73c7a5 "bibtex main-pt"
+  "main-pt.out" 1765127988 4238 732cdbc1df78618d1910f0b4724314da "pdflatex"
+  "main-pt.tex" 1764936378 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
   "sbc2025.cls" 1761662265 15189 38c3464541d394eb4cd01fcacbcc285b ""
-  "sol.jpg" 1761662265 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
   (generated)
   "main-pt.aux"
   "main-pt.log"
