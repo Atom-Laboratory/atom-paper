@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main-pt"] 1766324064.34515 "main-pt.aux" "main-pt.bbl" "main-pt" 1766324069.99172 0
+["bibtex main-pt"] 1766680886.704 "main-pt.aux" "main-pt.bbl" "main-pt" 1766680893.07004 0
   "./apalike-sol.bst" 1766320976 26049 269dedab788b7f84af88c155ecb45872 ""
-  "./refs.bib" 1766324017 1352 fb4aa9e0b6ebe324898b4b74253d4a60 ""
-  "main-pt.aux" 1766324068 6020 483d8d3942b6fbd2843ed946dca86f51 "pdflatex"
+  "./refs.bib" 1766680852 1384 0505cca2e695ea417b63e2250ca2dea6 ""
+  "main-pt.aux" 1766680891 6025 f0030934678e6dafddfcbeb1dda8f561 "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1766324064.8562 "c:/Users/dudug/OneDrive/Área de Trabalho/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1766324069.99333 0
-  "C:/Users/dudug/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766323225 261737 7220613afb705163d15b5701e7470e45 ""
+["pdflatex"] 1766680887.24304 "c:/Users/dudug/OneDrive/Área de Trabalho/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1766680893.07175 0
+  "C:/Users/dudug/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766372107 261737 7220613afb705163d15b5701e7470e45 ""
   "C:/Users/dudug/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecit1000.pk" 1766323233 26728 1785d3518d0a033e4ad8a525f2440144 ""
   "C:/Users/dudug/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1766323235 20028 2b1119fb1554050f0587aced33792978 ""
   "C:/Users/dudug/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766323148 13333512 2853405ff465fa02e86a24e97e5b4c15 ""
@@ -295,7 +295,7 @@
   "aas_macros.sty" 1766320976 5057 cf45ff75f433e372cec5993ac08f4363 ""
   "c:/Users/dudug/OneDrive/Área de Trabalho/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1766323148 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
   "capitulos/01-introducao.tex" 1766320976 2631 8676b20dc96005f85fbd9b446a2bc504 ""
-  "capitulos/02-revisao-bibliografica.tex" 1766324067 2495 ae67aaa981203bce3d68b6b96c3b719f ""
+  "capitulos/02-revisao-bibliografica.tex" 1766680890 3290 0ac45a60ca2b03cba2e6ce61fa497094 ""
   "capitulos/03-metodologia.tex" 1766320976 10064 246df09802c39d0336007265b39d98ee ""
   "capitulos/04-resultados.tex" 1766320976 16692 9b36b21259f4cd3e0601b422c4daad6a ""
   "capitulos/05-discussao.tex" 1766320976 1279 448ecaa049b38cdfa5737b51d11000f7 ""
@@ -303,9 +303,9 @@
   "capitulos/header.tex" 1766320976 1866 528d891163a0cae187f6989082bac89e ""
   "images/LicensePlateHaarCascade-FlowDiagram.png" 1766320976 478200 0f0f01edfc6a7ae84ff44c7f55373ebf ""
   "images/sol.jpg" 1766320976 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
-  "main-pt.aux" 1766324068 6020 483d8d3942b6fbd2843ed946dca86f51 "pdflatex"
-  "main-pt.bbl" 1766324064 905 75a55c4c7f69a1884ccd792f4cf56853 "bibtex main-pt"
-  "main-pt.out" 1766324068 4238 732cdbc1df78618d1910f0b4724314da "pdflatex"
+  "main-pt.aux" 1766680891 6025 f0030934678e6dafddfcbeb1dda8f561 "pdflatex"
+  "main-pt.bbl" 1766680887 934 11a8393f9672f311425f30c525131798 "bibtex main-pt"
+  "main-pt.out" 1766680891 4238 732cdbc1df78618d1910f0b4724314da "pdflatex"
   "main-pt.tex" 1766323148 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
   "sbc2025.cls" 1766320976 15189 38c3464541d394eb4cd01fcacbcc285b ""
   (generated)
