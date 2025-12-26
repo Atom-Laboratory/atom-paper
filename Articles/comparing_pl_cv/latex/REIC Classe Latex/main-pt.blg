@@ -5,44 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: apalike-sol.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
-You've used 5 entries,
+Warning--empty doi in bradski2000opencv
+You've used 7 entries,
             1961 wiz_defined-function locations,
-            507 strings with 4291 characters,
-and the built_in function-call counts, 1756 in all, are:
-= -- 166
-> -- 57
-< -- 5
-+ -- 18
-- -- 18
-* -- 119
-:= -- 308
-add.period$ -- 16
-call.type$ -- 5
-change.case$ -- 30
-chr.to.int$ -- 5
-cite$ -- 5
-duplicate$ -- 83
-empty$ -- 138
-format.name$ -- 25
-if$ -- 356
+            517 strings with 4492 characters,
+and the built_in function-call counts, 2355 in all, are:
+= -- 222
+> -- 77
+< -- 7
++ -- 26
+- -- 24
+* -- 161
+:= -- 418
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 8
+duplicate$ -- 110
+empty$ -- 182
+format.name$ -- 35
+if$ -- 471
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 28
-num.names$ -- 15
-pop$ -- 45
+missing$ -- 12
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 58
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 47
 quote$ -- 0
-skip$ -- 62
+skip$ -- 83
 stack$ -- 0
-substring$ -- 92
-swap$ -- 14
+substring$ -- 118
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
-warning$ -- 0
-while$ -- 13
+type$ -- 32
+warning$ -- 1
+while$ -- 17
 width$ -- 0
-write$ -- 65
+write$ -- 90
+(There was 1 warning)

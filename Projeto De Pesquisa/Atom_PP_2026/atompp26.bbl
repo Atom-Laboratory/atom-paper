@@ -43,6 +43,12 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Federal do
 Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Federal do Rio de
   Janeiro, dez. 2023. Defesa: 04/12/2023.}
 
+\bibitem[Langevin 2012]{inMoov}
+\abntrefinfo{Langevin}{LANGEVIN}{2012}
+{LANGEVIN, G. \emph{inMoov: The open source 3D printed life size robot}. 2012.
+  \url{https://inmoov.fr/}.
+Accessed: 2025-12-26.}
+
 \bibitem[Menezes 2013]{Menezes2013}
 \abntrefinfo{Menezes}{MENEZES}{2013}
 {MENEZES, R. P. B.~d.
@@ -70,6 +76,12 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Federal de Minas
   visão computacional para automação e controle}.
 Belo Horizonte, 2025. Disponível em: \url{ https://github.com/AtomArm } Acesso
   em: 18 de dez. de 2025.}
+
+\bibitem[Ribas et al. 2025]{Ribas2025Article}
+\abntrefinfo{Ribas et al.}{RIBAS et al.}{2025}
+{RIBAS, E. R. L.~D. et al. The cost of abstraction in {OpenCV}: Performance,
+  stability, and usability analysis across {C++}, {Java}, and {Python}.
+  Unpublished. 2025.}
 
 \bibitem[Santos 2022]{Santos2022}
 \abntrefinfo{Santos}{SANTOS}{2022}

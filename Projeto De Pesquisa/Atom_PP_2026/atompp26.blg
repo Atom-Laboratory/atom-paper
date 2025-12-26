@@ -40,45 +40,45 @@ Warning--faltando school em Pereira2022
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 14 entries,
+You've used 16 entries,
             6714 wiz_defined-function locations,
-            1295 strings with 12115 characters,
-and the built_in function-call counts, 8212 in all, are:
-= -- 721
-> -- 213
+            1307 strings with 12440 characters,
+and the built_in function-call counts, 9457 in all, are:
+= -- 816
+> -- 260
 < -- 1
-+ -- 119
-- -- 70
-* -- 532
-:= -- 1260
-add.period$ -- 53
-call.type$ -- 14
-change.case$ -- 96
-chr.to.int$ -- 17
-cite$ -- 14
-duplicate$ -- 423
-empty$ -- 631
-format.name$ -- 323
-if$ -- 1870
++ -- 137
+- -- 85
+* -- 619
+:= -- 1445
+add.period$ -- 62
+call.type$ -- 16
+change.case$ -- 116
+chr.to.int$ -- 19
+cite$ -- 16
+duplicate$ -- 475
+empty$ -- 723
+format.name$ -- 393
+if$ -- 2162
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 237
-newline$ -- 81
-num.names$ -- 65
-pop$ -- 251
+missing$ -- 269
+newline$ -- 90
+num.names$ -- 75
+pop$ -- 283
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 50
 quote$ -- 0
-skip$ -- 491
+skip$ -- 553
 stack$ -- 1
-substring$ -- 184
-swap$ -- 190
+substring$ -- 225
+swap$ -- 213
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 27
 warning$ -- 1
-while$ -- 71
+while$ -- 83
 width$ -- 0
-write$ -- 212
+write$ -- 241
 (There was 1 warning)
