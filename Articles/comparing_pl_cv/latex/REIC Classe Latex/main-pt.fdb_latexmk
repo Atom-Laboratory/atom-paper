@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1766765122.42654 "main-pt.aux" "main-pt.bbl" "main-pt" 1766765123.11696 0
+["bibtex main-pt"] 1767137039.19814 "main-pt.aux" "main-pt.bbl" "main-pt" 1767137043.7794 0
   "./apalike-sol.bst" 1765534963 26049 269dedab788b7f84af88c155ecb45872 ""
-  "./refs.bib" 1766765121 1932 1827618206d750b811ebbf8b76b90c4a ""
-  "main-pt.aux" 1766764739 6409 108559fd539c56fbcf82c5c4f0956d3d "pdflatex"
+  "./refs.bib" 1767136712 2471 3a9c868ea51eaecfb567d6ebf03e4cef ""
+  "main-pt.aux" 1767137042 5802 788743a0a30d73ed0c33790b5019469b "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1766764735.83396 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1766765123.11752 0
+["pdflatex"] 1767137039.66405 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1767137043.78038 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecit1000.tfm" 993062048 1356 26b6ae61ed8e8f2b58dad9f0a3f033b4 ""
@@ -32,9 +32,7 @@
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
@@ -296,16 +294,16 @@
   "capitulos/01-introducao.tex" 1765534963 2631 8676b20dc96005f85fbd9b446a2bc504 ""
   "capitulos/02-revisao-bibliografica.tex" 1766761923 5071 325f418b5df27ea5b1e825ded19e0be9 ""
   "capitulos/03-metodologia.tex" 1765534963 10064 246df09802c39d0336007265b39d98ee ""
-  "capitulos/04-resultados.tex" 1765534963 16692 9b36b21259f4cd3e0601b422c4daad6a ""
+  "capitulos/04-resultados.tex" 1767137033 12314 db010947a6769278e1edb2e1c8854f8c ""
   "capitulos/05-discussao.tex" 1765534963 1279 448ecaa049b38cdfa5737b51d11000f7 ""
   "capitulos/06-conclusao.tex" 1765534963 1285 079bd563772b840cb7e9bb884dfd84a0 ""
   "capitulos/header.tex" 1765534963 1866 528d891163a0cae187f6989082bac89e ""
   "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1766709876 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
   "images/LicensePlateHaarCascade-FlowDiagram.png" 1765534963 478200 0f0f01edfc6a7ae84ff44c7f55373ebf ""
   "images/sol.jpg" 1765534963 151395 dd7eb84f1ace30eb0678fd97a5266d6f ""
-  "main-pt.aux" 1766764739 6409 108559fd539c56fbcf82c5c4f0956d3d "pdflatex"
-  "main-pt.bbl" 1766765122 1292 437856bd78e2e4c1f00dfbec5c5a3c01 "bibtex main-pt"
-  "main-pt.out" 1766764739 4238 732cdbc1df78618d1910f0b4724314da "pdflatex"
+  "main-pt.aux" 1767137042 5802 788743a0a30d73ed0c33790b5019469b "pdflatex"
+  "main-pt.bbl" 1767137039 1292 437856bd78e2e4c1f00dfbec5c5a3c01 "bibtex main-pt"
+  "main-pt.out" 1767137042 4238 732cdbc1df78618d1910f0b4724314da "pdflatex"
   "main-pt.tex" 1766709876 6997 f7c34a24b591079c1b8d3616b4b05fd6 ""
   "sbc2025.cls" 1765534963 15189 38c3464541d394eb4cd01fcacbcc285b ""
   (generated)

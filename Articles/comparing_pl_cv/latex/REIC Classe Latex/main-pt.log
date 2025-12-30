@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  26 DEC 2025 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  30 DEC 2025 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,38 +1118,35 @@ Package pdftex.def Info: images/LicensePlateHaarCascade-FlowDiagram.png  used on
 ) (capitulos/04-resultados.tex
 
 
-Underfull \vbox (badness 1057) has occurred while \output is active []
-
-
 
 [4 <./images/LicensePlateHaarCascade-FlowDiagram.png>]
+Package pgfplots info on input line 35: Using 'lua backend=false' for axis: x coord trafo unsupported.
 
-Package pgfplots info on input line 72: Using 'lua backend=false' for axis: x coord trafo unsupported.
 
-
-[5]
-<images/sol.jpg, id=196, 1156.32pt x 650.43pt>
+<images/sol.jpg, id=187, 1156.32pt x 650.43pt>
 File: images/sol.jpg Graphic file (type jpg)
 <use images/sol.jpg>
-Package pdftex.def Info: images/sol.jpg  used on input line 93.
+Package pdftex.def Info: images/sol.jpg  used on input line 56.
 (pdftex.def)             Requested size: 240.0pt x 134.99644pt.
 
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
+
+
+[5 <./images/sol.jpg>]
 File: images/sol.jpg Graphic file (type jpg)
 <use images/sol.jpg>
-Package pdftex.def Info: images/sol.jpg  used on input line 104.
+Package pdftex.def Info: images/sol.jpg  used on input line 67.
 (pdftex.def)             Requested size: 360.0pt x 202.49466pt.
 
 
-[6 <./images/sol.jpg>]) (capitulos/05-discussao.tex
+) (capitulos/05-discussao.tex) (capitulos/06-conclusao.tex)
 
-) (capitulos/06-conclusao.tex)
+[6]
 
-[7] (main-pt.bbl
+(main-pt.bbl)
 
-)
-
-[8] (main-pt.aux)
+[7] (main-pt.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1162,17 +1159,17 @@ Package rerunfilecheck Info: File `main-pt.out' has not changed.
 (rerunfilecheck)             Checksum: 732CDBC1DF78618D1910F0B4724314DA;4238.
  ) 
 Here is how much of TeX's memory you used:
- 43981 strings out of 468129
- 984104 string characters out of 5440679
- 1519538 words of memory out of 5000000
- 71518 multiletter control sequences out of 15000+600000
- 919786 words of font info for 275 fonts, out of 8000000 for 9000
+ 43968 strings out of 468129
+ 983909 string characters out of 5440679
+ 1511002 words of memory out of 5000000
+ 71512 multiletter control sequences out of 15000+600000
+ 919683 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,19n,135p,1954b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (8 pages, 842834 bytes).
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on main-pt.pdf (7 pages, 822186 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  88271 words of extra memory for PDF output out of 89155 (max. 10000000)
 

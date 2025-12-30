@@ -3,52 +3,15 @@
 
 \subsection{Resultados Esperados}
 
-Com base na metodologia descrita anteriormente, espera-se obter uma análise detalhada e comparativa das linguagens de programação e bibliotecas mais utilizadas em visão computacional. Os resultados esperados incluem:
-\begin{itemize}
-    \item Uma tabela comparativa que destaque as principais características, vantagens e desvantagens de cada linguagem e biblioteca avaliada.
-    \item Gráficos que ilustrem a performance de cada ferramenta em diferentes cenários de aplicação.
-    \item Identificação das linguagens e bibliotecas mais adequadas para diferentes tipos de projetos em visão computacional, considerando os critérios estabelecidos.
-    \item Exemplos práticos que demonstrem a aplicação de cada ferramenta em projetos reais, evidenciando suas capacidades e limitações.
-    \item Recomendações para desenvolvedores e pesquisadores sobre a escolha da linguagem ou biblioteca mais adequada para suas necessidades específicas em visão computacional.
-\end{itemize}
+Com base na metodologia experimental adotada, espera-se que os resultados evidenciem diferenças claras de desempenho, estabilidade e usabilidade entre as linguagens C++, Java e Python ao utilizar a biblioteca OpenCV para tarefas clássicas de visão computacional.
 
-\begin{table*}
-\caption{Exemplo de legenda de tabela.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.} 
-\centering
-\begin{tabular*}{\textwidth}{@{}c\x c\x c\x c\x c\x c\x c\x c\x c\x c\x c\x c@{}}
-\hline \hline
- Número   &  Vel (km/h)   & $\alpha$ (m/s$^2$)    &  $\epsilon^{(1)}$  &  $\epsilon^{(2)}$ 
-         & $\delta^{(1)}$ & $\delta^{(2)}$  &  $\delta^{(3)}$    & $\gamma^{(1)}$ 
-         & $\gamma^{(2)}$ & $\alpha^{(1)}$  & $\alpha^{(2)}$ \\
-%
-\hline
- 1 & 3.5 & 2.0 & 0.20 & -0.05 & 0.00 & -0.20 & -0.05 & 0.20 & ~0.05 & 20 & 10 \\ 
- 2 & 2.5 & 1.5 & 0.10 & -0.15 & 0.05 & -0.15 & ~0.00 & 0.10 & -0.05 & 20 & 40 \\ 
- 3 & 3.0 & 1.8 & 0.20 & -0.05 & 0.25 & ~0.05 & ~0.20 & 0.15 & ~0.00 & 20 & 70$^a$ \\
-\hline \hline
-\end{tabular*}\label{tab2}
-\end{table*}
+Do ponto de vista de desempenho, é esperado que a implementação em C++ apresente os menores tempos médios de execução e menor variabilidade (desvio padrão), uma vez que a biblioteca é originalmente desenvolvida nessa linguagem e executa sem camadas adicionais de abstração. Espera-se que Python apresente maior latência média, atribuída principalmente à sobrecarga dos bindings e à gestão dinâmica de memória, enquanto Java deve ocupar uma posição intermediária, influenciada pelo uso da JVM e pelo comportamento do Garbage Collector.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Em relação à estabilidade, espera-se observar maior incidência de outliers de latência em linguagens gerenciadas, especialmente em Java, devido a pausas não determinísticas do coletor de lixo. A aplicação do método IQR tende a revelar que, apesar desses picos, a tendência central dos dados permanece consistente, permitindo uma comparação justa entre as linguagens.
 
-\begin{itemize}
-\item Esse é um exemplo de lista de tópicos. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-\end{itemize}
+No aspecto qualitativo, espera-se que Python seja avaliada como a linguagem com maior facilidade de uso e menor curva de aprendizado, impulsionada por documentação acessível, ampla comunidade e simplicidade sintática. Java deve apresentar boa organização estrutural e robustez, porém com maior complexidade de configuração inicial. C++, embora ofereça máximo controle e desempenho, tende a apresentar maior complexidade sintática e maior esforço de setup, refletindo uma curva de aprendizado mais acentuada.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\begin{enumerate}%
-\item Esse é um exemplo de lista numerada. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-\end{enumerate}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+De forma geral, espera-se que os resultados confirmem a existência de um trade-off claro entre desempenho bruto e produtividade de desenvolvimento, evidenciando que a escolha da linguagem em projetos de visão computacional deve considerar não apenas a eficiência computacional, mas também fatores como tempo de desenvolvimento, manutenção e perfil da aplicação.
 
 \subsection{Resultados Obtidos}
 
