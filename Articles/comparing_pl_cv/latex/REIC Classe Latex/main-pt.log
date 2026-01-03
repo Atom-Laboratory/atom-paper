@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  30 DEC 2025 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  3 JAN 2026 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,6 +995,10 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 LaTeX Font Warning: Font shape `U/fontawesometwo/sl/n' undefined
 (Font)              using `U/fontawesometwo/m/n' instead on input line 109.
 
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/it' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/book/it' tried instead on input line 109.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/it' will be
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
@@ -1076,6 +1080,8 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 
 
 ) (capitulos/03-metodologia.tex
+
+[2]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
@@ -1086,16 +1092,14 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 10.0pt on input line 12.
 
 
-[2]
-
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 []
  []
-
-
 
 
 Overfull \hbox (1.7806pt too wide) in paragraph at lines 82--83
@@ -1110,7 +1114,7 @@ Underfull \hbox (badness 4634) in paragraph at lines 83--84
 
 
 [3]
-<images/LicensePlateHaarCascade-FlowDiagram.png, id=170, 1481.535pt x 3149.7675pt>
+<images/LicensePlateHaarCascade-FlowDiagram.png, id=175, 1481.535pt x 3149.7675pt>
 File: images/LicensePlateHaarCascade-FlowDiagram.png Graphic file (type png)
 <use images/LicensePlateHaarCascade-FlowDiagram.png>
 Package pdftex.def Info: images/LicensePlateHaarCascade-FlowDiagram.png  used on input line 117.
@@ -1118,12 +1122,15 @@ Package pdftex.def Info: images/LicensePlateHaarCascade-FlowDiagram.png  used on
 ) (capitulos/04-resultados.tex
 
 
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+
 
 [4 <./images/LicensePlateHaarCascade-FlowDiagram.png>]
 Package pgfplots info on input line 35: Using 'lua backend=false' for axis: x coord trafo unsupported.
 
 
-<images/sol.jpg, id=187, 1156.32pt x 650.43pt>
+<images/sol.jpg, id=192, 1156.32pt x 650.43pt>
 File: images/sol.jpg Graphic file (type jpg)
 <use images/sol.jpg>
 Package pdftex.def Info: images/sol.jpg  used on input line 56.
@@ -1159,17 +1166,17 @@ Package rerunfilecheck Info: File `main-pt.out' has not changed.
 (rerunfilecheck)             Checksum: 732CDBC1DF78618D1910F0B4724314DA;4238.
  ) 
 Here is how much of TeX's memory you used:
- 43968 strings out of 468129
- 983909 string characters out of 5440679
- 1511002 words of memory out of 5000000
- 71512 multiletter control sequences out of 15000+600000
- 919683 words of font info for 274 fonts, out of 8000000 for 9000
+ 43984 strings out of 468129
+ 984355 string characters out of 5440679
+ 1513541 words of memory out of 5000000
+ 71516 multiletter control sequences out of 15000+600000
+ 935332 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,19n,135p,1954b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (7 pages, 822186 bytes).
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on main-pt.pdf (7 pages, 866481 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
+ 340 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
- 88271 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 92367 words of extra memory for PDF output out of 106986 (max. 10000000)
 

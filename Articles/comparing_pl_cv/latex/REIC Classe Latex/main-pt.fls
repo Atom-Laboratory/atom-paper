@@ -440,6 +440,7 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometw
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesometwo.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BookItalic-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\fontawesome\ufontawesomeone.fd
@@ -494,6 +495,8 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Book-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Book-osf-t1--base.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-BookItalic-osf-t1.vf
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BookItalic-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
@@ -508,10 +511,10 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-
 INPUT .\capitulos\03-metodologia.tex
 INPUT .\capitulos\03-metodologia.tex
 INPUT capitulos\03-metodologia.tex
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-BoldItalic-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1--base.tfm
@@ -566,6 +569,8 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-Bol
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-BoldItalic.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-Book.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-Book.pfb
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-BookItalic.pfb
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-BookItalic.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
