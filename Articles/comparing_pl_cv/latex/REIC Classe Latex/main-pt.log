@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  3 JAN 2026 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.27)  3 JAN 2026 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,13 +1206,13 @@ Package rerunfilecheck Info: File `main-pt.out' has not changed.
 Here is how much of TeX's memory you used:
  43636 strings out of 468129
  974097 string characters out of 5440679
- 1495943 words of memory out of 5000000
+ 1495949 words of memory out of 5000000
  71156 multiletter control sequences out of 15000+600000
  926180 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  132i,14n,135p,1384b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (8 pages, 1818306 bytes).
+Output written on main-pt.pdf (8 pages, 1818300 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
