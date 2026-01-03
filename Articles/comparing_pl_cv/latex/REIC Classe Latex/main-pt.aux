@@ -5,9 +5,10 @@
 \providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
 \@nameuse{bbl@beforestart}
 \catcode `"\active 
+\citation{Szeliski2022}
+\citation{bradski2000opencv}
 \babel@aux{portuguese}{}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introdução}{1}{section.1}\protected@file@percent }
-\newlabel{sec:intro}{{1}{1}{Introdução}{section.1}{}}
 \citation{Szeliski2022}
 \citation{Schildt2019}
 \citation{Lutz1999}
@@ -26,17 +27,19 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}OpenCV}{2}{subsection.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Metodologia}{2}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Seleção das linguagens e biblioteca}{2}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Definição dos critérios de avaliação}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Definição dos critérios de avaliação}{3}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Facilidade de Uso e Curva de Aprendizado}{3}{subsubsection.3.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Desempenho}{3}{subsubsection.3.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Testes Qualitativos}{3}{subsection.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Testes Quantitativos de Desempenho}{3}{subsection.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Definição do Ambiente de Teste}{3}{subsubsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Seleção do Conjuntos de Dados}{3}{subsubsection.3.4.2}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Ambiente de Teste e Versões}}{3}{table.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{tab:ambiente_teste}{{1}{3}{Ambiente de Teste e Versões}{table.caption.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Seleção do Conjuntos de Dados}{3}{subsubsection.3.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.3}Seleção dos Modelos e Parâmetros de Detecção}{3}{subsubsection.3.4.3}\protected@file@percent }
+\newlabel{mdl:haarcascade_license_plate_rus_16stages}{{3.4.3}{3}{Seleção dos Modelos e Parâmetros de Detecção}{subsubsection.3.4.3}{}}
+\newlabel{mdl:haarcascade_russian_plate_number}{{3.4.3}{3}{Seleção dos Modelos e Parâmetros de Detecção}{subsubsection.3.4.3}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.4}Coleta e Tratamento dos Dados de Desempenho}{4}{subsubsection.3.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.5}Implementação e Coleta de Dados}{4}{subsubsection.3.4.5}\protected@file@percent }
 \newlabel{sec:implementacao_coleta_dados}{{3.4.5}{4}{Implementação e Coleta de Dados}{subsubsection.3.4.5}{}}
@@ -46,24 +49,31 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4}Resultados}{4}{section.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Resultados Esperados}{4}{subsection.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Resultados Obtidos}{5}{subsection.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Gráfico comparativo da facilidade de uso e curva de aprendizado (escala numérica acima).}}{5}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:quadro1}{{2}{5}{Gráfico comparativo da facilidade de uso e curva de aprendizado (escala numérica acima)}{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de legenda de figura.}}{5}{figure.caption.4}\protected@file@percent }
-\newlabel{Fig1}{{3}{5}{Exemplo de legenda de figura}{figure.caption.4}{}}
-\citation{ref5}
-\citation{ref5}
-\@writefile{toc}{\contentsline {paragraph}{Exemplo de Título Nível 4.}{6}{figure.caption.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussão}{6}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Análises Finais}{6}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Visão Geral dos Dados Coletados}{5}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Resultados Qualitativos}{5}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Avaliação qualitativa da facilidade de uso das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em questionário Likert aplicado aos desenvolvedores.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{qualidade_likert}{{2}{5}{Avaliação qualitativa da facilidade de uso das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em questionário Likert aplicado aos desenvolvedores}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Resultados Quantitativos de Desempenho}{5}{subsubsection.4.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Box plot mostrando a distribuição dos tempos de execução para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{boxplot_timeDen}{{3}{5}{Box plot mostrando a distribuição dos tempos de execução para os modelos 16STAGES e RUS nas linguagens C++, Java e Python}{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Resumo estatístico dos experimentos}}{6}{table.caption.5}\protected@file@percent }
+\newlabel{tab:resumo_estatistico}{{2}{6}{Resumo estatístico dos experimentos}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Gráfico ECDF mostrando a latência acumulada em função do número de detecções para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{ecdf_timeDen}{{4}{6}{Gráfico ECDF mostrando a latência acumulada em função do número de detecções para os modelos 16STAGES e RUS nas linguagens C++, Java e Python}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Análise Estatística da Latência}{6}{subsubsection.4.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Gráfico de barras comparando os tempos médios de execução entre as linguagens C++, Java e Python.}}{6}{figure.caption.8}\protected@file@percent }
+\newlabel{bar_mean_time}{{6}{6}{Gráfico de barras comparando os tempos médios de execução entre as linguagens C++, Java e Python}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Síntese Comparativa dos Resultados}{6}{subsubsection.4.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Gráficos de regressão linear para os dois modelos comparados.}}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:trendlines_larga}{{5}{7}{Gráficos de regressão linear para os dois modelos comparados}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussão}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Análises Finais}{7}{section.6}\protected@file@percent }
 \bibstyle{apalike-sol}
 \bibdata{refs}
 \bibcite{bradski2000opencv}{{1}{2000}{{Bradski}}{{}}}
 \bibcite{kaehler2017learning}{{2}{2017}{{Kaehler and Bradski}}{{}}}
 \bibcite{Lutz1999}{{3}{1999}{{Lutz and Ascher}}{{}}}
-\bibcite{ref5}{{4}{2020}{{Mendez {\em  et~al}.}}{{}}}
-\bibcite{Meyers2014}{{5}{2014}{{Meyers}}{{}}}
-\bibcite{Schildt2019}{{6}{2019}{{Schildt}}{{}}}
-\bibcite{Szeliski2022}{{7}{2022}{{Szeliski}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {Exemplo de legenda de figura.}}}{7}{figure.caption.5}\protected@file@percent }
-\newlabel{Fig2}{{4}{7}{Exemplo de legenda de figura}{figure.caption.5}{}}
-\gdef \@abspage@last{7}
+\bibcite{Meyers2014}{{4}{2014}{{Meyers}}{{}}}
+\bibcite{Schildt2019}{{5}{2019}{{Schildt}}{{}}}
+\bibcite{Szeliski2022}{{6}{2022}{{Szeliski}}{{}}}
+\gdef \@abspage@last{8}

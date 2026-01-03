@@ -1,70 +1,6 @@
 \documentclass[portuguese]{sbc2025}%
 
-%\usepackage{graphicx}% já está incluido na classe
-%\usepackage[utf8]{inputenc} % obsoleto, desnecessário
-
-\usepackage[misc,geometry]{ifsym} 
-\usepackage{pgfplots} 
-\pgfplotsset{compat=1.17}
-
-%%%%  %\usepackage{fontspec}
-
-%% Os problemas com a classe eram originados por carregarem ambos os
-%% pacotes fontenc e fontspec simultaneamente. Agora a classe detecta
-%% qual engine está em uso e se for o pdflates então carrega o
-%% fontenc. Se forem o xelatex ou lualatex então carrega o
-%% fontspec. Eu particularemnte prefiro o lualatex ou o xetex
-
-
-% \usepackage{fontawesome} %%% incluido na classe. Desnecessário
-% chamá-lo aqui
-
-
-%%%% \usepackage{academicons}
-%%%% outro encrenqueiro que se tornou desnecessario. Deste typeface só
-%%%% se usava o glifo do orcid e o codigo interno bombava.
-%%%% Substitui pelo pacote orcidlink (carregado internamete na classe)
-%%%% e consertei o codigo na classe.
-
-
-%\usepackage{color} % carregada dentro da classe
-%\usepackage{hyperref} % carregada dentro da classe
-
-\usepackage{aas_macros}
-\usepackage[bottom]{footmisc}
-
-%\usepackage{supertabular}
-%\usepackage{multicol}
-%\usepackage{multirow}
-%% O pacote tabularray é muito melhor para
-% a criacao de tabela complexas e/ou loooongas; tudo de modo simples.
-%% Torna o uso de multicol e multirow desnecessarios
-
-\usepackage{tabularray}
-
-
-\usepackage{afterpage}
-\usepackage{url}
-\usepackage{pifont}
-
-
-\setcitestyle{square}
-
-
-\definecolor{engtitle}{rgb}{0.5,0.5,0.5}
-\definecolor{orcidlogo}{rgb}{0.37,0.48,0.13}
-\definecolor{unilogo}{rgb}{0.16, 0.26, 0.58}
-\definecolor{maillogo}{rgb}{0.58, 0.16, 0.26}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.0}
-\hypersetup{colorlinks,breaklinks,
-            linkcolor=darkblue,urlcolor=darkblue,
-            anchorcolor=darkblue,citecolor=darkblue}
-%\hypersetup{colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue}
-
-%%%%%%% IMPORTANT: We disable hyperlinks by default with this line, to avoid the error "\pdfendlink ended up in different nesting level" while writing.
-%\hypersetup{draft}
-
-
+\input{Preambulo/pacotes}
 
 \begin{document}
 
@@ -78,20 +14,19 @@ Centro Universitário Dom Helder,  R. Álvares Maciel, 628 - Santa Efigênia, Be
 \end{mail}
 
 \begin{abstract-pt}
-  PREVISAO: 500 a 750 palavras
-  Este artigo tem como objetivo analisar quais são as principais vantagens e desvantagens de diversas bibliotecas e linguagens de programação utilizadas para visão computacional. A análise é feita com base em critérios como facilidade de uso, curva de aprendizado, comunidade de suporte, compatibilidade com diferentes plataformas e performance geral. O estudo inclui uma revisão geral das principais bibliotecas e linguagens mais populares, como OpenCV, TensorFlow, YOLO, JavaCV, VisionWorks, BoofCV, OpenIMAJ, Halcon, SimpleCV entre outras, destacando suas características específicas e casos de uso ideais. Além disso, são apresentados exemplos práticos de aplicação dessas ferramentas em projetos reais, ilustrando como cada uma pode ser utilizada para resolver problemas comuns em visão computacional. A conclusão do artigo oferece recomendações para desenvolvedores e pesquisadores sobre a escolha da biblioteca ou linguagem mais adequada para suas necessidades específicas.
+Este artigo investiga o "custo da abstração" no desenvolvimento de aplicações de visão computacional utilizando a biblioteca OpenCV, analisando o impacto da escolha da linguagem de programação no desempenho e na estabilidade do sistema. Por meio de experimentos quantitativos utiilizando classificadores \textit{Haar Cascade}, comparou-se a eficiência da implementação nativa em C++ contra ambientes gerenciados em Java e Python. Os resultados demonstram que a abstração impõe um custo mensurável, resultando em um acréscimo de latência entre 13\% e 20\% nas linguagens interpretadas e gerenciadas, além de maior variabilidade temporal. A análise evidencia que, enquanto C++ oferece o determinismo necessário para sistemas de tempo real e embarcados, Python se destaca pela produtividade em cenários de pesquisa e servidor. Em contrapartida, a implementação em Java apresentou desafios relacionados à imprevisibilidade do \textit{Garbage Collector} e à escassez de suporte da comunidade e ferramentas, tornando-a menos ideal para aplicações críticas de visão. O estudo conclui fornecendo diretrizes para auxiliar na seleção da tecnologia mais adequada, ponderando o \textit{trade-off} entre eficiência computacional e agilidade de desenvolvimento.
 \end{abstract-pt}
 
 \begin{abstract-en}
-This text, formatted as a scientific article, aims to present the new SBC paper template, describing its main features and explaining how it should be used. This version, more specifically, should be used exclusively for articles written in Portuguese that will be published in any event proceeding series at SBC OpenLib. The abstract in Portuguese, as you can see in this example, must be before the abstract in English and must have between 500 and 750 words.
+This paper investigates the "abstraction cost" in developing computer vision applications using the OpenCV library, analyzing the impact of programming language choice on system performance and stability. Through quantitative experiments utilizing \textit{Haar Cascade} classifiers, the efficiency of native C++ implementation was compared against managed environments in Java and Python. The results demonstrate that abstraction imposes a measurable cost, resulting in a latency increase between 13\% and 20\% in interpreted and managed languages, along with greater temporal variability. The analysis shows that while C++ offers the determinism necessary for real-time and embedded systems, Python stands out for productivity in research and server scenarios. In contrast, the Java implementation presented challenges related to the unpredictability of the \textit{Garbage Collector} and a lack of community support and tools, making it less ideal for critical vision applications. The study concludes by providing guidelines to assist in selecting the most suitable technology, weighing the trade-off between computational efficiency and development agility.
 \end{abstract-en}
 
 \begin{pchaves}
-Visão computacional, bibliotecas, linguagens de programação, OpenCV, TensorFlow, YOLO, JavaCV, PyTorch, BoofCV, Halcon, SimpleCV
+Visão Computacional, Linguagens de Programação, Java, C++, Cpp, C, Python, OpenCV
 \end{pchaves}
 
 \begin{keywords}
-Visão computacional, bibliotecas, linguagens de programação, OpenCV, TensorFlow, YOLO, JavaCV, PyTorch, BoofCV, Halcon, SimpleCV
+Computer Vision, Programming Languages, Java, C++, Cpp, C, Python, OpenCV
 \end{keywords}
 
 \begin{dates}

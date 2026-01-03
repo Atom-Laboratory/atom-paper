@@ -1,0 +1,66 @@
+%\usepackage{graphicx}% já está incluido na classe
+%\usepackage[utf8]{inputenc} % obsoleto, desnecessário
+
+\usepackage[misc,geometry]{ifsym} 
+\usepackage{pgfplots} 
+\pgfplotsset{compat=1.17}
+
+%%%%  %\usepackage{fontspec}
+
+%% Os problemas com a classe eram originados por carregarem ambos os
+%% pacotes fontenc e fontspec simultaneamente. Agora a classe detecta
+%% qual engine está em uso e se for o pdflates então carrega o
+%% fontenc. Se forem o xelatex ou lualatex então carrega o
+%% fontspec. Eu particularemnte prefiro o lualatex ou o xetex
+
+
+% \usepackage{fontawesome} %%% incluido na classe. Desnecessário
+% chamá-lo aqui
+
+
+%%%% \usepackage{academicons}
+%%%% outro encrenqueiro que se tornou desnecessario. Deste typeface só
+%%%% se usava o glifo do orcid e o codigo interno bombava.
+%%%% Substitui pelo pacote orcidlink (carregado internamete na classe)
+%%%% e consertei o codigo na classe.
+
+
+%\usepackage{color} % carregada dentro da classe
+%\usepackage{hyperref} % carregada dentro da classe
+
+\usepackage{aas_macros}
+\usepackage[bottom]{footmisc}
+
+%\usepackage{supertabular}
+%\usepackage{multicol}
+%\usepackage{multirow}
+%% O pacote tabularray é muito melhor para
+% a criacao de tabela complexas e/ou loooongas; tudo de modo simples.
+%% Torna o uso de multicol e multirow desnecessarios
+
+\usepackage{tabularray}
+
+
+\usepackage{afterpage}
+\usepackage{url}
+\usepackage{pifont}
+
+\usepackage{booktabs}
+\usepackage{float}
+
+
+\setcitestyle{square}
+
+
+\definecolor{engtitle}{rgb}{0.5,0.5,0.5}
+\definecolor{orcidlogo}{rgb}{0.37,0.48,0.13}
+\definecolor{unilogo}{rgb}{0.16, 0.26, 0.58}
+\definecolor{maillogo}{rgb}{0.58, 0.16, 0.26}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.0}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+%\hypersetup{colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue}
+
+%%%%%%% IMPORTANT: We disable hyperlinks by default with this line, to avoid the error "\pdfendlink ended up in different nesting level" while writing.
+%\hypersetup{draft}

@@ -1,6 +1,17 @@
-
 \section{Análises Finais}
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Este estudo buscou quantificar o impacto da escolha da linguagem de programação no desempenho de algoritmos de visão computacional. As evidências coletadas permitem concluir que o ``custo da abstração'' é real e mensurável, representando um acréscimo de latência entre 13\% e 20\% para linguagens gerenciadas (Java e Python) em comparação ao C++ nativo nos cenários testados.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \citep{ref5}.
+A análise comparativa permite traçar as seguintes diretrizes para a engenharia de \textit{software} em visão computacional:
+
+\begin{itemize}
+    \item \textbf{C++:} Permanece a escolha ideal para sistemas embarcados, aplicações críticas de segurança e cenários onde o \textit{throughput} e o determinismo temporal são prioritários, justificando sua curva de aprendizado mais íngreme.
+    
+    \item \textbf{Python:} Consolida-se como a melhor ferramenta para pesquisa, desenvolvimento rápido e aplicações em servidor onde a escalabilidade horizontal é viável. A percepção positiva da comunidade e a vastidão do ecossistema compensam a latência adicional em cenários não-críticos.
+    
+    \item \textbf{Java:} Apresenta-se como uma opção não ideal para aplicações de visão computacional devido à complexidade do ambiente de execução, falta de suporte e à imprevisibilidade introduzida pelo \textit{garbage collector}. Seu uso deve ser cuidadosamente avaliado frente aos requisitos de desempenho e estabilidade do sistema.
+\end{itemize}
+
+Como trabalhos futuros, sugere-se a extensão da análise para outras bibliotecas populares de visão computacional, como TensorFlow, PyTorch e Keras, bem como a inclusão de métricas adicionais relacionadas ao consumo de memória, eficiência energética e escalabilidade em ambientes distribuídos. Ademais, investigações sobre o impacto de diferentes paradigmas de programação (funcional, orientada a objetos, etc.) no desempenho de algoritmos de visão computacional podem oferecer insights valiosos para a comunidade.
+
+Em suma, não existe uma "melhor linguagem" universal para o OpenCV; a escolha deve ser pautada pelo equilíbrio entre os requisitos não-funcionais de desempenho do sistema e os requisitos de negócio relacionados ao tempo de entrega e manutenibilidade do código.

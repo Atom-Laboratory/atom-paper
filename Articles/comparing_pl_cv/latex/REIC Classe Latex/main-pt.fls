@@ -288,6 +288,11 @@ INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT .\Preambulo\pacotes.tex
+INPUT .\Preambulo\pacotes.tex
+INPUT .\Preambulo\pacotes.tex
+INPUT .\Preambulo\pacotes.tex
+INPUT Preambulo\pacotes.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\fonts\ifsym\ifsym.sty
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\fonts\ifsym\ifsym.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
@@ -372,6 +377,10 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\psnfss\upsy.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT .\main-pt.aux
 INPUT .\main-pt.aux
 INPUT main-pt.aux
@@ -467,17 +476,9 @@ INPUT .\capitulos\01-introducao.tex
 INPUT .\capitulos\01-introducao.tex
 INPUT capitulos\01-introducao.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Book-osf-t1.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome\FontAwesome--fontawesomeone.tfm
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
@@ -501,21 +502,26 @@ INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-o
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecit1000.tfm
 INPUT .\capitulos\02-revisao-bibliografica.tex
 INPUT .\capitulos\02-revisao-bibliografica.tex
 INPUT capitulos\02-revisao-bibliografica.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Book-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT .\capitulos\03-metodologia.tex
 INPUT .\capitulos\03-metodologia.tex
 INPUT capitulos\03-metodologia.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-Bold-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1--base.tfm
+INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-Bold-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\vf\public\fira\FiraSans-BoldItalic-osf-t1.vf
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\fira\FiraSans-BoldItalic-osf-t1--base.tfm
 INPUT .\images\LicensePlateHaarCascade-FlowDiagram.png
@@ -528,30 +534,60 @@ INPUT .\images\LicensePlateHaarCascade-FlowDiagram.png
 INPUT .\capitulos\04-resultados.tex
 INPUT .\capitulos\04-resultados.tex
 INPUT capitulos\04-resultados.tex
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT .\images\sol.jpg
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmbi.tfm
-INPUT .\capitulos\05-discussao.tex
-INPUT .\capitulos\05-discussao.tex
-INPUT capitulos\05-discussao.tex
-INPUT .\capitulos\06-conclusao.tex
-INPUT .\capitulos\06-conclusao.tex
-INPUT capitulos\06-conclusao.tex
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\4_qualidade_likert.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
+INPUT .\images\boxplot_timeDen.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\grafico_ecdf_cumulativo.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_16STAGES.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\OLS_trendline_RUS.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\images\bar_mean_time.png
+INPUT .\capitulos\05-discussao.tex
+INPUT .\capitulos\05-discussao.tex
+INPUT capitulos\05-discussao.tex
+INPUT .\capitulos\06-conclusao.tex
+INPUT .\capitulos\06-conclusao.tex
+INPUT capitulos\06-conclusao.tex
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qtmr.tfm
 INPUT .\main-pt.bbl
 INPUT .\main-pt.bbl
@@ -559,8 +595,6 @@ INPUT main-pt.bbl
 INPUT main-pt.aux
 INPUT .\main-pt.out
 INPUT .\main-pt.out
-INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecit1000.pk
-INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecit1000.pk
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\maria\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\fira\FiraSans-Bold.pfb
@@ -577,16 +611,12 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmb.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmb.pfb
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmbi.pfb
-INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmbi.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\maria\AppData\Roaming\MiKTeX\fonts\type1\public\tex-gyre\qtmri.pfb

@@ -15,71 +15,114 @@ De forma geral, espera-se que os resultados confirmem a existência de um trade-
 
 \subsection{Resultados Obtidos}
 
-\begin{figure}[ht]
-\raggedleft
-% Requer \usepackage{pgfplots} e \pgfplotsset{compat=1.17} no preâmbulo
-\begin{tikzpicture}
-\begin{axis}[
-    ybar,
-    bar width=10pt,
-    width=\columnwidth, % usa apenas a largura da coluna (direita em documento twocolumn)
-    height=6cm,
-    symbolic x coords={Java,Python,C,C++},
-    xtick=data,
-    ymin=0, ymax=3.5,
-    ylabel={Avaliação (1=Baixa, 2=Média/Moderada, 3=Alta)},
-    legend style={at={(0.5,-0.20)}, anchor=north, legend columns=2},
-    enlarge x limits=0.15,
-    nodes near coords,
-    every node near coord/.style={font=\footnotesize}
-]
-% Valores: Alta=3, Moderada/Média=2, Baixa=1
-\addplot coordinates {(Java,3)   (Python,3) (C,2) (C++,2)}; % Documentação
-\addplot coordinates {(Java,3)   (Python,3) (C,2) (C++,2)}; % Tutoriais / Informação
-\addplot coordinates {(Java,2)   (Python,1) (C,3) (C++,3)}; % Complexidade da sintaxe
-\addplot coordinates {(Java,3)   (Python,1) (C,3) (C++,3)}; % Configuração adicional
-\legend{Documentação,Tutoriais / Informação,Complexidade da sintaxe,Configuração adicional}
-\end{axis}
-\end{tikzpicture}
-\caption{Gráfico comparativo da facilidade de uso e curva de aprendizado (escala numérica acima).}
-\label{fig:quadro1}
-\end{figure}
+\subsubsection{Visão Geral dos Dados Coletados}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \textbf{Figure \ref{Fig1}}.
+Foram analisadas 100 440 execuções do algoritmo de detecção Haar Cascade, distribuídas igualmente entre as linguagens C++, Java e Python. Cada linguagem processou aproximadamente 33 480 imagens, utilizando dois modelos Haar (16STAGES e RUS).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Antes do tratamento estatístico, os tempos médios globais de execução apresentaram valores de 21,12 ms (C++), 23,82 ms (Java) e 25,49 ms (Python), com ocorrência de picos extremos de latência superiores a 800 ms em todas as linguagens.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A aplicação do método IQR agrupado por linguagem e modelo resultou na remoção de 7 584 registros (7,6\% do total), eliminando valores anômalos associados a interferências externas ao algoritmo de visão computacional. Os resultados apresentados a seguir consideram exclusivamente os dados limpos.
 
-\begin{figure}
+
+\subsubsection{Resultados Qualitativos}
+A Figura~\ref{qualidade_likert} apresenta a avaliação qualitativa da facilidade de uso, disponibilidade de recursos e suporte das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em um questionário Likert aplicado aos desenvolvedores envolvidos no estudo.
+
+Os resultados qualitativos indicam maior percepção de facilidade de uso para Python, seguido por Java e C++, refletindo a maior abstração e rapidez no desenvolvimento proporcionadas pelas linguagens de mais alto nível. Essa percepção contrasta parcialmente com os resultados quantitativos de desempenho, nos quais C++ apresentou menor latência média e menor variabilidade, evidenciando um trade-off entre produtividade percebida e eficiência computacional.
+
+No que se refere à disponibilidade de recursos e suporte, Python e C++ obtiveram avaliações mais elevadas segundo a percepção dos participantes, associadas à ampla comunidade e à abundância de bibliotecas e documentação. A linguagem Java apresentou avaliações inferiores nesse critério no contexto específico do estudo, indicando menor familiaridade ou menor disponibilidade percebida de recursos voltados à visão computacional.
+
+Esses resultados sugerem que, embora C++ ofereça desempenho superior em termos de latência e estabilidade, e Java se posicione de forma intermediária, a escolha da linguagem deve considerar também fatores qualitativos relacionados à produtividade, manutenção, suporte e curva de aprendizado, especialmente em projetos de visão computacional aplicados.
+
+\begin{figure}[H]
 \begin{center}
-\includegraphics[width=\columnwidth]{images/sol.jpg}
-\caption{Exemplo de legenda de figura.}\label{Fig1}
+\includegraphics[width=\columnwidth]{images/4_qualidade_likert.png}
+\caption{Avaliação qualitativa da facilidade de uso das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em questionário Likert aplicado aos desenvolvedores.}\label{qualidade_likert}
 \end{center}
 \end{figure}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsubsection{Resultados Quantitativos de Desempenho}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \textbf{Figure \ref{Fig2}}.
+A Tabela~\ref{tab:resumo_estatistico} sintetiza os principais resultados quantitativos obtidos após o tratamento estatístico dos dados de latência para cada linguagem e modelo Haar Cascade utilizado.
 
-\begin{figure*}
+\begin{figure}[H]
 \begin{center}
-\includegraphics[width=30pc]{images/sol.jpg}
-\caption{{Exemplo de legenda de figura.}}
- \label{Fig2}
+\includegraphics[width=\columnwidth]{images/boxplot_timeDen.png}
+\caption{Box plot mostrando a distribuição dos tempos de execução para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}\label{boxplot_timeDen}
 \end{center}
+\end{figure}
+
+
+\begin{table*}[t]
+\centering
+\caption{Resumo estatístico dos experimentos}
+\label{tab:resumo_estatistico}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+Linguagem & Modelo & Imagens & Detecções & Vazias (\%) & Média (ms) & Mediana (ms) & Desv. Padrão (ms) \\
+\midrule
+C++    & 16STAGES & 15521 & 1597 & 91.0 & 6.65 & 5.00 & 5.77 \\
+C++    & RUS      & 15488 & 7589 & 69.1 & 12.79 & 9.00 & 11.29 \\
+\midrule
+Java   & 16STAGES & 15471 & 1566 & 91.1 & 6.86 & 4.46 & 6.34 \\
+Java   & RUS      & 15467 & 7612 & 69.1 & 14.07 & 8.75 & 13.49 \\
+\midrule
+Python & 16STAGES & 15516 & 1595 & 91.0 & 7.54 & 4.93 & 6.97 \\
+Python & RUS      & 15393 & 7492 & 69.3 & 14.69 & 9.07 & 13.97 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Em todas as linguagens, aproximadamente 91\% das imagens não resultaram em detecções, refletindo a natureza heterogênea do conjunto de imagens junto às limitações inerentes do classificador Haar Cascade quando aplicado a cenários não controlados. A média de detecções por imagem manteve-se estável entre as linguagens, indicando consistência funcional do classificador independentemente da linguagem utilizada.
+
+O gráfico ECDF da Figura~\ref{ecdf_timeDen} ilustra o comportamento da latência acumulada. Observa-se que as três linguagens apresentam tendências similares, com C++ exibindo ligeira vantagem em termos de latência média e menor dispersão na cauda da distribuição.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/grafico_ecdf_cumulativo.png}
+\caption{Gráfico ECDF mostrando a latência acumulada em função do número de detecções para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}\label{ecdf_timeDen}
+\end{center}
+\end{figure}
+
+A latência média cresce de forma aproximadamente linear à medida que o número de detecções aumenta. Esse comportamento reflete o custo computacional incremental exigido por cada objeto candidato processado, conforme demonstrado nos gráficos de tendência (OLS Trendline) da Figura~\ref{fig:trendlines_larga}. A regressão linear foi empregada com finalidade estritamente exploratória para identificar tendências de crescimento do custo computacional.
+
+A linearidade observada sugere uma relação proporcional entre a densidade de objetos na cena e o tempo de execução, indicando previsibilidade e escalabilidade do sistema dentro do intervalo analisado. Esse padrão é consistente entre C++, Java e Python, embora as diferentes inclinações das retas evidenciem a disparidade na eficiência de execução entre as linguagens compiladas e interpretadas/gerenciadas.
+
+\begin{figure*}[t]
+    \centering
+    % Primeira imagem (metade da largura total)
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/OLS_trendline_16STAGES.png}
+        \caption*{Modelo 16STAGES} % Legenda interna opcional
+    \end{minipage}
+    \hfill % Espaço elástico entre as imagens
+    % Segunda imagem
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/OLS_trendline_RUS.png}
+        \caption*{Modelo RUS}
+    \end{minipage}
+    
+    \caption{Gráficos de regressão linear para os dois modelos comparados.}
+    \label{fig:trendlines_larga}
 \end{figure*}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsubsection{Análise Estatística da Latência}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O gráfico de Barras da Figura~\ref{bar_mean_time} apresenta a comparação visual das distribuições dos tempos de execução.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/bar_mean_time.png}
+\caption{Gráfico de barras comparando os tempos médios de execução entre as linguagens C++, Java e Python.}\label{bar_mean_time}
+\end{center}
+\end{figure}
 
+A concentração dos valores em torno das medianas, evidenciada no \textit{box plot} da Figura~\ref{boxplot_timeDen}, sugere que as distribuições, embora apresentem certa assimetria positiva (com médias superiores às medianas devido a valores atípicos de alta latência), mantêm-se estáveis. A implementação em C++ apresentou os menores desvios padrão em ambos os modelos, confirmando sua maior estabilidade em comparação aos ambientes gerenciados (Java e Python).
 
+As linguagens Java e Python exibiram maior dispersão, especialmente no modelo RUS, o que sugere maior sensibilidade a variações do ambiente de execução (\textit{runtime overhead}). Após a aplicação do método IQR para limpeza de \textit{outliers}, os valores máximos observados reforçam a hierarquia de desempenho: 26,96 ms para C++, 29,42 ms para Java e 32,17 ms para Python (modelo 16STAGES). No modelo RUS, mais custoso computacionalmente, os máximos atingiram 52,42 ms, 61,85 ms e 64,86 ms, respectivamente.
 
-\paragraph{Exemplo de Título Nível 4.}
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsubsection{Síntese Comparativa dos Resultados}
+De forma geral, os resultados indicam que a implementação em C++ apresentou os menores tempos médios de execução e menor variabilidade em ambos os modelos avaliados. Java e Python apresentaram desempenho intermediário e superior latência média, respectivamente, mantendo, contudo, consistência funcional equivalente no número de detecções realizadas. Os dados evidenciam diferenças mensuráveis de desempenho entre as linguagens analisadas, preservando a equivalência algorítmica e funcional das implementações.
+A análise qualitativa complementa os achados quantitativos, sugerindo que a escolha da linguagem deve considerar não apenas o desempenho bruto, mas também fatores relacionados à produtividade, facilidade de uso e suporte, especialmente em projetos aplicados.

@@ -7,7 +7,7 @@ A biblioteca OpenCV foi escolhida devido à sua ampla adoção na comunidade de 
 
 \subsection{Definição dos critérios de avaliação}
 
-Foram estabelecidos critérios para a avaliação das linguagens e da biblioteca, incluindo facilidade de uso, curva de aprendizado, comunidade de suporte, desempenho, compatibilidade com diferentes plataformas e recursos disponíveis para visão computacional.
+Foram estabelecidos critérios para a avaliação das linguagens e da biblioteca, incluindo desempenho, facilidade de uso e curva de aprendizado, disponibilidade de recursos e comunidade de suporte.
 
 \subsubsection{Facilidade de Uso e Curva de Aprendizado}
 Este critério visa avaliar o quão intuitiva e acessível é a utilização da biblioteca OpenCV em cada linguagem de programação. A avaliação foi realizada através de:
@@ -79,8 +79,8 @@ Os dados foram organizados em duas fontes para avaliar a robustez dos classifica
 \subsubsection{Seleção dos Modelos e Parâmetros de Detecção}
 Os testes foram executados com dois modelos Haar Cascade pré-treinados, selecionados para representar diferentes níveis de complexidade computacional:
 \begin{itemize}
-    \item \texttt{haarcascade\_license\_plate\_rus\_16stages.xml}: Modelo com 16 estágios, priorizando velocidade.
-    \item \texttt{haarcascade\_russian\_plate\_number.xml}: Modelo focado em detalhes numéricos, com maior densidade de features.
+    \item \texttt{haarcascade\_license\_plate\_rus\_16stages.xml}\label{mdl:haarcascade_license_plate_rus_16stages}: Modelo com 16 estágios, priorizando velocidade.
+    \item \texttt{haarcascade\_russian\_plate\_number.xml}\label{mdl:haarcascade_russian_plate_number}: Modelo focado em detalhes numéricos, com maior densidade de features.
 \end{itemize}
 
 Para garantir a isonomia, o método \texttt{detectMultiScale} foi configurado com os mesmos hiperparâmetros nas três implementações:
@@ -111,15 +111,6 @@ Para garantir a isonomia do experimento, foram implementados três algoritmos co
     \item \textbf{Persistência}: exportação dos metadados (arquivo, modelo, contagem e tempo em nanossegundos) para arquivos CSV.
 \end{enumerate}
 
-\begin{figure}[!ht] % [t] tenta forçar a imagem para o TOPO da coluna
-    \centering
-    % Ajuste a largura para 100% da coluna (ou 0.8 se quiser menor)
-    \includegraphics[width=\columnwidth]{images/LicensePlateHaarCascade-FlowDiagram.png}
-    \caption{Fluxograma do Pipeline de Teste de Desempenho}
-    \label{fig:fluxograma_pipeline_teste}
-\end{figure}
-
-
 Diferentemente de pipelines tradicionais, optou-se por passar a matriz de imagem original diretamente ao método de detecção, delegando ao framework (OpenCV) qualquer tratamento interno necessário de canais de cor, visando mensurar o tempo total da chamada de API 'como ela é' em uma aplicação final.
 
 O Fluxograma da Figura \ref{fig:fluxograma_pipeline_teste} ilustra o processo completo de cada iteração de teste.
@@ -129,3 +120,10 @@ O Fluxograma da Figura \ref{fig:fluxograma_pipeline_teste} ilustra o processo co
     \item Créditos para \href{https://www.kaggle.com/datasets/fxmikf/diverse-lpd-training-ready}{Diverse-LPD training ready} de Mikf em Kaggle.com.
     \item Créditos para \href{https://www.kaggle.com/datasets/trainingdatapro/license-plates-1-209-438-ocr-plates}{License Plates OCR} de TrainingDataPro em Kaggle.com.
 \end{itemize}
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=\columnwidth]{images/LicensePlateHaarCascade-FlowDiagram.png}
+    \caption{Fluxograma do Pipeline de Teste de Desempenho}
+    \label{fig:fluxograma_pipeline_teste}
+\end{figure}
