@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1767482046.10113 "main-pt.aux" "main-pt.bbl" "main-pt" 1767489164.62935 0
+["bibtex main-pt"] 1767482046.10113 "main-pt.aux" "main-pt.bbl" "main-pt" 1767498255.32262 0
   "./apalike-sol.bst" 1767457344 26049 269dedab788b7f84af88c155ecb45872 ""
   "./refs.bib" 1767482037 2471 3a9c868ea51eaecfb567d6ebf03e4cef ""
-  "main-pt.aux" 1767489162 8196 5b23c2c5980adb090b3ebcf051693db5 "pdflatex"
+  "main-pt.aux" 1767498253 8196 5b23c2c5980adb090b3ebcf051693db5 "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1767489157.3615 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1767489164.63032 0
+["pdflatex"] 1767498248.2975 "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1767498255.32383 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -299,7 +299,7 @@
   "capitulos/04-resultados.tex" 1767473709 11236 ea947d3e2d99f013b54aef491b98bf19 ""
   "capitulos/05-discussao.tex" 1767473793 2135 2eb2c4efa8e3705d4b0bfd496bd85e38 ""
   "capitulos/06-conclusao.tex" 1767474347 2298 516b8efc34cc70bf693f4b006ca05148 ""
-  "capitulos/header.tex" 1767489156 2297 02a7a1e682a20b7863e16421e0736f5c ""
+  "capitulos/header.tex" 1767498247 2319 082e61ed9ff57c57a3e2760cf1701001 ""
   "d:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1767482037 5912 02656d8841a9b89b7e9c7362d02ff978 ""
   "images/4_qualidade_likert.png" 1767464389 32360 b603a566a83f50a1364b0b38e06b6782 ""
   "images/LicensePlateHaarCascade-FlowDiagram.png" 1767457344 478200 0f0f01edfc6a7ae84ff44c7f55373ebf ""
@@ -308,9 +308,9 @@
   "images/bar_mean_time.png" 1765118236 98964 f0cf464891aa39af166da84866adf22b ""
   "images/boxplot_timeDen.png" 1765117155 817042 8132ac8a9037080f33aaaf06b45d60e0 ""
   "images/grafico_ecdf_cumulativo.png" 1767467658 110106 2090835fbeae510f2d32e381caa1ff6f ""
-  "main-pt.aux" 1767489162 8196 5b23c2c5980adb090b3ebcf051693db5 "pdflatex"
+  "main-pt.aux" 1767498253 8196 5b23c2c5980adb090b3ebcf051693db5 "pdflatex"
   "main-pt.bbl" 1767482046 993 f02efdf18e7d217fe13de964b7278494 "bibtex main-pt"
-  "main-pt.out" 1767489162 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
+  "main-pt.out" 1767498253 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
   "main-pt.tex" 1767482037 5912 02656d8841a9b89b7e9c7362d02ff978 ""
   "sbc2025.cls" 1767462121 15191 c4af242f0f3fa92fadfd2f2d15a377b6 ""
   (generated)
