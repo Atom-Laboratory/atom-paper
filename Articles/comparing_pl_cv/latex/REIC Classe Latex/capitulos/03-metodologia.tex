@@ -1,5 +1,5 @@
 \section{Metodologia}
-A metodologia adotada neste trabalho envolve a análise comparativa de diferentes linguagens de programação e bibliotecas utilizadas em visão computacional. O processo metodológico foi dividido nas seguintes etapas:
+A metodologia adotada neste trabalho envolve a análise comparativa de diferentes linguagens de programação e a biblioteca OpenCV. O processo metodológico foi dividido nas seguintes etapas:
 
 \subsection{Seleção das linguagens e biblioteca}
 
@@ -16,7 +16,7 @@ Este critério visa avaliar o quão intuitiva e acessível é a utilização da 
     \item Disponibilidade de tutoriais e recursos online: Pesquisa por tutoriais, cursos e fóruns de discussão relacionados à OpenCV em cada linguagem.
     \item Configuração do ambiente de desenvolvimento: Avaliação da facilidade de instalação e configuração da biblioteca OpenCV em cada linguagem.
     \item Experiência prática: Implementação de tarefas básicas de visão computacional para avaliar a curva de aprendizado.
-    \item Feedback de desenvolvedores: Coleta de opiniões e experiências de desenvolvedores que utilizaram a OpenCV em cada linguagem.
+    \item \textit{Feedback} de desenvolvedores: Coleta de opiniões e experiências de desenvolvedores que utilizaram a OpenCV em cada linguagem.
 \end{itemize}
 
 \subsubsection{Desempenho}
@@ -24,17 +24,17 @@ O desempenho tem o objetivo de medir a eficiência das linguagens e bibliotecas 
 
 \subsection{Testes Qualitativos}
 
-Métrica Qualitativa (Escala Likert): Foi estabelecida uma escala de 1 a 5 (onde 1 = Insuficiente e 5 = Excelente) para classificar três aspectos: (i) clareza da documentação oficial; (ii) disponibilidade de tutoriais/comunidade; e (iii) facilidade de configuração do ambiente (setup).
+Métrica Qualitativa (Escala Likert): Foi estabelecida uma escala de 1 a 5 (onde 1 = Insuficiente e 5 = Excelente) para classificar três aspectos: (i) clareza da documentação oficial; (ii) disponibilidade de tutoriais/comunidade; e (iii) facilidade de configuração do ambiente (\textit{setup}).
 
 \subsection{Testes Quantitativos de Desempenho}
-Os testes quantitativos foram conduzidos para medir o tempo de execução (latência) de um algoritmo clássico de detecção de objetos em imagens estáticas, utilizando a implementação Haar Cascade da biblioteca OpenCV. A escolha do algoritmo se deve à sua popularidade e presença em aplicações reais de visão computacional, como reconhecimento facial e detecção de placas veiculares.
+Os testes quantitativos foram conduzidos para medir o tempo de execução (latência) de um algoritmo clássico de detecção de objetos em imagens estáticas, utilizando a implementação \textit{Haar Cascade} da biblioteca OpenCV. A escolha do algoritmo se deve à sua eficiência, popularidade e presença em aplicações reais de visão computacional, como reconhecimento facial e detecção de placas veiculares.
 
-Todo o código de teste, scripts de medição e procedimentos de pré‑processamento foram versionados e disponibilizados no repositório do projeto para garantir reprodutibilidade.
+Todo o código de teste, \textit{scripts} de medição e procedimentos de pré‑processamento foram versionados e disponibilizados no repositório do projeto para garantir reprodutibilidade, \citep{atomOrgGithub}.
 
 Para a realização dos testes, foram seguidos os seguintes procedimentos:
 
 \subsubsection{Definição do Ambiente de Teste}
-Ambiente de Hardware: Todos os testes foram realizados em uma máquina com as seguintes especificações:
+Ambiente de \textit{Hardware}: Todos os testes foram realizados em uma máquina com as seguintes especificações:
 \begin{table}[h]
 \centering
 \caption{Ambiente de Teste e Versões}
@@ -48,21 +48,21 @@ C++ (GCC) & 10.3.0 \\
 \hline
 \multicolumn{2}{l}{\textbf{Hardware}} \\
 \hline
-Processador & AMD Ryzen 5 3600X 6 Cores \\
+Processador & AMD Ryzen 5 3600X 6 \textit{Cores} \\
 Memória RAM & 32 GB \\
 GPU & NVIDIA GeForce RTX 2060\\
 S.O. & Windows 10 Pro 64 bits \\
 \hline
 \textbf{Versão do OpenCV} & \textbf{Método de Instalação} \\
 \hline
-OpenCV (Python) & 4.11 (bindings oficiais cv2) \\
-OpenCV (Java/C++) & 4.12 (Local build) \\
+OpenCV (Python) & 4.11 (\textit{bindings} oficiais cv2) \\
+OpenCV (Java/C++) & 4.12 (\textit{Local build}) \\
 \label{tab:ambiente_teste}
 \end{tabular}
 \end{table}
 
 \subsubsection{Seleção do Conjuntos de Dados}
-Para compor o corpus de teste, foram utilizados dois conjuntos de dados públicos de referência (benchmarks) obtidos via Kaggle, selecionados pela alta variabilidade de cenários “in-the-wild”, evitando viés de dados sintéticos ou controlados em laboratório.
+Para compor o corpus de teste, foram utilizados dois conjuntos de dados públicos de referência (\textit{benchmarks}) obtidos via Kaggle, selecionados pela alta variabilidade de cenários “\textit{in-the-wild}”, evitando viés de dados sintéticos ou controlados em laboratório.
 
 Os dados foram organizados em duas fontes para avaliar a robustez dos classificadores:
 
@@ -77,7 +77,7 @@ Os dados foram organizados em duas fontes para avaliar a robustez dos classifica
 \end{description}
 
 \subsubsection{Seleção dos Modelos e Parâmetros de Detecção}
-Os testes foram executados com dois modelos Haar Cascade pré-treinados, selecionados para representar diferentes níveis de complexidade computacional:
+Os testes foram executados com dois modelos \textit{Haar Cascade} pré-treinados, selecionados para representar diferentes níveis de complexidade computacional:
 \begin{itemize}
     \item \texttt{haarcascade\_license\_plate\_rus\_16stages.xml}\label{mdl:haarcascade_license_plate_rus_16stages}: Modelo com 16 estágios, priorizando velocidade.
     \item \texttt{haarcascade\_russian\_plate\_number.xml}\label{mdl:haarcascade_russian_plate_number}: Modelo focado em detalhes numéricos, com maior densidade de features.
@@ -87,16 +87,14 @@ Para garantir a isonomia, o método \texttt{detectMultiScale} foi configurado co
 \begin{itemize}
     \item \textbf{scaleFactor}: 1.1 (redução de 10\% na pirâmide de imagem a cada escala);
     \item \textbf{minNeighbors}: 3 (mínimo de vizinhos para validar uma detecção);
-    \item \textbf{minSize}: $30 \times 30$ pixels.
+    \item \textbf{minSize}: $30 \times 30$ \textit{pixels}.
 \end{itemize}
-
-Vale ressaltar que as imagens foram processadas em sua resolução original, sem redimensionamento prévio. Essa abordagem foi adotada intencionalmente para avaliar o comportamento das linguagens frente à variabilidade de carga de memória e processamento típica de fluxos de vídeo não padronizados.
 
 \subsubsection{Coleta e Tratamento dos Dados de Desempenho}
 
 Para garantir a reprodutibilidade dos testes, foram adotadas múltiplas fontes de consulta, incluindo a documentação oficial das bibliotecas, repositórios de código aberto e artigos técnicos especializados. Nos experimentos práticos, definiram-se dois conjuntos de tarefas-padrão para isolar o desempenho da linguagem:
 
-Os dados brutos de tempo de execução (latência) foram coletados para milhares de iterações. Observou-se que processos em segundo plano do Sistema Operacional e, no caso de linguagens gerenciadas, pausas do Garbage Collector, introduziam outliers extremos (picos de latência) que não refletiam o desempenho real do algoritmo de visão computacional.
+Os dados brutos de tempo de execução (latência) foram coletados para milhares de iterações. Observou-se que processos em segundo plano do Sistema Operacional e, no caso de linguagens gerenciadas, pausas do \textit{Garbage Collector}, introduziam \textit{outliers} extremos (picos de latência) que não refletiam o desempenho real do algoritmo de visão computacional.
 
 Para mitigar esse ruído e garantir uma comparação justa baseada na eficiência algorítmica, aplicou-se um método robusto de limpeza de dados: Método IQR (Intervalo Interquartil): Foram removidos os registros que excederam o limite superior calculado como $Q3 + 1.5 \times IQR$. Este tratamento eliminou anomalias de sistema (latências > 100ms em processos que levam 5ms), permitindo o uso confiável da Média Aritmética ($\mu$) e do Desvio Padrão ($\sigma$) como métricas centrais de avaliação, juntamente com a Mediana para análise de tendências centrais robustas.
 
@@ -111,7 +109,7 @@ Para garantir a isonomia do experimento, foram implementados três algoritmos co
     \item \textbf{Persistência}: exportação dos metadados (arquivo, modelo, contagem e tempo em nanossegundos) para arquivos CSV.
 \end{enumerate}
 
-Diferentemente de pipelines tradicionais, optou-se por passar a matriz de imagem original diretamente ao método de detecção, delegando ao framework (OpenCV) qualquer tratamento interno necessário de canais de cor, visando mensurar o tempo total da chamada de API 'como ela é' em uma aplicação final.
+Diferentemente de \textit{pipelines} tradicionais, optou-se por passar a matriz de imagem original diretamente ao método de detecção, delegando ao \textit{framework} (OpenCV) qualquer tratamento interno necessário de canais de cor, visando mensurar o tempo total da chamada de API 'como ela é' em uma aplicação final.
 
 O Fluxograma da Figura \ref{fig:fluxograma_pipeline_teste} ilustra o processo completo de cada iteração de teste.
 

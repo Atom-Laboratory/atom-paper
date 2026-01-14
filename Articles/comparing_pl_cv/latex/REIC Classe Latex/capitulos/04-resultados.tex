@@ -5,13 +5,13 @@
 
 Com base na metodologia experimental adotada, espera-se que os resultados evidenciem diferenças claras de desempenho, estabilidade e usabilidade entre as linguagens C++, Java e Python ao utilizar a biblioteca OpenCV para tarefas clássicas de visão computacional.
 
-Do ponto de vista de desempenho, é esperado que a implementação em C++ apresente os menores tempos médios de execução e menor variabilidade (desvio padrão), uma vez que a biblioteca é originalmente desenvolvida nessa linguagem e executa sem camadas adicionais de abstração. Espera-se que Python apresente maior latência média, atribuída principalmente à sobrecarga dos bindings e à gestão dinâmica de memória, enquanto Java deve ocupar uma posição intermediária, influenciada pelo uso da JVM e pelo comportamento do Garbage Collector.
+Do ponto de vista de desempenho, é esperado que a implementação em C++ apresente os menores tempos médios de execução e menor variabilidade (desvio padrão), uma vez que a biblioteca é originalmente desenvolvida nessa linguagem e executa sem camadas adicionais de abstração. Espera-se que Python apresente maior latência média, atribuída principalmente à sobrecarga dos \textit{bindings} e à gestão dinâmica de memória, enquanto Java deve ocupar uma posição intermediária, influenciada pelo uso da JVM e pelo comportamento do \textit{Garbage Collector}.
 
-Em relação à estabilidade, espera-se observar maior incidência de outliers de latência em linguagens gerenciadas, especialmente em Java, devido a pausas não determinísticas do coletor de lixo. A aplicação do método IQR tende a revelar que, apesar desses picos, a tendência central dos dados permanece consistente, permitindo uma comparação justa entre as linguagens.
+Em relação à estabilidade, espera-se observar maior incidência de \textit{outliers} de latência em linguagens gerenciadas, especialmente em Java, devido a pausas não determinísticas do coletor de lixo. A aplicação do método IQR tende a revelar que, apesar desses picos, a tendência central dos dados permanece consistente, permitindo uma comparação justa entre as linguagens.
 
-No aspecto qualitativo, espera-se que Python seja avaliada como a linguagem com maior facilidade de uso e menor curva de aprendizado, impulsionada por documentação acessível, ampla comunidade e simplicidade sintática. Java deve apresentar boa organização estrutural e robustez, porém com maior complexidade de configuração inicial. C++, embora ofereça máximo controle e desempenho, tende a apresentar maior complexidade sintática e maior esforço de setup, refletindo uma curva de aprendizado mais acentuada.
+No aspecto qualitativo, espera-se que Python seja avaliada como a linguagem com maior facilidade de uso e menor curva de aprendizado, impulsionada por documentação acessível, ampla comunidade e simplicidade sintática. Java deve apresentar boa organização estrutural e robustez, porém com maior complexidade de configuração inicial. C++, embora ofereça máximo controle e desempenho, tende a apresentar maior complexidade sintática e maior esforço de \textit{setup}, refletindo uma curva de aprendizado mais acentuada.
 
-De forma geral, espera-se que os resultados confirmem a existência de um trade-off claro entre desempenho bruto e produtividade de desenvolvimento, evidenciando que a escolha da linguagem em projetos de visão computacional deve considerar não apenas a eficiência computacional, mas também fatores como tempo de desenvolvimento, manutenção e perfil da aplicação.
+De forma geral, espera-se que os resultados confirmem a existência de um \textit{trade-off} claro entre desempenho bruto e produtividade de desenvolvimento, evidenciando que a escolha da linguagem em projetos de visão computacional deve considerar não apenas a eficiência computacional, mas também fatores como tempo de desenvolvimento, manutenção e perfil da aplicação.
 
 \subsection{Resultados Obtidos}
 
@@ -27,7 +27,7 @@ A aplicação do método IQR agrupado por linguagem e modelo resultou na remoç�
 \subsubsection{Resultados Qualitativos}
 A Figura~\ref{qualidade_likert} apresenta a avaliação qualitativa da facilidade de uso, disponibilidade de recursos e suporte das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em um questionário Likert aplicado aos desenvolvedores envolvidos no estudo.
 
-Os resultados qualitativos indicam maior percepção de facilidade de uso para Python, seguido por Java e C++, refletindo a maior abstração e rapidez no desenvolvimento proporcionadas pelas linguagens de mais alto nível. Essa percepção contrasta parcialmente com os resultados quantitativos de desempenho, nos quais C++ apresentou menor latência média e menor variabilidade, evidenciando um trade-off entre produtividade percebida e eficiência computacional.
+Os resultados qualitativos indicam maior percepção de facilidade de uso para Python, seguido por Java e C++, refletindo a maior abstração e rapidez no desenvolvimento proporcionadas pelas linguagens de mais alto nível. Essa percepção contrasta parcialmente com os resultados quantitativos de desempenho, nos quais C++ apresentou menor latência média e menor variabilidade, evidenciando um \textit{trade-off} entre produtividade percebida e eficiência computacional.
 
 No que se refere à disponibilidade de recursos e suporte, Python e C++ obtiveram avaliações mais elevadas segundo a percepção dos participantes, associadas à ampla comunidade e à abundância de bibliotecas e documentação. A linguagem Java apresentou avaliações inferiores nesse critério no contexto específico do estudo, indicando menor familiaridade ou menor disponibilidade percebida de recursos voltados à visão computacional.
 
@@ -84,7 +84,7 @@ O gráfico ECDF da Figura~\ref{ecdf_timeDen} ilustra o comportamento da latênci
 \end{center}
 \end{figure}
 
-A latência média cresce de forma aproximadamente linear à medida que o número de detecções aumenta. Esse comportamento reflete o custo computacional incremental exigido por cada objeto candidato processado, conforme demonstrado nos gráficos de tendência (OLS Trendline) da Figura~\ref{fig:trendlines_larga}. A regressão linear foi empregada com finalidade estritamente exploratória para identificar tendências de crescimento do custo computacional.
+A latência média cresce de forma aproximadamente linear à medida que o número de detecções aumenta. Esse comportamento reflete o custo computacional incremental exigido por cada objeto candidato processado, conforme demonstrado nos gráficos de tendência (\textit{OLS Trendline}) da Figura~\ref{fig:trendlines_larga}. A regressão linear foi empregada com finalidade estritamente exploratória para identificar tendências de crescimento do custo computacional.
 
 A linearidade observada sugere uma relação proporcional entre a densidade de objetos na cena e o tempo de execução, indicando previsibilidade e escalabilidade do sistema dentro do intervalo analisado. Esse padrão é consistente entre C++, Java e Python, embora as diferentes inclinações das retas evidenciem a disparidade na eficiência de execução entre as linguagens compiladas e interpretadas/gerenciadas.
 
@@ -94,7 +94,7 @@ A linearidade observada sugere uma relação proporcional entre a densidade de o
     \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\linewidth]{images/OLS_trendline_16STAGES.png}
-        \caption*{Modelo 16STAGES} % Legenda interna opcional
+        \caption*{Modelo 16STAGES}
     \end{minipage}
     \hfill % Espaço elástico entre as imagens
     % Segunda imagem
