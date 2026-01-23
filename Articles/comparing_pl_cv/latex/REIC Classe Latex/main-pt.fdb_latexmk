@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main-pt"] 1768402307.2504 "main-pt.aux" "main-pt.bbl" "main-pt" 1768402710.6536 0
+["bibtex main-pt"] 1768402307.2504 "main-pt.aux" "main-pt.bbl" "main-pt" 1769177012.8181 0
   "./apalike-sol.bst" 1767457344 26049 269dedab788b7f84af88c155ecb45872 ""
   "./refs.bib" 1768398299 2692 49b547957ab117e1d2e91bff54e646e6 ""
-  "main-pt.aux" 1768402709 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
+  "main-pt.aux" 1769177011 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1768402705.81595 "f:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1768402710.65451 0
-  "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767970887 261916 240d75d44ab8eb6766f7a1443dd2d60a ""
+["pdflatex"] 1769177007.5468 "f:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1769177012.81903 0
+  "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769136120 261916 240d75d44ab8eb6766f7a1443dd2d60a ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1767970895 20028 aeda50a14a640190a92ed7452511ab82 ""
-  "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767826614 13333527 383fc4e5d9917f6cfc4a190dd6451459 ""
+  "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769105487 13333528 ac686ffacc73593e2f24978542ba9c29 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1570723679 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc" 1570723678 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463869852 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -299,8 +299,8 @@
   "capitulos/04-resultados.tex" 1768402559 11272 7daa0a88b7170953f8ebf7225b0ba448 ""
   "capitulos/05-discussao.tex" 1768402619 2153 17b8f9e7b9e518a627dd33468aaea820 ""
   "capitulos/06-conclusao.tex" 1768402705 2322 aa9ed17487b605aaadea61d5fed72509 ""
-  "capitulos/header.tex" 1767971005 2600 c0330740d7112a4c2d52ba99cd080ea8 ""
-  "f:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1767970777 5912 02656d8841a9b89b7e9c7362d02ff978 ""
+  "capitulos/header.tex" 1769177006 2609 62f6b93cbfd8ff71c0b4caf3aa345ddf ""
+  "f:/Users/Enzo HD/Github/Repos/Atom/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1769176831 5911 157e19236ca7ef69da2ae645aad9a2e3 ""
   "images/4_qualidade_likert.png" 1767464389 32360 b603a566a83f50a1364b0b38e06b6782 ""
   "images/LicensePlateHaarCascade-FlowDiagram.png" 1767457344 478200 0f0f01edfc6a7ae84ff44c7f55373ebf ""
   "images/OLS_trendline_16STAGES.png" 1767467905 156481 58ce5fa7b576bddc06791aa8fc7073ce ""
@@ -308,10 +308,10 @@
   "images/bar_mean_time.png" 1765118236 98964 f0cf464891aa39af166da84866adf22b ""
   "images/boxplot_timeDen.png" 1765117155 817042 8132ac8a9037080f33aaaf06b45d60e0 ""
   "images/grafico_ecdf_cumulativo.png" 1767467658 110106 2090835fbeae510f2d32e381caa1ff6f ""
-  "main-pt.aux" 1768402709 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
+  "main-pt.aux" 1769177011 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
   "main-pt.bbl" 1768402307 1193 08fd8b968d3b6eacc86ced82a80b7181 "bibtex main-pt"
-  "main-pt.out" 1768402709 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
-  "main-pt.tex" 1767970777 5912 02656d8841a9b89b7e9c7362d02ff978 ""
+  "main-pt.out" 1769177011 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
+  "main-pt.tex" 1769176831 5911 157e19236ca7ef69da2ae645aad9a2e3 ""
   "sbc2025.cls" 1767462121 15191 c4af242f0f3fa92fadfd2f2d15a377b6 ""
   (generated)
   "main-pt.aux"
