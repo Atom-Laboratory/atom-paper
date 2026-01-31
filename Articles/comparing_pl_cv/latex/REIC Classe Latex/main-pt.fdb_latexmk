@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1769882715.05732 "main-pt.aux" "main-pt.bbl" "main-pt" 1769882723.42659 0
+["bibtex main-pt"] 1769892827.32328 "main-pt.aux" "main-pt.bbl" "main-pt" 1769892837.32985 0
   "./apalike-sol.bst" 1769865939 26049 269dedab788b7f84af88c155ecb45872 ""
   "./refs.bib" 1769882692 3462 bb7221420ca57c7ce4bc594efa9053e5 ""
-  "main-pt.aux" 1769882721 8577 c2d62f00ce15446d332dbc540f34d5f5 "pdflatex"
+  "main-pt.aux" 1769892834 8706 784bb7c54a36b544993164f6d8a453f1 "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1769882715.62544 "c:/Users/pedro/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1769882723.42745 0
+["pdflatex"] 1769892827.89097 "c:/Users/pedro/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1769892837.33215 0
   "C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769882564 261737 7220613afb705163d15b5701e7470e45 ""
   "C:/Users/pedro/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1769882574 20028 98df15314f021f3c4d9824eabb5af443 ""
   "C:/Users/pedro/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769881843 13333909 8ce524af872f9024c0b074f855b330fd ""
@@ -295,7 +295,7 @@
   "aas_macros.sty" 1769865939 5057 cf45ff75f433e372cec5993ac08f4363 ""
   "c:/Users/pedro/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1769865939 5903 433e1c3934e75ea3950297b07f19f127 ""
   "capitulos/01-introducao.tex" 1769865939 2696 c8bc8ff2628ff65e08b3497fa6e53349 ""
-  "capitulos/02-revisao-bibliografica.tex" 1769882699 6960 d219be6c9cc121ec1fee6c62ea743400 ""
+  "capitulos/02-revisao-bibliografica.tex" 1769892817 6997 46638723cf7d49d5a042ce9bef898b08 ""
   "capitulos/03-metodologia.tex" 1769865939 9818 48f6ab24d5decfa7b845921a514d9fca ""
   "capitulos/04-resultados.tex" 1769865939 11272 7daa0a88b7170953f8ebf7225b0ba448 ""
   "capitulos/05-discussao.tex" 1769865939 2386 5c68928181d4486c792203e3f5a37139 ""
@@ -308,9 +308,9 @@
   "images/bar_mean_time.png" 1769865939 98964 f0cf464891aa39af166da84866adf22b ""
   "images/boxplot_timeDen.png" 1769865939 817042 8132ac8a9037080f33aaaf06b45d60e0 ""
   "images/grafico_ecdf_cumulativo.png" 1769865939 110106 2090835fbeae510f2d32e381caa1ff6f ""
-  "main-pt.aux" 1769882721 8577 c2d62f00ce15446d332dbc540f34d5f5 "pdflatex"
-  "main-pt.bbl" 1769882715 1655 70b9d4b8c7e14b8a01b7629a60972e3e "bibtex main-pt"
-  "main-pt.out" 1769882721 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
+  "main-pt.aux" 1769892834 8706 784bb7c54a36b544993164f6d8a453f1 "pdflatex"
+  "main-pt.bbl" 1769892827 1655 70b9d4b8c7e14b8a01b7629a60972e3e "bibtex main-pt"
+  "main-pt.out" 1769892834 5591 ff23ddcd6557497883352b3ce2bbb13e "pdflatex"
   "main-pt.tex" 1769865939 5903 433e1c3934e75ea3950297b07f19f127 ""
   "sbc2025.cls" 1769865939 15191 c4af242f0f3fa92fadfd2f2d15a377b6 ""
   (generated)
