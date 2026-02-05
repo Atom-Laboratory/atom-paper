@@ -3,10 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: atompp26.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: Capitulos/ProblemaDePesquisa.aux
-Reallocating 'name_of_file' (item size: 1) to 32 items.
-A level-1 auxiliary file: Capitulos/QuestaoDePesquisa.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: Capitulos/Objetivos.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: Capitulos/ReferencialTeorico.aux
 Reallocating 'name_of_file' (item size: 1) to 35 items.
 A level-1 auxiliary file: Capitulos/RevisaoBibliografica.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
@@ -42,7 +42,7 @@ Warning--faltando school em Pereira2022
 +---------------------------------------------------------+
 You've used 16 entries,
             6714 wiz_defined-function locations,
-            1307 strings with 12440 characters,
+            1307 strings with 12441 characters,
 and the built_in function-call counts, 9457 in all, are:
 = -- 816
 > -- 260

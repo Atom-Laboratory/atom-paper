@@ -1,20 +1,22 @@
-\section*{Objetivos}
-\addcontentsline{toc}{section}{Objetivos}
+\chapter*{Objetivos}
+\addcontentsline{toc}{chapter}{Objetivos}
 
+\section*{Objetivo Geral}
+\addcontentsline{toc}{section}{Objetivo Geral}
 
-\subsection*{Objetivo Geral}
-\addcontentsline{toc}{subsection}{Objetivo Geral}
+Investigar o desenvolvimento e a integração de um manipulador robótico do tipo SCARA, associado a algoritmos de visão computacional embarcada e modelos de inteligência artificial para tomada de decisão, operando sob restrições de custo e processamento, tendo a execução autônoma de partidas de xadrez como estudo de caso experimental, sem dependência de computadores externos.
 
-Investigar a implementação e otimização de algoritmos de visão computacional e modelos de \textit{Deep Learning} para identificação e localização de objetos em tempo real, operando estritamente dentro das restrições de processamento de sistemas embarcados (SBCs e Microcontroladores), de modo a garantir autonomia ao braço robótico Atom sem depender de computadores externos.
+\section*{Objetivos Específicos}
+\addcontentsline{toc}{section}{Objetivos Específicos}
 
-\subsection*{Objetivos Específicos}
-\addcontentsline{toc}{subsection}{Objetivos Específicos}
+\begin{itemize}
+\item \textbf{Projetar e construir} um manipulador robótico do tipo SCARA, de baixo custo, com precisão e repetibilidade adequadas à manipulação de peças em um tabuleiro de xadrez padronizado.
 
-\begin{itemize} 
-  \item \textbf{Avaliar a viabilidade técnica} de arquiteturas de \textit{hardware} embarcado (SBCs como Raspberry Pi/Banana Pi e módulos ESP32) para a execução de inferência de redes neurais na borda (\textit{Edge AI}).
-  \item \textbf{Adaptar e treinar modelos} de redes neurais convolucionais leves (ex: MobileNet ou YOLO Nano) através de técnicas de \textit{Transfer Learning}, visando o equilíbrio entre precisão de detecção e baixo custo computacional.
+\item \textbf{Implementar um sistema de visão computacional embarcado} capaz de reconhecer o estado do tabuleiro, identificar peças, cores e posições, operando em tempo real em hardware com recursos limitados.
 
-  \item \textbf{Desenvolver o \textit{middleware} de integração} capaz de converter as coordenadas espaciais obtidas pelo sistema de visão em instruções cinemáticas para o controle dos atuadores do manipulador robótico.
+\item \textbf{Integrar modelos de inteligência artificial} para tomada de decisão no jogo de xadrez, traduzindo o estado percebido do tabuleiro em ações válidas segundo as regras do jogo.
 
-  \item \textbf{Validar experimentalmente} a autonomia do sistema em tarefas de manipulação (\textit{Pick and Place}), mensurando a latência, a taxa de acerto e o comportamento térmico do processador embarcado durante a operação contínua.
+\item \textbf{Desenvolver o sistema de controle e integração} responsável por converter decisões simbólicas do modelo de IA em comandos cinemáticos para os atuadores do manipulador SCARA.
+
+\item \textbf{Validar experimentalmente} o sistema robótico por meio da execução autônoma de partidas de xadrez, avaliando métricas como latência, precisão de percepção, confiabilidade mecânica e desempenho computacional do sistema embarcado.
 \end{itemize}

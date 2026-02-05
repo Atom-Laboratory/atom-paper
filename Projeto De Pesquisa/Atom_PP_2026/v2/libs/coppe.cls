@@ -76,7 +76,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \newcommand{\@degreename}{Bacharelado}
   \newcommand{\local@degname}{Bacharel}
   \newcommand{\foreign@degname}{Bachelor}
-  \newcommand\local@doctype{Projeto de Iniciação Científica}
+  \newcommand\local@doctype{Grupo de Iniciação Científica}
   \newcommand\foreign@doctype{Monograph}
 }
 \DeclareOption{lic}{%
@@ -84,7 +84,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \newcommand{\@degreename}{Licenciatura}
   \newcommand{\local@degname}{Licenciado}
   \newcommand{\foreign@degname}{Licentiate}
-  \newcommand\local@doctype{Projeto}
+  \newcommand\local@doctype{Grupo de Iniciação Científica}
   \newcommand\foreign@doctype{Monograph}
 }
 \DeclareOption{msc}{%
