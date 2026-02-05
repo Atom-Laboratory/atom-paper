@@ -1,0 +1,82 @@
+\makeatletter
+\def\input@path{{libs/}}
+\makeatother
+\documentclass[bcl,numbers]{coppe}
+
+%USE bcl PARA BACHARELADO E lic PARA LICENCIATURA
+
+\input{Preambulo/Pacotes}
+\input{Preambulo/Configurações}
+\input{Preambulo/Teoremas}
+\input{Preambulo/Comandos}
+
+
+\setlength{\oddsidemargin}{.5cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\topmargin}{-0.6cm}
+\setlength{\headheight}{0.2cm}
+\setlength{\headsep}{0.8cm}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{24.7cm}
+\setlength{\footskip}{1cm}
+
+\everymath{\displaystyle}
+
+\begin{document}
+
+  \title{Projeto De Iniciação Científica  Robótica e Visão Computacional}
+  \author{Enzo}{R. L. D. Ribas}
+  \matricula{D24642}%MATRICULA PARA FOLHA DE APROVAÇÃO
+  % \conceito{X}%CONCEITO PARA FOLHA DE APROVAÇÃO
+  % \numero{000}%NÚMERO DA MONOGRAFIA
+  \advisor{do Prof.}{MSc.}{Ricardo}{Luiz de Freitas}
+  \advisor{do Prof.}{Dr.}{Presleyson}{Plínio de Lima}
+
+  % \examiner{Prof.}{Dr.}{Presidente da Banca}{Orientador}%O 4 ITEM É OPCIONAL
+  % \examiner{Prof.}{Dr.}{Membro 1}{Convidado 1}%O 4 ITEM É OPCIONAL
+  % \examiner{Prof.}{Dr.}{Membro 2}{Convidado 1}%O 4 ITEM É OPCIONAL
+  \program{MAT}%MAT PARA MATEMÁTICA, %MATapl PARA MATEMÁTICA APLICADA,
+
+  \keyword{Robótica}
+  \keyword{Visão Computacional}
+  \keyword{Robótica Aplicada}
+  \keyword{Inteligência Artificial}
+
+  \maketitle
+
+  % \frontmatter
+  %\include{Preliminar/Dedicatória}%OPCIONAL
+  % \include{Preliminar/Agradecimentos}%OPCIONAL
+  % \include{Preliminar/Abstract}%OPCIONAL
+  % \include{Preliminar/Resumo}
+  \small
+  \tableofcontents
+  
+  \pagenumbering{roman}
+
+  \mainmatter
+
+  %%%%%%%%%%%%%%%%   Inserir capítulos   %%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \include{Capitulos/ProblemaDePesquisa}
+  \include{Capitulos/QuestaoDePesquisa}
+  \include{Capitulos/Objetivos}
+  \include{Capitulos/RevisaoBibliografica}
+  \include{Capitulos/Metodologia}
+  \include{Capitulos/Cronograma}
+  \include{Capitulos/Apendice}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+  \backmatter
+  % Bibliography
+  \bibliographystyle{abntex2-alf} 
+  \bibliography{Capitulos/ref}
+
+  % For BibTeX compatibility (if needed by your toolchain)
+  % \bibdata{Capitulos/ref}
+  % \bibstyle{plain}
+
+  %\include{Capitulos/Referências}%NO ARQUIVO ref.bib TEM EXEMPLOS DE COMO COLOCAR REFERÊNCIAS.
+  
+\end{document}
