@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: atompp26.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Capitulos/Assinaturas.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: Capitulos/ProblemaDePesquisa.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -11,8 +13,8 @@ Reallocating 'name_of_file' (item size: 1) to 35 items.
 A level-1 auxiliary file: Capitulos/RevisaoBibliografica.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Capitulos/Metodologia.aux
-Reallocating 'name_of_file' (item size: 1) to 25 items.
-A level-1 auxiliary file: Capitulos/Cronograma.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Capitulos/Programação.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: Capitulos/Apendice.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
@@ -42,7 +44,7 @@ Warning--faltando school em Pereira2022
 +---------------------------------------------------------+
 You've used 16 entries,
             6714 wiz_defined-function locations,
-            1307 strings with 12441 characters,
+            1308 strings with 12469 characters,
 and the built_in function-call counts, 9457 in all, are:
 = -- 816
 > -- 260

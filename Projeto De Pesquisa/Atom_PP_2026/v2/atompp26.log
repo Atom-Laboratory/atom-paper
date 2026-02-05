@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  5 FEB 2026 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  5 FEB 2026 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1183,7 +1183,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (atompp26.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 13.
- (Capitulos/ProblemaDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/ReferencialTeorico.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux))
+ (Capitulos/Assinaturas.aux) (Capitulos/ProblemaDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/ReferencialTeorico.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Programação.aux) (Capitulos/Apendice.aux))
 \openout1 = `atompp26.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1284,7 +1284,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 25.
 
-<libs/dom_helder_logo.png, id=102, 401.5pt x 401.5pt>
+<libs/dom_helder_logo.png, id=116, 401.5pt x 401.5pt>
 File: libs/dom_helder_logo.png Graphic file (type png)
 <use libs/dom_helder_logo.png>
 Package pdftex.def Info: libs/dom_helder_logo.png  used on input line 46.
@@ -1325,12 +1325,12 @@ Underfull \hbox (badness 3189) in paragraph at lines 46--46
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-\OT1/cmr/m/n/12 ao comit^e avaliador de pesquisas do
+\OT1/cmr/m/n/12 ^^Ra Pr^^So-Reitoria de pesquisas do Centro
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 46--46
-\OT1/cmr/m/n/12 Centro Universit^^Sario Dom Helder C^amara.
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\OT1/cmr/m/n/12 Universit^^Sario Dom Helder C^amara.
  []
 
 
@@ -1340,19 +1340,27 @@ Underfull \hbox (badness 2980) in paragraph at lines 46--46
 
 [1
 
-] (atompp26.toc
+]
+\openout2 = `Capitulos/Assinaturas.aux'.
+
+ (Capitulos/Assinaturas.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.a}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...^encias Bibliogr\'aficas}{15}{chapter*.32}
-                                                  % [1
+l.54   \include{Capitulos/Assinaturas}
+                                       [1
+
+
+] (atompp26.toc [2
+
+
 
 ])
 \tf@toc=\write7
 \openout7 = `atompp26.toc'.
 
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 57.
+(babel)             Reported on input line 60.
 
 Overfull \vbox (5.67618pt too high) has occurred while \output is active []
 
@@ -1360,7 +1368,7 @@ Overfull \vbox (5.67618pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57   \mainmatter
+l.60   \mainmatter
                    [1]
 \openout2 = `Capitulos/ProblemaDePesquisa.aux'.
 
@@ -1421,9 +1429,9 @@ Underfull \hbox (badness 1097) in paragraph at lines 14--15
 
 
 ] [9]) [10] [11]
-\openout2 = `Capitulos/Cronograma.aux'.
+\openout2 = `Capitulos/Programação.aux'.
 
- (Capitulos/Cronograma.tex) [12
+ (Capitulos/Programação.tex) [12
 
 
 
@@ -1473,26 +1481,26 @@ Overfull \hbox (5.11292pt too wide) in paragraph at lines 185--185
 
 ]) [16] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(atompp26.aux (Capitulos/ProblemaDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/ReferencialTeorico.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Cronograma.aux) (Capitulos/Apendice.aux))
+(atompp26.aux (Capitulos/Assinaturas.aux) (Capitulos/ProblemaDePesquisa.aux) (Capitulos/Objetivos.aux) (Capitulos/ReferencialTeorico.aux) (Capitulos/RevisaoBibliografica.aux) (Capitulos/Metodologia.aux) (Capitulos/Programação.aux) (Capitulos/Apendice.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `atompp26.out' has not changed.
-(rerunfilecheck)             Checksum: 2ABE905DE14049BA81D76940B709BD9B;4326.
+(rerunfilecheck)             Checksum: D6D173BB9E9098981071C2C2F148EDBF;4948.
  ) 
 Here is how much of TeX's memory you used:
- 43538 strings out of 467870
- 857339 string characters out of 5418355
- 1460969 words of memory out of 5000000
- 71520 multiletter control sequences out of 15000+600000
+ 43569 strings out of 467870
+ 858592 string characters out of 5418355
+ 1461645 words of memory out of 5000000
+ 71540 multiletter control sequences out of 15000+600000
  641092 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,120p,3365b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on atompp26.pdf (20 pages, 306374 bytes).
+Output written on atompp26.pdf (21 pages, 310971 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

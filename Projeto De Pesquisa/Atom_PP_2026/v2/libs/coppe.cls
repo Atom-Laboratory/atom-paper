@@ -619,7 +619,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 \newcommand\local@countryname{Brasil}
 \newcommand\frontcover@maintext{
   \sloppy\nohyphens{\local@doctype\
-  apresentado ao comitê avaliador de pesquisas do \local@universityname.
+  apresentado à Pró-Reitoria de pesquisas do \local@universityname.
   \local@advisorstring : 
   \count1=0
   \ifnum\@advisor>0
