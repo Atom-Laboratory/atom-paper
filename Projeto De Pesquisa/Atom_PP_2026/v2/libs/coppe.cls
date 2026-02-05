@@ -206,6 +206,8 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \else
     \clearpage
   \fi}
+
+  % FRONT COVER
 \renewcommand\maketitle{%
 \begin{titlepage}
 \pagenumbering{roman}
@@ -213,23 +215,23 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
 \begin{center}
 \begin{figure}
 \centering
-\includegraphics{libs/dom_helder_logo.png}
+\includegraphics[scale=0.8]{libs/dom_helder_logo.png}
 \end{figure}
 \vspace{5cm}
 {\bf { \large CENTRO UNIVERSITÁRIO DOM HELDER CÂMARA\\
-%CURSO DE GRADUAÇÃO EM MATEMÁTICA\\  
 }}
 \vspace{2cm}
 {\Large {{\bf \@authname\ \@authsurn}} \\}
 \vspace{3cm}
 { \Large {\bf \local@title}}
 \end{center}
-\vspace{6cm}
+\vspace{2cm}
 \begin{center}
 {\bf \MakeUppercase \local@cityname \\ \number\year}
 \end{center}
 \end{titlepage}
 
+  % SECOND COVER
   \pagenumbering{alph}
   \ltx@ifpackageloaded{hyperref}{\coppe@hypersetup}{}%
   \begin{titlepage}
@@ -238,7 +240,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \setlength\baselineskip{0pt}
   \setlength\parskip{1mm}
 \centering
-  \makebox[20mm][c]{\includegraphics[scale=0.1]{libs/dom_helder_logo.png}}
+  \makebox[20mm][c]{\includegraphics[scale=0.5]{libs/dom_helder_logo.png}}
   \end{flushleft}
   \vspace{1.05cm}
   \begin{center}
@@ -254,7 +256,6 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \vspace*{7.5mm}
   \par
   \end{flushright}
-  \vspace*{\fill}
   \begin{center}
   {\MakeUppercase\local@cityname}\par
   \number\year
@@ -262,10 +263,10 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \end{titlepage}
   \global\let\maketitle\relax%
   \global\let\and\relax}
+
 \newcommand\makefrontpage{%
   \begin{center}
-  {\bf CENTRO UNIVERSITÁRIO DOM HELDER CÂMARA\\
-DEPARTAMENTO DE ENGENHARIA MECÂNICA}\\
+  {\bf CENTRO UNIVERSITÁRIO DOM HELDER CÂMARA}\\
   % {\bf INSTITUTO DE CIÊNCIAS EXATAS}\\
   % {\bf DEPARTAMENTO DE \MakeUppercase \local@deptname}
   \end{center}
