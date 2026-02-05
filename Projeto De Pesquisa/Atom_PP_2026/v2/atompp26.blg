@@ -44,37 +44,37 @@ Warning--faltando school em Pereira2022
 +---------------------------------------------------------+
 You've used 16 entries,
             6714 wiz_defined-function locations,
-            1308 strings with 12469 characters,
-and the built_in function-call counts, 9457 in all, are:
-= -- 816
+            1308 strings with 12470 characters,
+and the built_in function-call counts, 9518 in all, are:
+= -- 810
 > -- 260
 < -- 1
 + -- 137
 - -- 85
-* -- 619
-:= -- 1445
+* -- 618
+:= -- 1443
 add.period$ -- 62
 call.type$ -- 16
 change.case$ -- 116
 chr.to.int$ -- 19
 cite$ -- 16
-duplicate$ -- 475
-empty$ -- 723
+duplicate$ -- 490
+empty$ -- 736
 format.name$ -- 393
-if$ -- 2162
+if$ -- 2174
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 269
-newline$ -- 90
+missing$ -- 273
+newline$ -- 92
 num.names$ -- 75
-pop$ -- 283
+pop$ -- 299
 preamble$ -- 1
 purify$ -- 50
 quote$ -- 0
-skip$ -- 553
+skip$ -- 559
 stack$ -- 1
 substring$ -- 225
-swap$ -- 213
+swap$ -- 215
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
