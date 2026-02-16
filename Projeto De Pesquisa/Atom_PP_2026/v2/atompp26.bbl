@@ -20,6 +20,12 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Tecnol{\'o}gica
   OpenCV Library}. Sebastopol, CA: O'Reilly Media, Inc., 2008. 580~p.
 ISBN 978-0-596-51613-0.}
 
+\bibitem[Bugarin 2024]{Bugarin2024Real}
+\abntrefinfo{Bugarin}{BUGARIN}{2024}
+{BUGARIN, A.~I. Real time tracking and analysis of physical chess games using
+  computer vision and machine learning.
+2024.}
+
 \bibitem[Cardoso 2020]{Cardoso2020}
 \abntrefinfo{Cardoso}{CARDOSO}{2020}
 {CARDOSO, A.~M.
@@ -43,11 +49,24 @@ Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Federal do
 Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Federal do Rio de
   Janeiro, dez. 2023. Defesa: 04/12/2023.}
 
+\bibitem[Koray e S{\"u}mer 2016]{Koray2016Computer}
+\abntrefinfo{Koray e S{\"u}mer}{KORAY; S{\"U}MER}{2016}
+{KORAY, C.; S{\"U}MER, E. A computer vision system for chess game tracking. In:
+   \emph{21st Computer Vision Winter Workshop, Rimske Toplice, Slovenia}.
+  [S.l.: s.n.], 2016.}
+
 \bibitem[Langevin 2012]{inMoov}
 \abntrefinfo{Langevin}{LANGEVIN}{2012}
 {LANGEVIN, G. \emph{inMoov: The open source 3D printed life size robot}. 2012.
   \url{https://inmoov.fr/}.
 Accessed: 2025-12-26.}
+
+\bibitem[Leme{\v{s}}, Koli{\'c} e Tabak 2025]{Lemevs2025Computer}
+\abntrefinfo{Leme{\v{s}}, Koli{\'c} e Tabak}{LEME{\v{S}}; KOLI{\'C};
+  TABAK}{2025}
+{LEME{\v{S}}, S.; KOLI{\'C}, M.; TABAK, E. Computer vision for chess game
+  automation. In:  SPRINGER. \emph{International Conference “New
+  Technologies, Development and Applications”}. [S.l.], 2025. p. 21--30.}
 
 \bibitem[Menezes 2013]{Menezes2013}
 \abntrefinfo{Menezes}{MENEZES}{2013}
@@ -93,6 +112,12 @@ Unpublished.}
 Disserta\c{c}\~{a}o (Disserta{\c c}{\~a}o) --- Universidade Tecnol{\'o}gica
   Federal do Paran{\'a}, jul. 2022. Programa: Inform{\'a}tica (40006018025P8);
   Defesa: 01/07/2022.}
+
+\bibitem[Sarker 2015]{Sarker2015Wizard}
+\abntrefinfo{Sarker}{SARKER}{2015}
+{SARKER, S. Wizard chess: An autonomous chess playing robot. In:  IEEE.
+  \emph{2015 IEEE International WIE Conference on Electrical and Computer
+  Engineering (WIECON-ECE)}. [S.l.], 2015. p. 475--478.}
 
 \bibitem[Schwab 2016]{Schwab2016}
 \abntrefinfo{Schwab}{SCHWAB}{2016}

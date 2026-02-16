@@ -9,21 +9,21 @@
 \contentsline {chapter}{Referencial Teórico}{5}{chapter*.11}%
 \contentsline {chapter}{Revisão Bibliográfica}{6}{chapter*.12}%
 \contentsline {section}{Visão Computacional Aplicada e Sensoriamento}{6}{section*.13}%
-\contentsline {section}{Robótica e Controle Assistido por Visão}{6}{section*.14}%
+\contentsline {section}{Robótica e Controle Assistido por Visão}{7}{section*.14}%
 \contentsline {section}{Infraestrutura IoT, Segurança e Inteligência de Dados}{7}{section*.15}%
 \contentsline {section}{Síntese da Revisão Bibliográfica}{7}{section*.16}%
-\contentsline {chapter}{Metodologia}{8}{chapter*.17}%
-\contentsline {section}{Classificação da Pesquisa}{8}{section*.18}%
-\contentsline {section}{Materiais e Instrumentos}{8}{section*.19}%
-\contentsline {section}{Procedimentos Metodológicos}{9}{section*.20}%
-\contentsline {section}{Aspectos Éticos}{11}{section*.26}%
-\contentsline {chapter}{Programação}{12}{chapter*.27}%
-\contentsline {section}{\numberline {0.1}Cronograma}{12}{section.0.1}%
-\contentsline {section}{Cronograma}{12}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Encontros de Acompanhamento}{12}{section.0.2}%
-\contentsline {section}{Encontros de Acompanhamento}{12}{section.0.2}%
-\contentsline {chapter}{Apêndice}{13}{chapter*.29}%
-\contentsline {section}{\numberline {0.3}Levantamento Preliminar de Literatura}{13}{section.0.3}%
-\contentsline {subsection}{\numberline {0.3.1}Visão Computacional}{13}{subsection.0.3.1}%
-\contentsline {section}{\numberline {0.4}Internet das Coisas (IOT) e Aprendizado Profundo (DL)}{14}{section.0.4}%
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{15}{chapter*.33}%
+\contentsline {chapter}{Metodologia}{9}{chapter*.17}%
+\contentsline {section}{Classificação da Pesquisa}{9}{section*.18}%
+\contentsline {section}{Materiais e Instrumentos}{9}{section*.19}%
+\contentsline {section}{Procedimentos Metodológicos}{10}{section*.20}%
+\contentsline {section}{Aspectos Éticos}{12}{section*.26}%
+\contentsline {chapter}{Programação}{13}{chapter*.27}%
+\contentsline {section}{\numberline {0.1}Cronograma}{13}{section.0.1}%
+\contentsline {section}{Cronograma}{13}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Encontros de Acompanhamento}{13}{section.0.2}%
+\contentsline {section}{Encontros de Acompanhamento}{13}{section.0.2}%
+\contentsline {chapter}{Apêndice}{14}{chapter*.29}%
+\contentsline {section}{\numberline {0.3}Levantamento Preliminar de Literatura}{14}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Visão Computacional}{14}{subsection.0.3.1}%
+\contentsline {section}{\numberline {0.4}Internet das Coisas (IOT) e Aprendizado Profundo (DL)}{15}{section.0.4}%
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}{chapter*.33}%
