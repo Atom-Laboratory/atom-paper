@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main-pt"] 1770745380.89104 "main-pt.aux" "main-pt.bbl" "main-pt" 1770745385.30553 0
+["bibtex main-pt"] 1771336085.28121 "main-pt.aux" "main-pt.bbl" "main-pt" 1771336089.5517 0
   "./apalike-sol.bst" 1770300456 26049 269dedab788b7f84af88c155ecb45872 ""
-  "./refs.bib" 1770745383 2638 8a0b865c842cb3ff85212b5b3fedc2dd ""
-  "main-pt.aux" 1770745384 8269 8aba8671eabad8304c0db4fe71cce134 "pdflatex"
+  "./refs.bib" 1771336076 2617 34b07486d1d7874f01b72e4437f576c4 ""
+  "main-pt.aux" 1771336088 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
   (generated)
   "main-pt.bbl"
   "main-pt.blg"
   (rewritten before read)
-["pdflatex"] 1770745381.15092 "c:/Users/joaoa/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1770745385.30631 0
+["pdflatex"] 1771336085.53867 "c:/Users/joaoa/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" "main-pt.pdf" "main-pt" 1771336089.55227 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -294,7 +294,7 @@
   "Preambulo/pacotes.tex" 1770300456 2123 4b449af060c8a33f605786ec6bf5b0a5 ""
   "aas_macros.sty" 1770300456 5057 cf45ff75f433e372cec5993ac08f4363 ""
   "c:/Users/joaoa/Documents/GitHub/paper/Articles/comparing_pl_cv/latex/REIC Classe Latex/main-pt.tex" 1770300456 5903 433e1c3934e75ea3950297b07f19f127 ""
-  "capitulos/01-introducao.tex" 1770745385 2696 c8bc8ff2628ff65e08b3497fa6e53349 ""
+  "capitulos/01-introducao.tex" 1771336077 2696 c8bc8ff2628ff65e08b3497fa6e53349 ""
   "capitulos/02-revisao-bibliografica.tex" 1770300456 4682 679856aa810aee5c23c9335f645e9779 ""
   "capitulos/03-metodologia.tex" 1770300456 9818 48f6ab24d5decfa7b845921a514d9fca ""
   "capitulos/04-resultados.tex" 1770300456 11272 7daa0a88b7170953f8ebf7225b0ba448 ""
@@ -308,9 +308,9 @@
   "images/bar_mean_time.png" 1770300456 98964 f0cf464891aa39af166da84866adf22b ""
   "images/boxplot_timeDen.png" 1770300456 817042 8132ac8a9037080f33aaaf06b45d60e0 ""
   "images/grafico_ecdf_cumulativo.png" 1770300456 110106 2090835fbeae510f2d32e381caa1ff6f ""
-  "main-pt.aux" 1770745384 8269 8aba8671eabad8304c0db4fe71cce134 "pdflatex"
-  "main-pt.bbl" 1770745381 1203 bb67221143300950d3022c3fa81d97f4 "bibtex main-pt"
-  "main-pt.out" 1770745384 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
+  "main-pt.aux" 1771336088 8269 73d42fece93749bbb90a36f69d96700f "pdflatex"
+  "main-pt.bbl" 1771336085 1156 b581cfc7908474855d388c056483d657 "bibtex main-pt"
+  "main-pt.out" 1771336088 5420 ca154e309ee230d91482e632e90536c8 "pdflatex"
   "main-pt.tex" 1770300456 5903 433e1c3934e75ea3950297b07f19f127 ""
   "sbc2025.cls" 1770300456 15191 c4af242f0f3fa92fadfd2f2d15a377b6 ""
   (generated)
