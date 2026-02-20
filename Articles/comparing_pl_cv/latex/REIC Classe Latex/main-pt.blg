@@ -5,47 +5,50 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: apalike-sol.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: refs.bib
-Warning--empty journal in bradski2000opencv
 Warning--empty doi in bradski2000opencv
-You've used 7 entries,
+Warning--empty journal in iglovikov2025needspeedcomprehensivebenchmark
+Warning--empty doi in iglovikov2025needspeedcomprehensivebenchmark
+Warning--empty journal in srajer2018benchmarkselectedalgorithmicdifferentiation
+Warning--empty doi in srajer2018benchmarkselectedalgorithmicdifferentiation
+You've used 9 entries,
             1961 wiz_defined-function locations,
-            518 strings with 4468 characters,
-and the built_in function-call counts, 2001 in all, are:
-= -- 186
-> -- 61
-< -- 7
-+ -- 18
-- -- 18
-* -- 132
-:= -- 376
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 39
-chr.to.int$ -- 7
-cite$ -- 9
-duplicate$ -- 93
-empty$ -- 152
-format.name$ -- 29
-if$ -- 385
+            524 strings with 4781 characters,
+and the built_in function-call counts, 2619 in all, are:
+= -- 241
+> -- 86
+< -- 8
++ -- 30
+- -- 26
+* -- 179
+:= -- 490
+add.period$ -- 26
+call.type$ -- 9
+change.case$ -- 53
+chr.to.int$ -- 9
+cite$ -- 14
+duplicate$ -- 119
+empty$ -- 194
+format.name$ -- 39
+if$ -- 498
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 38
-num.names$ -- 21
-pop$ -- 50
+missing$ -- 13
+newline$ -- 47
+num.names$ -- 27
+pop$ -- 65
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 58
 quote$ -- 0
-skip$ -- 71
+skip$ -- 92
 stack$ -- 0
-substring$ -- 84
-swap$ -- 5
+substring$ -- 112
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 2
-while$ -- 14
+type$ -- 44
+warning$ -- 5
+while$ -- 18
 width$ -- 0
-write$ -- 87
-(There were 2 warnings)
+write$ -- 109
+(There were 5 warnings)
