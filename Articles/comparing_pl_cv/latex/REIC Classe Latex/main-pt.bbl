@@ -24,6 +24,23 @@ Meyers, S. (2014).
 \newblock {\em Effective Modern C++}.
 \newblock O'Reilly Media.
 
+\bibitem[Nanz and Furia, 2015]{nanz2015comparative}
+Nanz, S. and Furia, C.~A. (2015).
+\newblock A comparative study of programming languages in rosetta code.
+\newblock 1:778--788.
+
+\bibitem[Pereira {\em et~al}., 2017]{pereira2017energy}
+Pereira, R., Couto, M., Ribeiro, F., Rua, R., Cunha, J., Fernandes, J.~P., and
+  Saraiva, J. (2017).
+\newblock Energy efficiency across programming languages: How do energy, time,
+  and memory relate?
+\newblock pages 256--267.
+
+\bibitem[Prechelt, 2000]{prechelt2000empirical}
+Prechelt, L. (2000).
+\newblock An empirical comparison of seven programming languages.
+\newblock {\em Computer}, 33(10):23--29.
+
 \bibitem[Ribas, 2025]{atomOrgGithub}
 Ribas, E. R. L.~D. (2025).
 \newblock Github - atom organization page.
