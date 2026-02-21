@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  12 FEB 2026 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  20 FEB 2026 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,7 +861,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 62.
 Package hyperref Info: Option `breaklinks' set `true' on input line 62.
 ) (main-pt.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 12.
+(babel)             Reported on input line 11.
 )
 \openout1 = `main-pt.aux'.
 
@@ -1070,6 +1070,9 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/sl/n' in size <14> not available
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/book/n' will be
 (Font)              scaled to size 14.0pt on input line 1.
 
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1095,7 +1098,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 11.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-)) (capitulos/03-metodologia.tex [2{C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+) [2{C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]) (capitulos/03-metodologia.tex
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
@@ -1105,6 +1108,10 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
 (Font)              scaled to size 10.0pt on input line 12.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 []
  []
@@ -1123,57 +1130,43 @@ Underfull \hbox (badness 4634) in paragraph at lines 83--84
 []\T1/cmtt/m/n/10 haarcascade_russian_plate_number.xml[]\T1/qtm/m/n/10 (+20) : Mo-
  []
 
-[3]
-<images/LicensePlateHaarCascade-FlowDiagram.png, id=211, 1481.535pt x 3149.7675pt>
+<images/LicensePlateHaarCascade-FlowDiagram.png, id=221, 1481.535pt x 3149.7675pt>
 File: images/LicensePlateHaarCascade-FlowDiagram.png Graphic file (type png)
 <use images/LicensePlateHaarCascade-FlowDiagram.png>
 Package pdftex.def Info: images/LicensePlateHaarCascade-FlowDiagram.png  used on input line 124.
 (pdftex.def)             Requested size: 240.0pt x 510.2211pt.
-) (capitulos/04-resultados.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./images/LicensePlateHaarCascade-FlowDiagram.png>]
-<images/4_qualidade_likert.png, id=227, 711.1368pt x 422.7795pt>
+ [4] (capitulos/04-resultados.tex [5 <./images/LicensePlateHaarCascade-FlowDiagram.png>]
+<images/4_qualidade_likert.png, id=244, 1294.1148pt x 861.4584pt>
 File: images/4_qualidade_likert.png Graphic file (type png)
 <use images/4_qualidade_likert.png>
 Package pdftex.def Info: images/4_qualidade_likert.png  used on input line 38.
-(pdftex.def)             Requested size: 240.0pt x 142.6787pt.
-<images/boxplot_timeDen.png, id=229, 867.24pt x 505.89pt>
+(pdftex.def)             Requested size: 240.0pt x 159.76164pt.
+<images/boxplot_timeDen.png, id=246, 1300.86pt x 578.16pt>
 File: images/boxplot_timeDen.png Graphic file (type png)
 <use images/boxplot_timeDen.png>
 Package pdftex.def Info: images/boxplot_timeDen.png  used on input line 49.
-(pdftex.def)             Requested size: 240.0pt x 139.9963pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./images/4_qualidade_likert.png>]
-<images/grafico_ecdf_cumulativo.png, id=238, 1865.97125pt x 891.33pt>
+(pdftex.def)             Requested size: 240.0pt x 106.6668pt.
+<images/grafico_ecdf_cumulativo.png, id=248, 1294.5966pt x 861.9402pt>
 File: images/grafico_ecdf_cumulativo.png Graphic file (type png)
 <use images/grafico_ecdf_cumulativo.png>
 Package pdftex.def Info: images/grafico_ecdf_cumulativo.png  used on input line 82.
-(pdftex.def)             Requested size: 240.0pt x 114.63931pt.
-<images/OLS_trendline_16STAGES.png, id=240, 1865.97125pt x 953.5625pt>
-File: images/OLS_trendline_16STAGES.png Graphic file (type png)
-<use images/OLS_trendline_16STAGES.png>
-Package pdftex.def Info: images/OLS_trendline_16STAGES.png  used on input line 96.
-(pdftex.def)             Requested size: 239.03787pt x 122.1487pt.
-<images/OLS_trendline_RUS.png, id=241, 1865.97125pt x 953.5625pt>
-File: images/OLS_trendline_RUS.png Graphic file (type png)
-<use images/OLS_trendline_RUS.png>
-Package pdftex.def Info: images/OLS_trendline_RUS.png  used on input line 103.
-(pdftex.def)             Requested size: 239.03787pt x 122.1487pt.
-<images/bar_mean_time.png, id=243, 722.7pt x 433.62pt>
+(pdftex.def)             Requested size: 240.0pt x 159.78523pt.
+<images/figura5_consolidada_ols.png, id=250, 1289.7786pt x 567.5604pt>
+File: images/figura5_consolidada_ols.png Graphic file (type png)
+<use images/figura5_consolidada_ols.png>
+Package pdftex.def Info: images/figura5_consolidada_ols.png  used on input line 93.
+(pdftex.def)             Requested size: 448.19696pt x 197.22882pt.
+<images/bar_mean_time.png, id=252, 1294.8375pt x 861.4584pt>
 File: images/bar_mean_time.png Graphic file (type png)
 <use images/bar_mean_time.png>
-Package pdftex.def Info: images/bar_mean_time.png  used on input line 117.
-(pdftex.def)             Requested size: 240.0pt x 144.0015pt.
+Package pdftex.def Info: images/bar_mean_time.png  used on input line 104.
+(pdftex.def)             Requested size: 240.0pt x 159.66963pt.
+ [6 <./images/4_qualidade_likert.png> <./images/boxplot_timeDen.png> <./images/grafico_ecdf_cumulativo.png> <./images/bar_mean_time.png>]) (capitulos/05-discussao.tex [7 <./images/figura5_consolidada_ols.png>]) (capitulos/06-conclusao.tex) (main-pt.bbl [8]) [9
 
-Underfull \vbox (badness 2790) has occurred while \output is active []
-
-) (capitulos/05-discussao.tex [6 <./images/boxplot_timeDen.png> <./images/grafico_ecdf_cumulativo.png> <./images/bar_mean_time.png>]) (capitulos/06-conclusao.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./images/OLS_trendline_16STAGES.png> <./images/OLS_trendline_RUS.png>]) (main-pt.bbl) [8] (main-pt.aux)
+] (main-pt.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1183,20 +1176,20 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main-pt.out' has not changed.
-(rerunfilecheck)             Checksum: CA154E309EE230D91482E632E90536C8;5420.
+(rerunfilecheck)             Checksum: FF23DDCD6557497883352B3CE2BBB13E;5591.
  ) 
 Here is how much of TeX's memory you used:
- 43685 strings out of 467870
- 983763 string characters out of 5418355
- 1511805 words of memory out of 5000000
- 71445 multiletter control sequences out of 15000+600000
+ 43687 strings out of 467870
+ 983948 string characters out of 5418355
+ 1511029 words of memory out of 5000000
+ 71443 multiletter control sequences out of 15000+600000
  927907 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 132i,14n,135p,1385b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,14n,135p,1385b,898s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Book.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-BookItalic.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on main-pt.pdf (8 pages, 1825731 bytes).
+Output written on main-pt.pdf (9 pages, 3758199 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 85776 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 85779 words of extra memory for PDF output out of 89155 (max. 10000000)
 
