@@ -1,0 +1,38 @@
+\chapter*{Problema de Pesquisa}
+\addcontentsline{toc}{chapter}{Problema de Pesquisa}
+
+O interesse pela área de robótica autônoma e sistemas inteligentes consolidou-se ao longo da formação acadêmica, durante o desenvolvimento do projeto “ATOM”, no âmbito do Grupo de Iniciação Científica (GIC). Esse projeto teve como foco a construção experimental de um manipulador robótico antropomórfico, baseado na plataforma Inmoov desenvolvida por \citeonline{inMoov}, contemplando todas as etapas de desenvolvimento físico do sistema.
+
+As atividades envolveram desde a manufatura aditiva das peças estruturais por meio de impressão 3D, passando pela montagem eletromecânica, até a integração inicial de hardware e sistemas de acionamento, conforme documentado no projeto anterior por \citeonline{Ribas2025}. Essas experiências evidenciaram que a construção de sistemas robóticos realmente autônomos extrapola a mera execução mecânica de movimentos, exigindo a integração consistente entre projeto eletromecânico, percepção sensorial, tomada de decisão e controle em tempo real.
+
+Embora o manipulador desenvolvido apresente funcionamento mecânico adequado, sua operação limita-se à execução de comandos manuais ou sequências pré-programadas, caracterizando um sistema essencialmente reativo. A ausência de um sistema de percepção visual impede que o robô interaja de forma dinâmica com o ambiente, restringindo sua autonomia e aplicabilidade. Essa limitação motivou o aprofundamento teórico e experimental em visão computacional e inteligência artificial embarcada, com ênfase no impacto do desempenho computacional em sistemas robóticos de baixo custo. Como produto do projeto anterior também foi escrito um artigo comparativo experimental sobre aplicações da biblioteca OpenCV em diversas linguagens de programação [ \citeonline{Ribas2025Article} ], atualmente em fase final de escrita. Os resultados obtidos serviram como base para a proposição do presente projeto de pesquisa.
+
+A concepção de um manipulador robótico do tipo SCARA (Selective Compliance Assembly Robot Arm) dedicado à execução de partidas de xadrez envolve uma série de desafios técnicos interdisciplinares, que abrangem desde o projeto mecânico até a integração de sistemas de percepção e controle. Do ponto de vista mecânico, exige-se precisão posicional, repetibilidade e rigidez estrutural compatíveis com a manipulação de peças em um tabuleiro padronizado. Do ponto de vista computacional, torna-se necessário implementar mecanismos de percepção capazes de interpretar o estado do ambiente, identificar objetos, estimar posições e traduzir essas informações para representações simbólicas utilizáveis por sistemas de tomada de decisão.
+
+Nesse contexto, a execução autônoma de partidas de xadrez é adotada neste trabalho como um cenário experimental controlado e representativo, no qual os desafios de percepção visual, planejamento de movimentos e controle de atuadores podem ser abordados de forma integrada. O jogo de xadrez oferece um ambiente controlado e discreto, com regras bem definidas e estado observável, tornando-se um domínio apropriado para a avaliação conjunta de visão computacional embarcada e modelos de interligência artificial aplicados a tomada de decisão.
+
+Dessa forma, o presente projeto configura-se como uma evolução natural do trabalho previamente desenvolvido, propondo o desenvolvimento de um manipulador eletromecânico do tipo SCARA, projetado sob restrições de custo e recursos computacionais, concebido como uma plataforma robótica versátil. A aplicação ao jogo de xadrez serve como estudo de caso principal, permitindo investigar os limites práticos da integração entre percepção visual, inteligência artificial e controle autônomo, bem como os compromissos entre desempenho, custo e autonomia em sistemas robóticos inteligentes.
+
+\section*{Questão de Pesquisa}
+\addcontentsline{toc}{section}{Questão de Pesquisa}
+
+Considerando as restrições de processamento, memória e consumo energético inerentes a sistemas embarcados de baixo custo, como projetar e integrar um manipulador robótico do tipo SCARA capaz de jogar xadrez de forma autônoma, utilizando visão computacional para percepção do tabuleiro e modelos de inteligência artificial para tomada de decisão, garantindo operação em tempo real, precisão mecânica e processamento local, sem dependência de infraestrutura computacional externa?
+
+\section*{Justificativa}
+\addcontentsline{toc}{section}{Justificativa}
+
+A presente pesquisa justifica-se pela necessidade de avanços na robótica aplicada, em especial no desenvolvimento de manipuladores robóticos autônomos capazes de operar sob restrições reais de custo e processamento. No contexto da Quarta Revolução Industrial, caracterizada por \citeonline{Schwab2016} como a convergência entre os domínios físico, digital e computacional, sistemas ciberfísicos demandam níveis crescentes de autonomia, integração e descentralização, tornando o desenvolvimento de arquiteturas robóticas autônomas um elemento central dessa transformação.
+
+A escolha do jogo de xadrez como aplicação principal não se dá por seu caráter lúdico, mas por sua adequação como cenário experimental controlado, com regras bem definidas e estados observáveis. Esse domínio permite a avaliação integrada de percepção visual, tomada de decisão baseada em inteligência artificial e controle preciso de atuadores, posicionando o manipulador SCARA como uma plataforma robótica versátil, sendo o xadrez adotado como prova de conceito (PoC) para validação experimental da arquitetura proposta.
+
+\section*{Orientadores}
+\addcontentsline{toc}{section}{Orientadores}
+
+\begin{itemize}
+    \item \textbf{MSc.\ Ricardo Luiz de Freitas}:
+Professor vinculado ao curso de Ciência da Computação\@. Possui formação técnica em Eletrônica pelo Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) (1980), graduação em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG) (1986) e mestrado em Administração pela FUMEC (2012)\@ Com vasta experiência profissional, atuou por 15 anos na RM/TOTVS e lecionou durante 33 anos na FUMEC\@ Atualmente é Professor na Dom Helder Escola Superior desde 2018 e Diretor da Sucesu Minas desde 2003\@ Contato: \texttt{ricardo.freitas@academico.domhelder.edu.br}
+
+    \item \textbf{Dr.\ Presleyson Plínio de Lima}:
+Professor vinculado ao curso de Ciência da Computação\@. Possui formação em Ciência da Computação e experiência em diversas áreas da tecnologia. Atuou em projetos de pesquisa e desenvolvimento, contribuindo significativamente para a formação de novos profissionais na área\@ Contato: \texttt{presleyson.lima@academico.domhelder.edu.br}
+    
+\end{itemize}

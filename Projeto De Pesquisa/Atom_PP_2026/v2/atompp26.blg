@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: atompp26.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Capitulos/Assinaturas.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: Capitulos/ProblemaDePesquisa.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Objetivos.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: Capitulos/ReferencialTeorico.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: Capitulos/RevisaoBibliografica.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Capitulos/Metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Capitulos/Programação.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Capitulos/Apendice.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: Capitulos/ref.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--faltando school em Pereira2022
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 20 entries,
+            6714 wiz_defined-function locations,
+            1332 strings with 13212 characters,
+and the built_in function-call counts, 12733 in all, are:
+= -- 1054
+> -- 373
+< -- 3
++ -- 179
+- -- 120
+* -- 842
+:= -- 1866
+add.period$ -- 81
+call.type$ -- 20
+change.case$ -- 158
+chr.to.int$ -- 23
+cite$ -- 20
+duplicate$ -- 644
+empty$ -- 1015
+format.name$ -- 556
+if$ -- 2957
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 342
+newline$ -- 109
+num.names$ -- 95
+pop$ -- 398
+preamble$ -- 1
+purify$ -- 65
+quote$ -- 0
+skip$ -- 731
+stack$ -- 1
+substring$ -- 350
+swap$ -- 283
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 1
+while$ -- 113
+width$ -- 0
+write$ -- 303
+(There was 1 warning)
