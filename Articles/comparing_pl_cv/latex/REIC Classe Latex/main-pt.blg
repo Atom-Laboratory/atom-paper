@@ -9,52 +9,47 @@ Warning--empty journal in bradski2000opencv
 Warning--empty doi in bradski2000opencv
 Warning--empty journal in iglovikov2025needspeedcomprehensivebenchmark
 Warning--empty doi in iglovikov2025needspeedcomprehensivebenchmark
-Warning--empty journal in nanz2015comparative
-Warning--empty doi in nanz2015comparative
-Warning--empty journal in pereira2017energy
-Warning--empty doi in pereira2017energy
-Warning--empty doi in prechelt2000empirical
 Warning--empty journal in srajer2018benchmarkselectedalgorithmicdifferentiation
 Warning--empty doi in srajer2018benchmarkselectedalgorithmicdifferentiation
-You've used 12 entries,
+You've used 9 entries,
             1961 wiz_defined-function locations,
-            544 strings with 5476 characters,
-and the built_in function-call counts, 4018 in all, are:
-= -- 378
-> -- 144
-< -- 11
-+ -- 52
-- -- 46
-* -- 300
-:= -- 718
-add.period$ -- 34
-call.type$ -- 12
-change.case$ -- 78
-chr.to.int$ -- 12
-cite$ -- 23
-duplicate$ -- 170
-empty$ -- 289
-format.name$ -- 64
-if$ -- 773
+            525 strings with 4824 characters,
+and the built_in function-call counts, 2609 in all, are:
+= -- 239
+> -- 86
+< -- 8
++ -- 28
+- -- 26
+* -- 180
+:= -- 488
+add.period$ -- 25
+call.type$ -- 9
+change.case$ -- 53
+chr.to.int$ -- 9
+cite$ -- 15
+duplicate$ -- 119
+empty$ -- 194
+format.name$ -- 39
+if$ -- 496
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 61
-num.names$ -- 36
-pop$ -- 90
+missing$ -- 13
+newline$ -- 46
+num.names$ -- 27
+pop$ -- 67
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 58
 quote$ -- 0
-skip$ -- 136
+skip$ -- 92
 stack$ -- 0
-substring$ -- 226
-swap$ -- 15
-text.length$ -- 1
+substring$ -- 110
+swap$ -- 5
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
-warning$ -- 11
-while$ -- 31
+type$ -- 44
+warning$ -- 6
+while$ -- 18
 width$ -- 0
-write$ -- 144
-(There were 11 warnings)
+write$ -- 107
+(There were 6 warnings)
