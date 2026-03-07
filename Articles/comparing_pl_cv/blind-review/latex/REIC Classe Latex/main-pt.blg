@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main-pt.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: apalike-sol.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Database file #1: refs.bib
+Warning--empty doi in bradski2000opencv
+Warning--empty doi in iglovikov2025needspeedcomprehensivebenchmark
+Warning--empty doi in srajer2018benchmarkselectedalgorithmicdifferentiation
+You've used 12 entries,
+            1961 wiz_defined-function locations,
+            552 strings with 5615 characters,
+and the built_in function-call counts, 4306 in all, are:
+= -- 418
+> -- 144
+< -- 13
++ -- 54
+- -- 46
+* -- 317
+:= -- 750
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 78
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 188
+empty$ -- 319
+format.name$ -- 64
+if$ -- 854
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 16
+newline$ -- 64
+num.names$ -- 36
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 83
+quote$ -- 0
+skip$ -- 147
+stack$ -- 0
+substring$ -- 260
+swap$ -- 30
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 3
+while$ -- 34
+width$ -- 0
+write$ -- 158
+(There were 3 warnings)

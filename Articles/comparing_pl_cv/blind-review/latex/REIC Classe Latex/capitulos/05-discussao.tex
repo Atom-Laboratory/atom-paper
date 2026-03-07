@@ -1,0 +1,11 @@
+
+\section{Discussão}
+
+Os resultados obtidos confirmam a hipótese inicial de que existe um custo computacional tangível associado à abstração das linguagens de programação ao utilizar a biblioteca OpenCV. A supremacia da implementação em C++ em termos de latência (média de 6,65 ms no modelo 16STAGES) e estabilidade (menor desvio padrão) corrobora a literatura técnica, que atribui essa eficiência à ausência de camadas intermediárias de interpretação e ao gerenciamento manual de memória.
+
+No entanto, a discussão mais relevante reside na análise do trade-off entre eficiência de máquina e eficiência humana. Enquanto Python apresentou a maior latência média (7,54 ms e 14,69 ms para os modelos 16STAGES e RUS, respectivamente), os dados qualitativos da Figura~\ref{qualidade_likert} revelam que ela é percebida como a linguagem mais produtiva e acessível pelos desenvolvedores. Isso sugere que, para aplicações em que o tempo de resposta em microssegundos não é crítico (como processamento em batch ou prototipagem acadêmica), como processamento em lote, prototipagem acadêmica ou aplicações exploratórias —, o aumento moderado da latência pode ser compensado por ganhos significativos em velocidade de desenvolvimento e manutenção do software.
+
+O comportamento do Java merece consideração particular. Embora sua média de desempenho seja competitiva, a presença de outliers significativos e a maior dispersão dos dados (especialmente no modelo RUS, com desvio padrão de 13,49 ms)  validam a preocupação com o determinismo temporal em ambientes gerenciados. As pausas introduzidas pelo Garbage Collector e a sobrecarga da \textit{Java Virtual Machine} (JVM) tornam essa linguagem menos previsível para sistemas de tempo real rígido (\textit{hard real-time}), conforme antecipado na análise de riscos metodológica. Além disso, a percepção dos desenvolvedores sobre a complexidade do ambiente Java, junto a falta de suporte e ferramentas disponíveis, conforme evidenciado na análise qualitativa, reforça a necessidade de considerar fatores humanos na escolha da linguagem.
+
+A linearidade observada nos gráficos de tendência da Figura~\ref{fig:trendlines_larga} demonstra que, apesar das diferenças de velocidade basal, as três linguagens escalam de maneira previsível com o aumento da complexidade da cena.
+

@@ -1,0 +1,115 @@
+
+\section{Resultados}
+
+\subsection{Resultados Esperados}
+
+Com base na metodologia experimental adotada, espera-se que os resultados evidenciem diferenças claras de desempenho, estabilidade e usabilidade entre as linguagens C++, Java e Python ao utilizar a biblioteca OpenCV para tarefas clássicas de visão computacional.
+
+Do ponto de vista de desempenho, é esperado que a implementação em C++ apresente os menores tempos médios de execução e menor variabilidade (desvio padrão), uma vez que a biblioteca é originalmente desenvolvida nessa linguagem e executa sem camadas adicionais de abstração. Espera-se que Python apresente maior latência média, atribuída principalmente à sobrecarga dos \textit{bindings} e à gestão dinâmica de memória, enquanto Java deve ocupar uma posição intermediária, influenciada pelo uso da JVM e pelo comportamento do \textit{Garbage Collector}.
+
+Em relação à estabilidade, espera-se observar maior incidência de \textit{outliers} de latência em linguagens gerenciadas, especialmente em Java, devido a pausas não determinísticas do coletor de lixo. A aplicação do método IQR tende a revelar que, apesar desses picos, a tendência central dos dados permanece consistente, permitindo uma comparação justa entre as linguagens.
+
+No aspecto qualitativo, espera-se que Python seja avaliada como a linguagem com maior facilidade de uso e menor curva de aprendizado, impulsionada por documentação acessível, ampla comunidade e simplicidade sintática. Java deve apresentar boa organização estrutural e robustez, porém com maior complexidade de configuração inicial. C++, embora ofereça máximo controle e desempenho, tende a apresentar maior complexidade sintática e maior esforço de \textit{setup}, refletindo uma curva de aprendizado mais acentuada.
+
+De forma geral, espera-se que os resultados confirmem a existência de um \textit{trade-off} claro entre desempenho bruto e produtividade de desenvolvimento, evidenciando que a escolha da linguagem em projetos de visão computacional deve considerar não apenas a eficiência computacional, mas também fatores como tempo de desenvolvimento, manutenção e perfil da aplicação.
+
+\subsection{Resultados Obtidos}
+
+\subsubsection{Visão Geral dos Dados Coletados}
+
+Foram analisadas 100 440 execuções do algoritmo de detecção Haar Cascade, distribuídas igualmente entre as linguagens C++, Java e Python. Cada linguagem processou aproximadamente 33 480 imagens, utilizando dois modelos Haar (16STAGES e RUS).
+
+Antes do tratamento estatístico, os tempos médios globais de execução apresentaram valores de 21,12 ms (C++), 23,82 ms (Java) e 25,49 ms (Python), com ocorrência de picos extremos de latência superiores a 800 ms em todas as linguagens.
+
+A aplicação do método IQR agrupado por linguagem e modelo resultou na remoção de 7 584 registros (7,6\% do total), eliminando valores anômalos associados a interferências externas ao algoritmo de visão computacional. Os resultados apresentados a seguir consideram exclusivamente os dados limpos.
+
+
+\subsubsection{Resultados Qualitativos}
+A Figura~\ref{qualidade_likert} apresenta a avaliação qualitativa da facilidade de uso, disponibilidade de recursos e suporte das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em um questionário Likert aplicado aos desenvolvedores envolvidos no estudo.
+
+Os resultados qualitativos indicam maior percepção de facilidade de uso para Python, seguido por Java e C++, refletindo a maior abstração e rapidez no desenvolvimento proporcionadas pelas linguagens de mais alto nível. Essa percepção contrasta parcialmente com os resultados quantitativos de desempenho, nos quais C++ apresentou menor latência média e menor variabilidade, evidenciando um \textit{trade-off} entre produtividade percebida e eficiência computacional.
+
+No que se refere à disponibilidade de recursos e suporte, Python e C++ obtiveram avaliações mais elevadas segundo a percepção dos participantes, associadas à ampla comunidade e à abundância de bibliotecas e documentação. A linguagem Java apresentou avaliações inferiores nesse critério no contexto específico do estudo, indicando menor familiaridade ou menor disponibilidade percebida de recursos voltados à visão computacional.
+
+Esses resultados sugerem que, embora C++ ofereça desempenho superior em termos de latência e estabilidade, e Java se posicione de forma intermediária, a escolha da linguagem deve considerar também fatores qualitativos relacionados à produtividade, manutenção, suporte e curva de aprendizado, especialmente em projetos de visão computacional aplicados.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/4_qualidade_likert.png}
+\caption{Avaliação qualitativa da facilidade de uso das linguagens C++, Java e Python na implementação do algoritmo Haar Cascade, baseada em questionário Likert aplicado aos desenvolvedores.}\label{qualidade_likert}
+\end{center}
+\end{figure}
+
+\subsubsection{Resultados Quantitativos de Desempenho}
+
+A Tabela~\ref{tab:resumo_estatistico} sintetiza os principais resultados quantitativos obtidos após o tratamento estatístico dos dados de latência para cada linguagem e modelo Haar Cascade utilizado.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/boxplot_timeDen.png}
+\caption{Box plot mostrando a distribuição dos tempos de execução para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}\label{boxplot_timeDen}
+\end{center}
+\end{figure}
+
+
+\begin{table*}[t]
+\centering
+\caption{Resumo estatístico dos experimentos}
+\label{tab:resumo_estatistico}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+Linguagem & Modelo & Imagens & Detecções & Vazias (\%) & Média (ms) & Mediana (ms) & Desv. Padrão (ms) \\
+\midrule
+C++    & 16STAGES & 15521 & 1597 & 91.0 & 6.65 & 5.00 & 5.77 \\
+C++    & RUS      & 15488 & 7589 & 69.1 & 12.79 & 9.00 & 11.29 \\
+\midrule
+Java   & 16STAGES & 15471 & 1566 & 91.1 & 6.86 & 4.46 & 6.34 \\
+Java   & RUS      & 15467 & 7612 & 69.1 & 14.07 & 8.75 & 13.49 \\
+\midrule
+Python & 16STAGES & 15516 & 1595 & 91.0 & 7.54 & 4.93 & 6.97 \\
+Python & RUS      & 15393 & 7492 & 69.3 & 14.69 & 9.07 & 13.97 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Em todas as linguagens, aproximadamente 91\% das imagens não resultaram em detecções, refletindo a natureza heterogênea do conjunto de imagens junto às limitações inerentes do classificador Haar Cascade quando aplicado a cenários não controlados. A média de detecções por imagem manteve-se estável entre as linguagens, indicando consistência funcional do classificador independentemente da linguagem utilizada.
+
+O gráfico ECDF da Figura~\ref{ecdf_timeDen} ilustra o comportamento da latência acumulada. Observa-se que as três linguagens apresentam tendências similares, com C++ exibindo ligeira vantagem em termos de latência média e menor dispersão na cauda da distribuição.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/grafico_ecdf_cumulativo.png}
+\caption{Gráfico ECDF mostrando a latência acumulada em função do número de detecções para os modelos 16STAGES e RUS nas linguagens C++, Java e Python.}\label{ecdf_timeDen}
+\end{center}
+\end{figure}
+
+A latência média cresce de forma aproximadamente linear à medida que o número de detecções aumenta. Esse comportamento reflete o custo computacional incremental exigido por cada objeto candidato processado, conforme demonstrado nos gráficos de tendência (\textit{OLS Trendline}) da Figura~\ref{fig:trendlines_larga}. A regressão linear foi empregada com finalidade estritamente exploratória para identificar tendências de crescimento do custo computacional.
+
+A linearidade observada sugere uma relação proporcional entre a densidade de objetos na cena e o tempo de execução, indicando previsibilidade e escalabilidade do sistema dentro do intervalo analisado. Esse padrão é consistente entre C++, Java e Python, embora as diferentes inclinações das retas evidenciem a disparidade na eficiência de execução entre as linguagens compiladas e interpretadas/gerenciadas.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/figura5_consolidada_ols.png}
+    \caption{Gráficos de regressão linear para os dois modelos comparados.}
+    \label{fig:trendlines_larga}
+\end{figure*}
+
+\subsubsection{Análise Estatística da Latência}
+
+O gráfico de Barras da Figura~\ref{bar_mean_time} apresenta a comparação visual das distribuições dos tempos de execução.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\columnwidth]{images/bar_mean_time.png}
+\caption{Gráfico de barras comparando os tempos médios de execução entre as linguagens C++, Java e Python.}\label{bar_mean_time}
+\end{center}
+\end{figure}
+
+A concentração dos valores em torno das medianas, evidenciada no \textit{box plot} da Figura~\ref{boxplot_timeDen}, sugere que as distribuições, embora apresentem certa assimetria positiva (com médias superiores às medianas devido a valores atípicos de alta latência), mantêm-se estáveis. A implementação em C++ apresentou os menores desvios padrão em ambos os modelos, confirmando sua maior estabilidade em comparação aos ambientes gerenciados (Java e Python).
+
+As linguagens Java e Python exibiram maior dispersão, especialmente no modelo RUS, o que sugere maior sensibilidade a variações do ambiente de execução (\textit{runtime overhead}). Após a aplicação do método IQR para limpeza de \textit{outliers}, os valores máximos observados reforçam a hierarquia de desempenho: 26,96 ms para C++, 29,42 ms para Java e 32,17 ms para Python (modelo 16STAGES). No modelo RUS, mais custoso computacionalmente, os máximos atingiram 52,42 ms, 61,85 ms e 64,86 ms, respectivamente.
+
+\subsubsection{Síntese Comparativa dos Resultados}
+De forma geral, os resultados indicam que a implementação em C++ apresentou os menores tempos médios de execução e menor variabilidade em ambos os modelos avaliados. Java e Python apresentaram desempenho intermediário e superior latência média, respectivamente, mantendo, contudo, consistência funcional equivalente no número de detecções realizadas. Os dados evidenciam diferenças mensuráveis de desempenho entre as linguagens analisadas, preservando a equivalência algorítmica e funcional das implementações.
+A análise qualitativa complementa os achados quantitativos, sugerindo que a escolha da linguagem deve considerar não apenas o desempenho bruto, mas também fatores relacionados à produtividade, facilidade de uso e suporte, especialmente em projetos aplicados.

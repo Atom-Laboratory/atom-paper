@@ -1,0 +1,72 @@
+\begin{thebibliography}{}
+
+\bibitem[Bradski, 2000]{bradski2000opencv}
+Bradski, G. (2000).
+\newblock The opencv library.
+\newblock {\em Dr. Dobb's Journal of Software Tools}, 25(11):120--126.
+
+\bibitem[Iglovikov, 2025]{iglovikov2025needspeedcomprehensivebenchmark}
+Iglovikov, V. (2025).
+\newblock Need for speed: A comprehensive benchmark of jpeg decoders in python.
+\newblock {\em arXiv preprint arXiv:2501.13131}.
+
+\bibitem[Kaehler and Bradski, 2017]{kaehler2017learning}
+Kaehler, A. and Bradski, G. (2017).
+\newblock {\em Learning OpenCV 3: Computer Vision in {C}++ with the OpenCV
+  Library}.
+\newblock O'Reilly Media, Sebastopol.
+
+\bibitem[Lutz and Ascher, 1999]{Lutz1999}
+Lutz, M. and Ascher, D. (1999).
+\newblock {\em Learning Python}.
+\newblock O'Reilly Media.
+
+\bibitem[Meyers, 2014]{Meyers2014}
+Meyers, S. (2014).
+\newblock {\em Effective Modern {C}++}.
+\newblock O'Reilly Media.
+
+\bibitem[Nanz and Furia, 2015]{nanz2015comparative}
+Nanz, S. and Furia, C.~A. (2015).
+\newblock A comparative study of programming languages in rosetta code.
+\newblock In {\em 2015 IEEE/ACM 37th IEEE International Conference on Software
+  Engineering}, volume~1, pages 778--788. IEEE. DOI: 10.1109/ICSE.2015.90.
+
+\bibitem[Pereira {\em et~al}., 2017]{pereira2017energy}
+Pereira, R., Couto, M., Ribeiro, F., Rua, R., Cunha, J., Fernandes, J.~P., and
+  Saraiva, J. (2017).
+\newblock Energy efficiency across programming languages: How do energy, time,
+  and memory relate?
+\newblock In {\em Proceedings of the 10th ACM SIGPLAN International Conference
+  on Software Language Engineering}, pages 256--267. DOI:
+  10.1145/3136014.3136031.
+
+\bibitem[Prechelt, 2000]{prechelt2000empirical}
+Prechelt, L. (2000).
+\newblock An empirical comparison of seven programming languages.
+\newblock {\em Computer}, 33(10):23--29. DOI: 10.1109/2.876288.
+
+\bibitem[Ribas, 2025]{atomOrgGithub}
+Ribas, E. R. L.~D. (2025).
+\newblock Github - atom organization page.
+\newblock \url{https://github.com/AtomArm}.
+\newblock [Online; accessed 14-Jan-2026].
+
+\bibitem[Schildt, 2019]{Schildt2019}
+Schildt, H. (2019).
+\newblock {\em Java: The Complete Reference, Eleventh Edition}.
+\newblock McGraw-Hill Education.
+
+\bibitem[{\v{S}}rajer {\em et~al}.,
+  2018]{srajer2018benchmarkselectedalgorithmicdifferentiation}
+{\v{S}}rajer, F., Kukelova, Z., and Fitzgibbon, A. (2018).
+\newblock A benchmark of selected algorithmic differentiation tools on some
+  problems in computer vision and machine learning.
+\newblock {\em arXiv preprint arXiv:1807.10129}.
+
+\bibitem[Szeliski, 2022]{Szeliski2022}
+Szeliski, R. (2022).
+\newblock {\em Computer Vision: Algorithms and Applications}.
+\newblock Springer.
+
+\end{thebibliography}

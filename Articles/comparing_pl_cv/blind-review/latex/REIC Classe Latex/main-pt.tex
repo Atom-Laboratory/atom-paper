@@ -1,0 +1,104 @@
+\documentclass[portuguese]{sbc2025}%
+
+\input{Preambulo/pacotes}
+
+\begin{document}
+
+\input{capitulos/header.tex}
+\begin{frontmatter}
+
+\maketitle
+
+\begin{mail}
+Centro Universitário Dom Helder,  R. Álvares Maciel, 628 - Santa Efigênia, Belo Horizonte - MG, 30150-250, Brasil. 
+\end{mail}
+
+\begin{abstract-pt}
+Este artigo investiga o ``custo da abstração`` no desenvolvimento de aplicações de visão computacional utilizando a biblioteca OpenCV, analisando o impacto da escolha da linguagem de programação no desempenho e na estabilidade do sistema. Por meio de experimentos quantitativos utilizando classificadores \textit{Haar Cascade}, comparou-se a eficiência da implementação nativa em C++ contra ambientes gerenciados em Java e Python. Os resultados demonstram que a abstração impõe um custo mensurável, resultando em um acréscimo de latência entre 13\% e 20\% nas linguagens interpretadas e gerenciadas, além de maior variabilidade temporal. A análise evidencia que, enquanto C++ oferece o determinismo necessário para sistemas de tempo real e embarcados, Python se destaca pela produtividade em cenários de pesquisa e servidor. Em contrapartida, a implementação em Java apresentou desafios relacionados à imprevisibilidade do \textit{Garbage Collector} e à escassez de suporte da comunidade e ferramentas, tornando-a menos ideal para aplicações críticas de visão. O estudo conclui fornecendo diretrizes para auxiliar na seleção da tecnologia mais adequada, ponderando o \textit{trade-off} entre eficiência computacional e agilidade de desenvolvimento.
+\end{abstract-pt}
+
+\begin{abstract-en}
+This paper investigates the ``abstraction cost`` in developing computer vision applications using the OpenCV library, analyzing the impact of programming language choice on system performance and stability. Through quantitative experiments utilizing \textit{Haar Cascade} classifiers, the efficiency of native C++ implementation was compared against managed environments in Java and Python. The results demonstrate that abstraction imposes a measurable cost, resulting in a latency increase between 13\% and 20\% in interpreted and managed languages, along with greater temporal variability. The analysis shows that while C++ offers the determinism necessary for real-time and embedded systems, Python stands out for productivity in research and server scenarios. In contrast, the Java implementation presented challenges related to the unpredictability of the \textit{Garbage Collector} and a lack of community support and tools, making it less ideal for critical vision applications. The study concludes by providing guidelines to assist in selecting the most suitable technology, weighing the trade-off between computational efficiency and development agility.
+\end{abstract-en}
+
+\begin{pchaves}
+Visão Computacional, Linguagens de Programação, Java, C++, Cpp, C, Python, OpenCV
+\end{pchaves}
+
+\begin{keywords}
+Computer Vision, Programming Languages, Java, C++, Cpp, C, Python, OpenCV
+\end{keywords}
+
+\begin{dates}
+% This information will be provided by the editor before publishing the paper
+\noindent{\sffamily\textbf{Recebido/Received:}} DD Month YYYY~~~$\bullet$~~~
+{\sffamily\textbf{Aceito/Accepted:}} DD Month YYYY~~~$\bullet$~~~
+{\sffamily\textbf{Publicado/Published:}} DD Month YYYY
+\end{dates}
+
+
+%\begin{license}
+%Published under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0)
+%\end{license}
+
+\end{frontmatter}
+ 
+\input{capitulos/01-introducao.tex}
+
+\input{capitulos/02-revisao-bibliografica.tex}
+
+\input{capitulos/03-metodologia.tex}
+
+\input{capitulos/04-resultados.tex}
+
+\input{capitulos/05-discussao.tex}
+
+\input{capitulos/06-conclusao.tex}
+
+\begin{declarations}
+
+\begin{acknowledgements}
+Agradecimentos a(o):
+\begin{itemize}
+  \item Centro Universitário Dom Helder pela infraestrutura disponibilizada para a realização deste trabalho.
+  \item Prof. Dr. Presleyson Lima pela orientação e suporte durante o desenvolvimento deste estudo.
+  \item Prof. Msc. Ricardo Luiz de Freitas pela orientação e valiosas contribuições.
+  \item Prof. Marden Cicarelli pelo auxílio durante a fase de experimentação.
+  \item Demais colegas e colaboradores que contribuíram direta ou indiretamente para a concretização deste trabalho.
+\end{itemize}
+\end{acknowledgements}
+
+\begin{contributions}
+Enzo Rocha Leite Diniz Ribas foi o principal contribuidor e autor deste manuscrito, contribuindo com Conceituação, Metodologia, Análise Formal, Redação, Rascunho Original, Redação, Revisão e Edição e Administração do Projeto.
+
+Ricardo Luiz de Freitas e Presleyson Plínio de Lima contribuíram com administração e supervisão do projeto, supervisão e revisão do manuscrito.
+
+Eduardo do Amaral Melo contribuiu com conceituação, Redação, Rascunho Original, investigação, experimentação, software.
+
+João Augusto Viera Ramalho, Rafael Alves contribuiram com Redação, Rascunho Original, investigação, experimentação e software.
+
+Carlos Eduardo Lopes Caetano, Nicolas Garcia, e Pedro Lucas Vieira Ramalho de Souza contribuíram com investigação, experimentação e software.
+
+Lucas Weiss Telles de Matos contribuiu com conceituação.
+
+\end{contributions}
+
+\begin{interests}
+  Os autores declaram não haver conflitos de interesse.
+\end{interests}
+
+\begin{materials}
+  Os conjuntos de dados e softwares gerados e analisados durante o estudo atual estão disponíveis em https://github.com/orgs/AtomArm e https://github.com/oEnzoRibas.
+\end{materials}
+
+\begin{furtherinformation}
+  
+  Correspondência deve ser enviada para: Enzo R. L. Diniz Ribas. E-mail: enzorochaleitedinizribas@gmail.com
+
+\end{furtherinformation}
+\end{declarations}
+
+\bibliographystyle{apalike-sol}
+\bibliography{refs}
+
+\end{document}
