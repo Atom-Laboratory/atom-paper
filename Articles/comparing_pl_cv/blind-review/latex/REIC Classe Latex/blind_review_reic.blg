@@ -8,45 +8,45 @@ Database file #1: refs.bib
 Warning--empty doi in bradski2000opencv
 Warning--empty doi in iglovikov2025needspeedcomprehensivebenchmark
 Warning--empty doi in srajer2018benchmarkselectedalgorithmicdifferentiation
-You've used 11 entries,
+You've used 12 entries,
             1961 wiz_defined-function locations,
-            546 strings with 5496 characters,
-and the built_in function-call counts, 4052 in all, are:
-= -- 390
-> -- 137
-< -- 12
-+ -- 52
-- -- 44
-* -- 302
-:= -- 699
-add.period$ -- 34
-call.type$ -- 11
-change.case$ -- 72
-chr.to.int$ -- 11
-cite$ -- 14
-duplicate$ -- 178
-empty$ -- 304
-format.name$ -- 61
-if$ -- 807
+            552 strings with 5635 characters,
+and the built_in function-call counts, 4306 in all, are:
+= -- 418
+> -- 144
+< -- 13
++ -- 54
+- -- 46
+* -- 317
+:= -- 750
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 78
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 188
+empty$ -- 319
+format.name$ -- 64
+if$ -- 854
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 16
-newline$ -- 58
-num.names$ -- 33
-pop$ -- 84
+newline$ -- 64
+num.names$ -- 36
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 83
 quote$ -- 0
-skip$ -- 138
+skip$ -- 147
 stack$ -- 0
-substring$ -- 248
+substring$ -- 260
 swap$ -- 30
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 62
 warning$ -- 3
-while$ -- 32
+while$ -- 34
 width$ -- 0
-write$ -- 144
+write$ -- 158
 (There were 3 warnings)
